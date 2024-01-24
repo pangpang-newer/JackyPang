@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&family=Noto+Serif+HK&family=Paytone+One&family=Roboto+Slab:wght@500;700&family=Roboto:wght@300;700&display=swap');
+:root{
+
+--content-3: 'Libre Baskerville', serif;
+--content-4: 'Noto Sans TC', sans-serif;
+--content-c: 'Noto Serif HK', serif;
+--content-5: 'Paytone One', sans-serif;
+--content-1: 'Roboto', sans-serif;
+--content-2: 'Roboto Slab', serif;
+--title-1: 'Anton', sans-serif;
+}
+body{
+
+min-width: 50vw;  
+min-height: auto;
+}
+
+
+.line-container{
+    margin-bottom: 1rem;
+    
+}
+.mianbox{
+   
+   width: 100vw;
+   background-color: #333333;
+   
+
+}
+
+.sec_bar{
+    
+    font-family: var(--content-5);  
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white !important;
+    
+   }
+.linetext{
+margin:0;
+font-family: var(--title-1);
+}
+.sce_line{ 
+    
+    border-top: 2px solid black;
+    width: 70vw;   
+    
+}
+.blogs_container{
+    margin-top: 0;
+    display: block;
+    grid-template-columns: 1fr;
+    
+}
+.subblogs{
+    display: flex;
+    flex-direction: row;
+    height: 200;
+    width: 100vw;
+    border: none;
+    box-shadow: 2px 3px  #663300;
+    margin-bottom: 5px;
+}
+.left{
+    display:block;
+    width: 200px;
+    height: auto;
+}
+.img_container1{
+  width: 200px;
+  object-fit: cover;
+}
+
+.hyprolink{
+    width: 200px;
+    height: 3rem;
+    align-items: center;
+    text-align: center;
+    font-family: var(--content-2);
+   
+}
+
+.hyprolink :hover{
+text-decoration: underline;
+cursor: pointer;
+color: #663300;
+}
+
+a .link{  
+    font-size: 2rem;
+   
+
+}
+
+.watchbotton{
+    position: absolute;
+    height:1.75rem ;
+    width: 6rem; 
+    border-radius: 3px;
+    bottom: 0px;
+    right: 0px;
+    
+
+}
+
+.blog_img{
+  width: 200px;
+  object-fit: cover;
+}
+.desc_container{
+margin-left: 1rem;
+margin-right: 2rem;
+margin-bottom: 2px;
+border: 1.5px  dashed  black  ;
+}
+.desc{
+text-align: center;
+color: white !important;
+font-family: var(--content-c);
+font-size: 1.25rem;
+}  
+
