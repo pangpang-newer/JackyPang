@@ -38,6 +38,14 @@
     margin-right: 1rem;
     padding:0;
             }
+         .img{
+                width: 350px;
+                height: 300px;
+                object-fit: contain;
+                display: inline-block;
+                margin: 0.5rem;
+
+            }
 
         .Sec-size .h1{
             font-size: 1rem;
