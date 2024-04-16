@@ -9,9 +9,83 @@ font-family: 'Paytone One', sans-serif;
 --content-2: 'Roboto Slab', serif;
 --title-1: 'Anton', sans-serif;
 }
+:root{
+--title-size:1.5rem;
+--title:var(--title-1);
+--mainncontent:var(--content-1);
+--maincontent-size:18px;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.Sec-size{
+    height: 100vh;
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    }
+  
+
 .aboutme{
-    font-size: 5rem;
+    width: 50vw;
+    font-size: 1rem;
     text-align: center;
     color: red;
+    display: inline-block;
+    
 }
+.biophoto{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+      
+    }
+    .blogbox{
+     grid-template-columns: 1fr;
+     margin: 0vw;
+    }
+    .title{
+    font-family: var(--title); 
+    font-size: var(--title-size);
+    display: block;
+
+    }
+    .maincontent{
+   font-family:var(--content-2);
+   font-size: var(--maincontent-size);
+   margin-left: 5rem;
+   margin-right: 5rem;
+  
+  
+
+    }
+    .section{
+     margin-bottom: 3rem;
+     align-items: center;
+     margin-left: 10vw;
+     margin-right: 10vw;
+
+    }
+    .imgcontainer{
+        display: flex;
+        height: auto;
+        width: 100vw;
+    }
+    .pimg{
+     height: 400px;   
+     width: 300px; 
+    margin: auto;
+   
+    }
+    .hrline{
+width: 80vw;
+border-top:0.25rem  solid #333300 ;
+    }
+    .date{
+        font-family: var(--content-1);
+        font-size: 1rem;
+        text-align: center;
+    }
 
