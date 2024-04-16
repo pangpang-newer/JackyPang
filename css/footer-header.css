@@ -60,7 +60,7 @@ justify-content:center;
     font-family: 'Times New Roman', Times, serif
 }
 
-@media (max-width: 800px) {
+@media (max-width: 640.1px) {
     .headertext {
         font-size: 1rem;
        
