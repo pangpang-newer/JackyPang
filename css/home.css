@@ -1,0 +1,85 @@
+
+.outerdesign{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    height: auto;
+    width: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+@media (max-width: 800px) {
+    .outerdesign {
+        grid-template-columns: 350px ;
+    }
+    
+}
+
+.outerbox{
+    width: 350px;
+    height: 450px;
+    background-color:#F5E1CE;
+    border: 3px solid black;
+    display: inline-block;
+    box-shadow: 5px 10px #888888;
+}
+
+.uppic{
+width: 350px;
+height: 200px;
+background-color: black;
+
+}
+.inneruppic{
+    width: 350px;
+    height: 200px;
+    
+}
+
+.belowcontent{
+    width: 310px ;
+    height: 200px;
+    margin-top:1rem ;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #F5E1CE;
+    
+    
+}
+
+.mini-statu{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+.mini-title{
+display: block;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+color: black;
+overflow-y: hidden;
+}
+.miantext{
+    text-decoration: none;
+    color: black;
+    background-color:#F5E1CE;
+    font-size: 16px;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    transition: padding 1s color 0.5  background-color 1s;
+
+}
+.miantext:hover{
+ padding: 5px;
+ background-color:rgb(195, 187, 177);
+ cursor: pointer;
+ 
+
+} 
