@@ -23,7 +23,7 @@ min-height: auto;
 .mianbox{
    
    width: 100vw;
-   background-color: #333333;
+   background-color: #F5E1CE;
    
 
 }
@@ -36,7 +36,8 @@ min-height: auto;
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: white !important;
+    background-color:#F5E1CE;
+
     
    }
 .linetext{
@@ -118,7 +119,7 @@ border: 1.5px  dashed  black  ;
 }
 .desc{
 text-align: center;
-color: white !important;
+color:black;
 font-family: var(--content-c);
 font-size: 1.25rem;
 }  
