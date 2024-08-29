@@ -23,7 +23,15 @@ background-color: #F5E1CE;
 min-width: 350px;
 
 }
-
+.progressline{
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(63, 60, 55);
+    z-index: 1000;
+    border: #dfa581 0.25px solid;
+}
 .top-container{
 width:100vw;
 height: 22.5vh;
