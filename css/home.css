@@ -33,12 +33,22 @@ background-color: black;
 
 }
 .inneruppic{
+  
     width: 350px;
     height: 200px;
-    
+       
+}
+.outerbox{
+    opacity: 0.8;
+    transition: opacity 0.75s;
+}
+.outerbox:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .belowcontent{
+    opacity: 1;
     width: 310px ;
     height: 200px;
     margin-top:1rem ;
@@ -48,6 +58,7 @@ background-color: black;
     
     
 }
+
 
 .mini-statu{
     font-size: 12px;
@@ -83,3 +94,46 @@ overflow-y: hidden;
  
 
 } 
+
+.progressline{
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(63, 60, 55);
+    z-index: 1000;
+    border: #dfa581 0.25px solid;
+}
+.listbar{
+    z-index: 10;
+    position: absolute;
+    top: 280px;
+    left: 0rem;
+    width: 30px;
+}
+.list{
+    list-style-type: none;
+    margin-bottom:0.25rem;
+}
+.linner{
+    padding: 0rem;
+    margin: 0;
+    margin-left: 1rem;
+    
+}
+.innerlist{
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 2px;
+    background-color: #eeceba;
+    border-radius: 5px;
+    transition: padding 1s color 0.5  background-color 1s;
+    cursor: pointer;
+}
+.mini_type{
+    font-size: 18px;
+}
