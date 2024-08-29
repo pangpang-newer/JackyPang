@@ -12,4 +12,11 @@ blogs.forEach(blog => {
 let blog_blocks=document.querySelector('.blogbox');
 blog_blocks.innerHTML=blogHTML;
 
+window.addEventListener('scroll',()=>{
+  let line = document.querySelector('.progressline').style.width;
+      line = window.scrollY/(document.body.scrollHeight-window.innerHeight)*100;
+  document.querySelector('.progressline').style.width=line + "%";
+});
+
+
 
