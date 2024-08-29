@@ -1,3 +1,4 @@
+import {movies} from './movies.js';
 let movieHTML='';
 
 movies.forEach(movie => {
@@ -24,15 +25,8 @@ movies.forEach(movie => {
 let movies_blocks=document.querySelector('.content');
 movies_blocks.innerHTML=movieHTML;
 
-
-
-
-
-
-
-
-
-
-
-
-
+window.addEventListener('scroll',()=>{
+  let line = document.querySelector('.progressline').style.width;
+      line = window.scrollY/(document.body.scrollHeight-window.innerHeight)*100;
+  document.querySelector('.progressline').style.width=line + "%";
+});
