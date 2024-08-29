@@ -1,7 +1,7 @@
 export const blogs=[{
-    picture:'pics/Alice.jpg',
-    name:'Alice',
-    title:'Alice in peiking'
+    picture:'pics/Kelly.jpg',
+    name:'kelly',
+    title:'kelly in Shanghai'
 
 },{
     picture:'pics/Jeremy.png',
