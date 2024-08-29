@@ -23,15 +23,7 @@ background-color: #F5E1CE;
 min-width: 350px;
 
 }
-.progressline{
-    position: fixed;
-    top: 0;
-    width: 0;
-    height: 2px;
-    background-color: rgb(63, 60, 55);
-    z-index: 1000;
-    border: #dfa581 0.25px solid;
-}
+
 .top-container{
 width:100vw;
 height: 22.5vh;
@@ -62,13 +54,12 @@ justify-content:center;
        
 }
 .headertext{
-   
     font-size: 2rem;
     color: black;
     font-family: 'Times New Roman', Times, serif
 }
 
-@media (max-width: 640.1px) {
+@media (max-width: 640px) {
     .headertext {
         font-size: 1rem;
        
@@ -159,6 +150,7 @@ h1{
     font-size: 1.5rem;
     font-family:var(--content-2);
     font-weight: bold;
+    text-align: left;
 }
 .note{
 text-align: center;
@@ -186,16 +178,20 @@ h1{
  display: block;
  margin: 0;  
  padding: 0;
+
 }
 
-.innerblog .img{
+.innerblog .iimg{
     display: block;
-    object-fit: contain;
+    object-fit: cover;
     width: 200px;
     height: 250px;
+    border: #bea184 1px solid;
+    border-radius: 0.5rem;
+   
      
 }
-.innerblog .img:hover{
+.innerblog .iimg:hover{
  padding: 5px;
  cursor: pointer;
 }
