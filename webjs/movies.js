@@ -1,4 +1,4 @@
-const movies =[
+export const movies =[
 {
 name:'Oppenheimer',
 pic:'pics/Oppenheimer.jpg',
@@ -39,8 +39,5 @@ source:'https://ddys.pro/oppenheimer/'
     source:'https://ddys.pro/killers-of-the-flower-moon/'
 
 }
-
-
-
 ];
 
