@@ -5,7 +5,7 @@ let blogHTML='';
 blogs.forEach(blog => {
      blogHTML += `
     <div class="innerblog">
-    <img src="${blog.picture}" alt="alice" class="iimg">
+    <img src="${blog.picture}" alt="${blog.name}" class="iimg">
     <h2><a href="#">${blog.title}</a></h2>
    </div>`;
     
