@@ -1,5 +1,5 @@
 export const blogs=[{
-    picture:'pics/Kelly.jpg',
+    picture:'pics/kelly.jpg',
     name:'kelly',
     title:'kelly in Shanghai'
 
