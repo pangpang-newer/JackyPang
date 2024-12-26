@@ -1,0 +1,157 @@
+.MainContainerBox{
+    display: block;
+    background-color: #2a2a2a;
+    height: auto;
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+.SelectBar{
+    display: flex;
+    height:10vh;
+    align-items: center;
+    justify-content: center;
+}
+.clicks{
+    display: flex;
+    height: 35px;
+    width: 85px;
+    border: white 0.5px solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.clicks:hover{
+    background-color: #171515;
+    color: #ACEEF3;
+    opacity: 1;
+}
+
+
+.midclicks{
+    border: none !important;
+}
+.Submovies_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    padding: 0;
+    margin:0;
+}
+
+.content{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 400px;
+    background-color:red;
+    text-align: center;  
+   /* background-image: url(../homepic/IMG_0869.JPG);*/
+   
+    box-shadow : 5px 5px #171515; /*#171515*/
+    padding: -5px;
+    border-radius: 5px;
+
+}
+.backgroundimg{
+position: absolute;
+left: 0px;
+width: 300px;
+height: 400px;
+object-fit: cover;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+
+}
+
+.shawbox{
+position: absolute;
+bottom: 0;
+height: 100px;
+width: 100%;
+background:linear-gradient(to bottom, #171515 50%, #171515 100%) !important;
+opacity: 0.8;
+
+}
+.star{
+    position: absolute;
+    height:50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.StarDetail{
+color: #fc2e20;
+padding: 0;
+margin: 0;
+}
+.label{
+    position: absolute ;
+    bottom: 50px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    justify-content: space-evenly;
+}
+.label:hover{
+    color: yellow;
+    opacity: 0.8;
+}
+
+.clickblock{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.textdetail {
+    color: #ffffff ;
+    opacity: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+.textdetail:hover{
+    color: yellow;
+    opacity: 0.8;
+}
+
+.statu{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-evenly;
+}
+@media (min-width: 640.1px)and (  max-width: 1000px){
+    .Submovies_container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (max-width: 640px ){
+    .Submovies_container{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
