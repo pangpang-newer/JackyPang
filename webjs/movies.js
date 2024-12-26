@@ -51,7 +51,7 @@ source:'https://ddys.pro/oppenheimer/'
 ];
 
 export const books = [ 
-    {   img:'../books/pictures/Clear Thinking.jpg',
+    {   img:'../pictures/Clear Thinking.jpg',
         bookname:'Clear Thinking',
         rating:'4.0',
         PDFsource:'https://mega.nz/file/nnwhnSzB#Uxlra13YJmOFBu8SswQMLXmue45QJ3ezUCTUMVVX4qM',
@@ -59,7 +59,7 @@ export const books = [
         pdffile:'4.29',
         epubfile:'0.958'
     },{   
-        img:'../books/pictures/Talk Like TED.jpg',
+        img:'../pictures/Talk Like TED.jpg',
         bookname:'Talk Like TED',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/36BTQDIA#2eVyO4-Jot58lPrIEbFyq2hHfX3-8yDifkqqWGeT1gQ',
@@ -67,7 +67,7 @@ export const books = [
         pdffile:'2.76',
         epubfile:'2.35'
     },{  
-        img:'../books/pictures/High Output Management.jpg', 
+        img:'../pictures/High Output Management.jpg', 
         bookname:'High Output Management',
         rating:'4.5',
         PDFsource:'https://mega.nz/file/qvQQkLqT#d9rRuRquHVnxrESOnXzwtaBJnRFGr6tqkUe4KX4JzR0',
@@ -76,7 +76,7 @@ export const books = [
         epubfile:'2.45'
 
     },{  
-        img:'../books/pictures/Atomic Habits.jpg', 
+        img:'../pictures/Atomic Habits.jpg', 
         bookname:'Atomic Habits',
         rating:'4.0',
         PDFsource:'https://mega.nz/file/eixDxaxY#jQK2HwoWFAbpiHPEfP-FXfocsT9eYDMHy5ZgSm11yhg',
@@ -84,7 +84,7 @@ export const books = [
         pdffile:'3.91',
         epubfile:'2.90'
     },{  
-        img:'../books/pictures/Behave.jpg', 
+        img:'../pictures/Behave.jpg', 
         bookname:'Behave',
         rating:'4.0',
         PDFsource:'https://mega.nz/file/inwk2aZS#0iPc0XmSeOE7s6CfINPsUdu0uuaTtaJ2em5BQJDVhSI',
@@ -92,7 +92,7 @@ export const books = [
         pdffile:'17.1',
         epubfile:'7.27'
     },{  
-        img:'../books/pictures/Principles.jpg', 
+        img:'../pictures/Principles.jpg', 
         bookname:'Principles',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/W6I0yRzR#3wYuEz-hRKP5dsJWrP-WiFFfSAKCv4x2HeSCVwWW7l8',
@@ -100,7 +100,7 @@ export const books = [
         pdffile:'1.63',
         epubfile:'0.593'
     },{  
-        img:'../books/pictures/Zero to One.jpg', 
+        img:'../pictures/Zero to One.jpg', 
         bookname:'Zero to One',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/W6I0yRzR#3wYuEz-hRKP5dsJWrP-WiFFfSAKCv4x2HeSCVwWW7l8',
@@ -111,7 +111,7 @@ export const books = [
     
     /*chinese book*/
     {
-        img:'../books/pictures/我们仨.jpg',  
+        img:'../pictures/我们仨.jpg',  
         bookname:'我们仨',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/qro3XIhT#iJuZKqxoSN6sjv5Flv-JYzqH_BBwd93ovOQU7MbSo3o',
@@ -121,7 +121,7 @@ export const books = [
 
     }, 
     { 
-        img:'../books/pictures/被讨厌的勇气.jpg',  
+        img:'../pictures/被讨厌的勇气.jpg',  
         bookname:'被讨厌的勇气',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/37hgDCxC#qto8cyfXMsRIaAa8DXFaqntVhdkIEmHlFrmRO0NB088',
@@ -129,7 +129,7 @@ export const books = [
         pdffile:'4.29',
         epubfile:'1'
     },{  
-        img:'../books/pictures/贫穷的质感.jpg', 
+        img:'../pictures/贫穷的质感.jpg', 
         bookname:'贫穷的质感',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/uzRiWYaY#5Zku5Fh379Y3XlzKHiiIrDYEMuWmRdFlqIMGPjEM1I8',
@@ -138,7 +138,7 @@ export const books = [
         epubfile:'1'
 
     },{ 
-        img:'../books/pictures/晚熟的人.jpg',  
+        img:'../pictures/晚熟的人.jpg',  
         bookname:'晚熟的人',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/qnIkyAgb#vS9SLi4Tz0-AmO-sPyc4gaeBKIcY4xYeJEo6Nwl4zhA',
@@ -147,7 +147,7 @@ export const books = [
         epubfile:'1'
 
     },{ 
-        img:'../books/pictures/我的几何人生.jpg',  
+        img:'../pictures/我的几何人生.jpg',  
         bookname:'我的几何人生',
         rating:'5.0',
         PDFsource:'../books/Chinese/PDF/我的几何人生.pdf',
@@ -155,7 +155,7 @@ export const books = [
         pdffile:'4.29',
         epubfile:'1'
     },{ 
-        img:'../books/pictures/乌合之众.jpg',  
+        img:'../pictures/乌合之众.jpg',  
         bookname:'烏合之眾',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/TvwF1A7Q#QFjjXhnLPCvi39n0w88QRTsuLnH2E7PPKbCOajOzXzY',
@@ -163,7 +163,7 @@ export const books = [
         pdffile:'4.29',
         epubfile:'1'
     },{ 
-        img:'../books/pictures/制造宠物.jpg',  
+        img:'../pictures/制造宠物.jpg',  
         bookname:'制造宠物',
         rating:'5.0',
         PDFsource:'https://mega.nz/file/Dy4FALTZ#1DSXef7DRyqdBWuJhpHmsns-jbj1yJtV7ylLuHXVE7Q',
