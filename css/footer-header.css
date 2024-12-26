@@ -74,6 +74,15 @@ justify-content:center;
     }
     
 }
+@media (max-width: 800px) {
+    .outerdesign {
+        grid-template-columns: 350px ;
+    }
+    
+}
+
+
+
 .imgdetail{
 height: 76px;
 width: 76px;
@@ -162,7 +171,7 @@ h1{
 }
 .note{
 text-align: center;
- 
+
 }
 .alice{
 font-family: var(--content-1);
@@ -175,29 +184,50 @@ h1{
     text-align: center;
 }
 .blogbox{
+    width: 100vw;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 225px 225px 225px 225px;
     justify-content: space-evenly;
-    row-gap : 45px ;
+    row-gap : 100px ;       /* the blogbox is the big container and change the innerblog to the grid container*/ 
 }
 .innerblog{
  /*background-color: red;*/
  height: 300px;
- display: block;
+display:flex;
+flex-direction: column;
+align-items: center;
+
+
+
  margin: 0;  
- padding: 0;
+ padding: 0;    /* grid container */
+ 
 
 }
+@media (max-width: 800px) {
+    .blogbox {
+        grid-template-columns: 225px 225px;
+        align-items: center;
+    }
+    
+}
+@media (max-width: 640px) {
+    .blogbox {
+        grid-template-columns: 225px;
+        align-items: center;
+    }
+}
 
-.innerblog .iimg{
+
+.innerblog img{
     display: block;
     object-fit: cover;
-    width: 200px;
-    height: 250px;
+    width: 225px;
+    height: 300px;
     border: #bea184 1px solid;
-    border-radius: 0.5rem;
-   
-     
+    border-radius: 0.5rem;  
+
+
 }
 .innerblog .iimg:hover{
  padding: 5px;
@@ -205,7 +235,6 @@ h1{
 }
 h2{
 font-size: 18px;
-text-align: center;
 font-family: var(--content-c);
 }
 .discription{
@@ -213,6 +242,7 @@ padding: 0;
 font-size: 12px;
 }
 h2 a{
+    display: block;
     text-decoration: none;
     color:black;
     
