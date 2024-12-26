@@ -1,29 +1,28 @@
 import {movies} from './movies.js';
+
 let movieHTML='';
 
 movies.forEach(movie => {
   
-  if (movie.description==="x") {
-    movie.description= 'I am busy that there is nothing here! You can write description for me in attribute of comment! You all are the best. ****************************************';
-  };
+  
      movieHTML += `
-     <div class="subblogs ">
-            <div class="left">
-              <img class="img_container1" src="${movie.pic}">  
-              <div class="hyprolink"><a class="link" href="${movie.source}"> ${movie.name}</a></div>
-            </div>
+      <div class="content"> 
+             <img src="${movie.pic}" class="backgroundimg"></img>
+            <div class="star textdetail"><i class="fa-solid fa-star StarDetail"></i></div>
 
-            <div class="desc_container">
-              <p class="desc">${movie.description}</p>
-            </div> 
+            <div class="shawbox"></div>
+                <div class="label textdetail"><span>${movie.category}</span> <span>${movie.popuparity}</span></div>
+                <div class="statu textdetail"><a class="clickblock" href="${movie.source}">${movie.name}</a><span>${movie.episodes}</span> </div>
+            </div> `; 
 
-       </div> `; 
-     
+                 
 });
 
 
-let movies_blocks=document.querySelector('.content');
+let movies_blocks=document.querySelector('.Submovies_container');
 movies_blocks.innerHTML=movieHTML;
+
+
 
 window.addEventListener('scroll',()=>{
   let line = document.querySelector('.progressline').style.width;
