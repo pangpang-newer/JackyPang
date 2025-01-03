@@ -1,8 +1,6 @@
 .bookmainContainerBox{
-    position: relative;
     display: flex;
     width:100%;
-    height: 130vh;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -10,17 +8,33 @@
     overflow-x: hidden;
     
 }
+.category{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: none;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top:259.4px; 
+}
 
 .submain{
-    position: absolute;
-    top: 0;
-    display: block;
+    position: relative;
     background-color: grey;
     width: 1200px;
     height: 10%;
     align-items: center;
     justify-content: center;
     border-radius: 10px 10px 0 0;
+}
+.SelectBar{
+    display: flex;
+    position: relative;
+    height:10vh;
+    align-items: center;
+    justify-content: center;
 }
 .Notice{
     display: flex;
@@ -35,7 +49,6 @@
 .clickscolor{
     display: flex;
     background-image: linear-gradient(to left, #FCB92B, #F51720);
-   
     border: none;
     border-radius: 10px;
     height: 35px;
@@ -48,6 +61,8 @@
     opacity: 1;
 
 }
+
+
 .clickscolor a{
     text-decoration: none;
     color: white;
@@ -55,8 +70,50 @@
     justify-content: center;
     bottom: 0px !important;
 }
+.search_wrapper{
+    position: absolute;
+    display: flex;
+    height: 35px;
+    width: 200px;
+    right: 35px;
+    background-color:white;
+    border: none;
+    border-radius: 17.5px;
+    margin: 0;
+    padding: 0;
+}
 
-
+.searchbar{
+    position: absolute;
+    background-color: white;
+    height: 35px;
+    width:130px;
+    right: 55px;
+    border: 0px solid;
+    border: none !important;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.searchbar:active{
+    border: none;
+}
+    
+.Active{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    right: 0px;
+    border: none;
+    border-radius: 17.5px;
+    margin:0;
+    padding: 0;
+    
+}
+.searchdetail{
+    color:#c55ffc;
+}
 
 .bookscontainer{
     display: grid;
@@ -105,6 +162,7 @@
     width: 100px;
     height: 125px;
     object-fit: fill; 
+
 }
 
 .rating{
@@ -145,15 +203,13 @@
     background-image: linear-gradient(to left, #f51720, #fa26a0);
     padding: 0px;
     transition: background-img 0.5s padding 0.5s;
-}s
- .epub :hover{
+}
+.epub :hover{
     background-image: linear-gradient(to left, blue, green);
     padding: 0px;
     color: white;
     border-radius: 10px;
     padding-bottom: 3px;
-    
-    
 }
 .pdf :hover{
     background-image: linear-gradient(to left, blue, green);
