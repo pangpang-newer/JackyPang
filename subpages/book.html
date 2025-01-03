@@ -31,33 +31,29 @@
      <div class="l4"></div>
    </div> 
 
-
    <div class="bookmainContainerBox"> <!--big box-->
+      <div class="category">
+           <div >   <label> <input type="checkbox"> Fiction      </label></div>
+           <div >   <label> <input type="checkbox"> Biography    </label></div>
+           <div >   <label> <input type="checkbox"> Economics    </label></div>
+           <div >   <label> <input type="checkbox"> Social-Skill </label></div>
+           <div >   <label> <input type="checkbox"> Self-Help    </label></div>
+      
+      </div>
        <div class="submain" >
             <div class="SelectBar"> 
-               <div class="Submovies"  ><a href="../movies.html" class="clicks clickscolor">Movies</a></div>
+               <div class="Submovies"  ><a href="../movies.html" class="clicks fading clickscolor" onclick="location.reload(true)">Movies</a></div>
                <div class="Submovies"  ><a  class="clicks midclicks"></a></div>
-               <div class="SubTV"><a target="_self" class="clicks clickscolor">Books</a></div>  
+               <div class="SubTV"><a target="_self" class="clicks fading clickscolor" id="refresh" onclick="location.reload(true)">Books</a></div>
+               <div class="search_wrapper"> 
+                  <input type="text" class="searchbar" id="SearchBookData" placeholder="Search for books">  
+                  <button id="booksearchbutton" class="Active" ><i class="fa-solid fa-magnifying-glass searchdetail"></i></button>       
+               </div>
+
             </div>
-            <div class="Notice"><p class="Noticetext"> EPUB documents are not avaliable yet !</p></div>
+          <!-- <div class="Notice"><p class="Noticetext"> EPUB documents are not avaliable yet !</p></div> -->
             <div class="bookscontainer">
-                            <!--           <div class="book"> 
-                                             <div class="leftside"><a href="#" class=""> <img src="../books/pictures/Clear Thinking.jpg" class="bookimg" ></a></div>
-                                             <div class="rightside">
-                                               <div class="rating"><i></i> <span>5.0/5.0</span></div>
-                                               <div class="pdf"><i></i><a class="link" href="../books/English/PDF/Clear Thinking.pdf"><span>Download(PDF,STORAGE)</span></a></div>
-                                               <div class="epub"><i></i><a class="link" href="../books/English/EPUB/Clear Thinking.epub"><span>Download(EPUB,STORAGE)</span></a></div>
-
-                                       
-                                             </div>           
-                                             
-                                       </div>
-
-                                       <div class="book"> </div>                      
-                                       <div class="book"> </div>
-                                       <div class="book"> </div>
-                              -->
-                                    
+ 
             </div>
 
          
@@ -65,12 +61,6 @@
        </div>
        
    </div>
-
-   
-
-
-
-
 
   
 <div class="note"><span > @PZB 2024 - NewChapter</span>  </div> 
@@ -98,6 +88,7 @@ async>
 
 <script  src="../webjs/movies.js"></script>
 <script type="module" src="../webjs/book.js"></script>
+<script src="https://kit.fontawesome.com/dab87589c5.js" crossorigin="anonymous"></script>
 
 
 </html>
