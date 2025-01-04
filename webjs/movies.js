@@ -52,7 +52,7 @@ source:'https://ddys.pro/oppenheimer/'
 
 export const books = [ 
     {   category:'Fiction',
-        img:'../books/pictures/Clear Thinking.jpg',
+        img:'../pictures/Clear Thinking.jpg',
         bookname:'Clear Thinking',
         rating:'4.0',
         PDFid:'1E8aoNBkwQyKzgHCNSpniiahgySd9alT1',
@@ -61,7 +61,7 @@ export const books = [
         epubfile:'0.958'
     },{   
         category:'Fiction',
-        img:'../books/pictures/Talk Like TED.jpg',
+        img:'../pictures/Talk Like TED.jpg',
         bookname:'Talk Like TED',
         rating:'5.0',
         PDFid:'1qemBIzJhVrvnfaMjoEdhP9afMKSJQO4-',
@@ -70,7 +70,7 @@ export const books = [
         epubfile:'2.35'
     },{  
         category:'Fiction',
-        img:'../books/pictures/High Output Management.jpg', 
+        img:'../pictures/High Output Management.jpg', 
         bookname:'High Output Management',
         rating:'4.5',
         PDFid:'1uIS2L1eCoyGlhHS8YwGc7PnngRDS_Gq1',
@@ -80,7 +80,7 @@ export const books = [
 
     },{ 
         category:'Fiction',
-        img:'../books/pictures/Atomic Habits.jpg', 
+        img:'../pictures/Atomic Habits.jpg', 
         bookname:'Atomic Habits',
         rating:'4.0',
         PDFid:'1egA--vFxX1PAcNFCP-n6zrivbg8TeOAp',
@@ -89,7 +89,7 @@ export const books = [
         epubfile:'2.90'
     },{  
         category:'Fiction',
-        img:'../books/pictures/Behave.jpg', 
+        img:'../pictures/Behave.jpg', 
         bookname:'Behave',
         rating:'4.0',
         PDFid:'1Jsl55q8mh_1Pz06G9uub6XPCb7ik02q_',
@@ -98,7 +98,7 @@ export const books = [
         epubfile:'7.27'
     },{  
         category:'Fiction',
-        img:'../books/pictures/Principles.jpg', 
+        img:'../pictures/Principles.jpg', 
         bookname:'Principles',
         rating:'5.0',
         PDFid:'1bCKHx--_-X5S24nUmVLMx2sxW9WE8NmF',
@@ -107,7 +107,7 @@ export const books = [
         epubfile:'0.593'
     },{  
         category:'Fiction',
-        img:'../books/pictures/Zero to One.jpg', 
+        img:'../pictures/Zero to One.jpg', 
         bookname:'Zero to One',
         rating:'5.0',
         PDFid:'https://mega.nz/file/W6I0yRzR#3wYuEz-hRKP5dsJWrP-WiFFfSAKCv4x2HeSCVwWW7l8',
@@ -116,7 +116,7 @@ export const books = [
         epubfile:'0.593'
     },{
         category:'Economics', 
-        img:'../books/pictures/Your Next Five Moves.jpg',  
+        img:'../pictures/Your Next Five Moves.jpg',  
         bookname:'Your Next Five Moves',
         rating:'5.0',
         PDFid:'13gEjBQP5951jFa39jY3E6VYDXY9nBgv',
@@ -125,7 +125,7 @@ export const books = [
         epubfile:'0.797'
     },{ 
         category:'Fiction',
-        img:'../books/pictures/The Stranger.jpg',  
+        img:'../pictures/The Stranger.jpg',  
         bookname:'The Stranger',
         rating:'3.5',
         PDFid:'1_Hp6UFh8ZnUwFgxBe27xtyG1DFfmNfGI',
@@ -135,7 +135,7 @@ export const books = [
 
     },{
         category:'Economics', 
-        img:'../books/pictures/Early Retirement Extreme.jpg',  
+        img:'../pictures/Early Retirement Extreme.jpg',  
         bookname:'Early Retirement Extreme',
         rating:'5.0',
         PDFid:'1qx30DTWx6c1mvFeypwQMKBL2xuOBHDEN',
@@ -144,7 +144,7 @@ export const books = [
         epubfile:'0.681'
     },{ 
         category:'Economics',
-        img:'../books/pictures/Four Thousand Weeks.jpg',  
+        img:'../pictures/Four Thousand Weeks.jpg',  
         bookname:'Four Thousand Weeks',
         rating:'4.0',
         PDFid:'1YTMbJRmMsABnA7ZHMgyLvcx60oEYsjhs',
@@ -154,7 +154,7 @@ export const books = [
 
     },{
         category:'Self-Help', 
-        img:'../books/pictures/Supercommunicators.jpg',  
+        img:'../pictures/Supercommunicators.jpg',  
         bookname:'Supercommunicators',
         rating:'5.0',
         PDFid:'1ce2g4Q96BPybbIaTZPdiYzE6g1712nmQ',
@@ -163,7 +163,7 @@ export const books = [
         epubfile:'12.5        '
     },{ 
         category:'Economics',
-        img:'../books/pictures/The Psychology of Money.jpg',  
+        img:'../pictures/The Psychology of Money.jpg',  
         bookname:'The Psychology of Money',
         rating:'5.0',
         PDFid:'1HQdEg4Mx7-JJlXvl8AxOdehMJYVQzTb-',
@@ -172,7 +172,7 @@ export const books = [
         epubfile:'1.14'
     },{ 
         category:'Philosophy',
-        img:'../books/pictures/The Parasitic Mind.jpg',  
+        img:'../pictures/The Parasitic Mind.jpg',  
         bookname:'The Parasitic Mind',
         rating:'5.0',
         PDFid:'1LH1BUhWtZW8NrY2ANGVP_iJEsthwYzLN',
@@ -182,7 +182,7 @@ export const books = [
     },
     /*chinese book*/
     {    category:'Biography',
-        img:'../books/pictures/我们仨.jpg',  
+        img:'../pictures/我们仨.jpg',  
         bookname:'我们仨',
         rating:'5.0',
         PDFid:'1thh27eAndScJiUMDPEcivlBDHWUiFGen',
@@ -192,7 +192,7 @@ export const books = [
 
     }, 
     {  category:'Fiction',
-        img:'../books/pictures/被讨厌的勇气.jpg',  
+        img:'../pictures/被讨厌的勇气.jpg',  
         bookname:'被讨厌的勇气',
         rating:'5.0',
         PDFid:'1W6KKOJIaupqYWXLCa5-VMpgi6HY5Gsjj',
@@ -201,7 +201,7 @@ export const books = [
         epubfile:'1'
     },{  
         category:'Fiction',
-        img:'../books/pictures/贫穷的质感.jpg', 
+        img:'../pictures/贫穷的质感.jpg', 
         bookname:'贫穷的质感',
         rating:'5.0',
         PDFid:'16qtrWeRwhClMHDVQE7xOkbeq6Rh900VQ',
@@ -211,7 +211,7 @@ export const books = [
 
     },{ 
         category:'Fiction',
-        img:'../books/pictures/晚熟的人.jpg',  
+        img:'../pictures/晚熟的人.jpg',  
         bookname:'晚熟的人',
         rating:'5.0',
         PDFid:'1T2ednrlINbb5tj9VW1uSBPX0PRaHvrSC',
@@ -221,7 +221,7 @@ export const books = [
 
     },{ 
         category:'Biography',
-        img:'../books/pictures/我的几何人生.jpg',  
+        img:'../pictures/我的几何人生.jpg',  
         bookname:'我的几何人生',
         rating:'5.0',
         PDFid:'../books/Chinese/PDF/我的几何人生.pdf',
@@ -230,7 +230,7 @@ export const books = [
         epubfile:'1'
     },{
         category:'Fiction', 
-        img:'../books/pictures/乌合之众.jpg',  
+        img:'../pictures/乌合之众.jpg',  
         bookname:'烏合之眾',
         rating:'5.0',
         PDFid:'1uTXmoMA9_zDR7Y-Lga90UvC9KEgQCDXZ',
@@ -239,7 +239,7 @@ export const books = [
         epubfile:'1'
     },{ 
         category:'Fiction',
-        img:'../books/pictures/制造宠物.jpg',  
+        img:'../pictures/制造宠物.jpg',  
         bookname:'制造宠物',
         rating:'5.0',
         PDFid:'1_Hp6UFh8ZnUwFgxBe27xtyG1DFfmNfGI',
