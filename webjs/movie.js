@@ -1,44 +1,24 @@
-import {movies} from './movies.js';
 
-function  moviesgenerator(movies_blocks){
+let  descriptioncont= `Coming soon. Please clicks Books`;
+document.querySelector('.description').innerHTML = descriptioncont;
 
-let movieHTML='';
+let intervalId = null;
+function changeColor() {
+  // check if an interval has already been set up
+  if (!intervalId) {
+    intervalId = setInterval(flashText, 1000);
+  }
+}
 
-movies_blocks.forEach(movie => {
-  
-  
-     movieHTML += `
-      <div class="content"> 
-             <img src="${movie.pic}" class="backgroundimg"></img>
-            <div class="star textdetail"><i class="fa-solid fa-star StarDetail"></i></div>
+function flashText() {
+  const oElem = document.getElementById("colorchange");
+  oElem.className = oElem.className === "go" ? "stop" : "go";
+}
+changeColor();
 
-            <div class="shawbox"></div>
-                <div class="label textdetail"><span>${movie.category}</span> <span>${movie.popuparity}</span></div>
-                <div class="statu textdetail"><a class="clickblock" href="${movie.source}">${movie.name}</a><span>${movie.episodes}</span> </div>
-            </div> `; 
 
-                 
-});
 
-let movies_data=document.querySelector('.Submovies_container');
-movies_data.innerHTML=movieHTML;
 
- };
-
- moviesgenerator(movies);
-
-let getresult;
-document.getElementById('searchbutton').addEventListener('click',()=>{
-  getresult=document.getElementById('UserSearchTarget').value.toLowerCase();
-    const filterpage = movies.filter(submovie=>submovie.name.toLowerCase()===getresult);
-    console.log(filterpage)
-    if (filterpage.length == 0 ){
-      moviesgenerator(movies);
-    }
-    else{
-      moviesgenerator(filterpage)
-    }
- })
 
 window.addEventListener('scroll',()=>{
   let line = document.querySelector('.progressline').style.width;
