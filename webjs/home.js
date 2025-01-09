@@ -10,30 +10,35 @@ data.forEach(page=> {
                <div class="belowcontent">
                    <h1 class="mini-statu">${page.mini_statu} </h1> 
                    <p class="mini-title"> <strong> ${page.mini_title} </strong></p>
-                   <a href="${page.link}" class="miantext">${page.miantext}
+                   <a href="${page.link}" class="miantext confetti_button"><span>${page.miantext}<span>
                    </a>
                </div>  
            </div>
            `;
           });
-
          
-document.querySelector('.outerdesign').innerHTML=sections;};
+document.querySelector('.outerdesign').innerHTML=sections;
+
+}
+
+
+
 htmlgenerator(pages);
 
-function typeindicator(){
-    let type = pages.mini_statu;
-    if (type==="uncategorized") {
-        return;
-    }
-    else {
-        let tamplate = document.querySelector('.mini-statu');
-        tamplate.style.backgroundColor="#F5E1CE";
-         
-    }
-  
-};
-typeindicator();
+
+
+const triggers = document.querySelectorAll('.innerlist');
+console.log(triggers);
+   for( var i=0; i<triggers.length; i++){
+    triggers[i].addEventListener('click', function() { confetti(
+        {
+            particleCount: 150,
+            spread: 150,
+            
+          }
+    );
+        }  )                                           
+   }
 
 window.addEventListener('scroll',()=>{
     let line = document.querySelector('.progressline').style.width;
@@ -42,30 +47,26 @@ window.addEventListener('scroll',()=>{
 });
 
 
-const Tool = document.querySelector('.MiniTool');
-Tool.addEventListener('click',()=>{htmlgenerator(MiniTool);});
-const MiniTool = pages.filter(page=>page.mini_statu==="mini-tool");
+const  filterings = document.querySelectorAll('.innerlist');
 
-const article = document.querySelector('.article');
-const Articles = pages.filter(page=>page.mini_statu==="Article");
-article.addEventListener('click',()=>{htmlgenerator(Articles);});
-
-
-const recommendation = document.querySelector('.recommendation');
-const recommendations = pages.filter(page=>page.mini_statu==="recommendation");
-recommendation.addEventListener('click',()=>{htmlgenerator(recommendations);});
-
-const other = document.querySelector('.other');
-const others = pages.filter(page=>page.mini_statu==="Article");
-other.addEventListener('click',()=>{htmlgenerator(others);});
-
-
-
-
-
-
+for ( var filtering of filterings){
     
-  
+     filtering.addEventListener('click',(event)=>{
+         const tamp = event.currentTarget; 
+         console.log(tamp);
+         const label = tamp.textContent.trim(); 
+         let filtered = pages.filter(page=>page.mini_statu === label);
+         console.log(filtered);
+         const notification = document.querySelector('.outerdesign'); 
+         if(filtered.length===0){     
+              htmlgenerator(pages)
+       }else if (label==="All") {
+              htmlgenerator(pages);
+       
+    }
+        else{ htmlgenerator(filtered);
+        }
+     });
+};
 
-         
-        
+
