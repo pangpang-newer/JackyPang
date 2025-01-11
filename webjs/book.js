@@ -1,11 +1,11 @@
-import {books, movies} from './movies.js';
+import {books} from './movies.js';
 function bookgenerator(bookdatabase){
 let BookHTML='';
 
 bookdatabase.forEach(book => {
      BookHTML += `
      <div class="book"> 
-     <div class="leftside"><a href="#" class=""> <img src="${book.img}" alt="pic error" class="bookimg" ></a></div>
+     <div class="leftside"><a href="#" class=""> <img src="https://img.131213.xyz/api/cfile/${book.img}" alt="pic error" class="bookimg" ></a></div>
      <div class="rightside">
        <div class="rating"><i class="fa-regular fa-star"></i> <span class="Marks">${book.rating}</span> <span class="Maxmarks">/5.0</span></div>
        <div class="pdf"><a class="link"  href="https://drive.google.com/uc?id=${book.PDFid}"><span>Download(PDF,${book.pdffile}MB)</span></a></div>
@@ -22,6 +22,7 @@ let Book_blocks=document.querySelector('.bookscontainer');
 Book_blocks.innerHTML=BookHTML;
 };
 bookgenerator(books);
+
 let getresult;
 document.getElementById('booksearchbutton').addEventListener('click',()=>{
   getresult=document.getElementById('SearchBookData').value.toLowerCase();
@@ -29,6 +30,7 @@ document.getElementById('booksearchbutton').addEventListener('click',()=>{
     const filteredbook = books.filter(subook=>subook.bookname.toLowerCase().includes(getresult));
     if (filteredbook.length == 0 ){
       bookgenerator(books);
+      document.getElementsByClassName('bookscontainer')[0].innerHTML = `<p1  style="color:black; font-size:18px;width:1200px ; text-align:center" >Sorry, No such book found</p1>`;
     }
     else{
       bookgenerator(filteredbook)
