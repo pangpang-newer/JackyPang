@@ -1,4 +1,10 @@
-export const blogs=[{
+export const blogs=[
+{
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYMpngmXM6IuEXfolLmifC4Tg__lpOgACS8IxGzFrEFSFjGO-jBW93gEAAwIAA3kAAzYE',
+    name:'Kelly',
+    title:'Kelly in Shanghai'
+
+},{
     picture:'pics/Alice.jpg',
     name:'Alice',
     title:'Alice in peiking'
