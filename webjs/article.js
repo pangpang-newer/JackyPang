@@ -5,24 +5,24 @@ export const blogs=[
     title:'Kelly in Shanghai'
 
 },{
-    picture:'pics/Alice.jpg',
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYNRngmkgiHaXkrvyPYDmlVV1hFqiLQACYsIxGzFrEFRSdJOGuwhRUwEAAwIAA3kAAzYE',
     name:'Alice',
     title:'Alice in peiking'
 
 },{
-    picture:'pics/Jeremy.png',
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYMxngmj7ljnu6Vy6yT91gXxyzx_RmgACXsIxGzFrEFQzxBABioVYUAEAAwIAA3kAAzYE',
     name:'Jeremy',
     title:'Jeremy in peiking'
 },{
-    picture:'pics/Roy.jpg',
-    name:'Roy' ,
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYM5ngmkCWxa-emQH0TGvD4VEARhnjAACX8IxGzFrEFSyBfGY1HQUCAEAAwIAA3cAAzYE',
+    name:'Roy',
     title:'Roy in peiking'
 },{
-    picture:'pics/Yannis.jpg',
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYNJngmkYIWq_SKhngmtvZ9bryc8asQACYcIxGzFrEFRiiHlncVzsfAEAAwIAA3cAAzYE',
     name:'Yannis' ,
     title:'Yannis in peiking'
 },{
-    picture:'pics/tree.jpg',
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYNBngmkOGgABNrpW2apYzGH-sk_VLC0AAmDCMRsxaxBUmTsjeWvAYEoBAAMCAAN3AAM2BA',
     name:'tree' ,
     title:'tree in peiking'
 }
