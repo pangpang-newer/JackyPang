@@ -56,13 +56,13 @@ justify-content:center;
 }
 
 .navbar{
+    display: flex;
     z-index: 100;
     justify-content: space-between;
     margin: 0 1rem 0 1rem;
-
-
-   
-       
+    align-items: center;
+    justify-content: center;
+      
 }
 
 .imgdetail{
@@ -78,6 +78,8 @@ justify-content:center;
     cursor: pointer;
     opacity: 0.75;
     transition: opacity 0.25s;
+    background-color: none;
+    margin-right: 3px;
   
 }
 .headertext:hover{
@@ -87,15 +89,34 @@ justify-content:center;
 
 @media (max-width: 640px) {
     .headertext {
-        font-size: 1rem;
+        font-size: 18px;
+       
+    }
+    .top-container::before{
+        height: 11.25vh;
+        
+    }
+    .top-container{
+        height: 11.25vh;    
+    }
+    .navbar{
+        display: flex;
+        height: 11.25vh;
+        z-index: 100;
+        align-items: center;
+        justify-content: center;
+    } 
+    .icondetail {
+        display: none;   
+    } 
        
     }
     
-}
 @media (max-width: 800px) {
     .outerdesign {
         grid-template-columns: 350px ;
     }
+   
     
 }
 
@@ -128,7 +149,7 @@ border-radius: 38px;
 }
 .smile, .homeicon, .movieicon, .storyicon {
 
-    display: block;
+    display: none;
     margin: 0 auto;
     position: absolute;
     z-index: 10;
@@ -214,14 +235,10 @@ h1{
 display:flex;
 flex-direction: column;
 align-items: center;
-
-
-
  margin: 0;  
  padding: 0;    /* grid container */
- 
-
 }
+/*
 @media (max-width: 800px) {
     .blogbox {
         grid-template-columns: 225px 225px;
@@ -235,7 +252,7 @@ align-items: center;
         align-items: center;
     }
 }
-
+*/
 
 .innerblog img{
     display: block;
@@ -288,5 +305,30 @@ cursor: pointer;
     object-fit: fill;
 }
 
+.contacts{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    height: fit-content; 
+    unicode-bidi: isolate; 
+}
+.contact{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 25px;
+    color: black;
+}
+.contact:hover{
+    color: blue;
+    cursor: pointer;
+    padding: 1px;
+    border: blue 1px solid;
+    border-radius: 3px;
+}
 
 
