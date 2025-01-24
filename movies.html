@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer-header.css" />
     <link rel="stylesheet" type="text/css" href="css/elife.css" />
     <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 <body>
    <div class="progressline"></div>
@@ -20,6 +21,11 @@
       <a class="headertext" href="story.html">story</a> 
       </nav>
    </div> 
+   <div class="contacts">
+    <a class="linkedin  contact" target="_blank" href="https://www.linkedin.com/in/pengbing/"> <i class="fa-brands fa-linkedin-in"></i></a>
+    <a class="tweet  contact" target="_blank" href="https://x.com/pang66633146?s=21&t=5kFDyDMhVuxVW2DE1AzT3A"> <i class="fa-brands fa-twitter"></i></a>
+    <a class="ins  contact" target="_blank" href="https://www.instagram.com/ispb_rebirth?igsh=MTI2aHoydW9sZWMzYg%3D%3D&utm_source=qr"> <i class="fa-brands fa-instagram"></i></a>
+   </div>
 
    <div class="line-container">
     <div class="l1"></div>
@@ -40,13 +46,53 @@
          </div>-->
           <!-- <div class="sce_line"></div> -->
      </div>
-   <!--  <div class="Submovies_container"> </div>-->
-   <h1 class="description" id = "colorchange"></h1>
+    <div class="Submovies_container">   <h1 class="description" id = "colorchange"></h1 >  </div>
+
      <div class="Elifecontainer" id="mianelife">
+   <!--    <div class="demo" display="in-block" width="100%" height="auto">
+        <video   style="width: 500px; height:500px;"  controls autoplay>
+        <source src="https://www.youtube.com/watch?v=Rfi09onJQuM" type = "video/mp4">
+        </video>
+      </div>
+    -->
+
+      <div class="graphtype">
+        <label>Graph Type</label>
+        <select name="%" id="Typeselector" class="type">
+          <option>Scatter</option>  
+          <option>Line</option>
+          <option>Multiple-lines</option>
+          <option>Bar</option>
+          <option>Pie</option>
+          <option>Linear</option>
+        </select>
+        <button id="CFM">Confirm</button>
+      </div>
+            <div class="graphs" id="Graphs">
+               
+                <!-- 
+                  x: 1 2 3 4 5 6; 
+                  y: 1 2 3 4 5 6;
+                  type:'',  data handle? use  option to set the types
+                  pointRadius set as default;
+                  color use  option to set the colro;
+                  data set insert data from  array  map to create new array;
+                  legend : option ?
+                  
+                -->
+              
+               
+                  
+  
+                  
+                </div>
+                <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+                
+            </div>
       
      </div>
    
-   </div>
+   </div>  
 
 
 
@@ -74,6 +120,7 @@ async>
 
 <script type="module" src="webjs/movie.js"> </script>
 <script src="https://kit.fontawesome.com/dab87589c5.js" crossorigin="anonymous"></script>
+
 
 
 </html>
