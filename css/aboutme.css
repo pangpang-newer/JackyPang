@@ -44,19 +44,24 @@ body{
     }
     .blogbox{
      grid-template-columns: 1fr;
-     margin: 0vw;
+        display: grid;
+        align-items: center;
     }
     .title{
     font-family: var(--title); 
     font-size: var(--title-size);
     display: block;
+    font-size: 24px;
+    margin: 0;
 
     }
     .maincontent{
    font-family:var(--content-2);
    font-size: var(--maincontent-size);
-   margin-left: 5rem;
-   margin-right: 5rem;
+   width: 80vw;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 16px;
   
   
 
@@ -87,4 +92,13 @@ border-top:0.25rem  solid #333300 ;
         font-family: var(--content-1);
         font-size: 1rem;
         text-align: center;
+    }
+
+    @media (max-width: 640px) {
+    p{
+         font-size: 12px !important;
+         margin-top: 0;
+         align-items: center;
+         
+    }
     }
