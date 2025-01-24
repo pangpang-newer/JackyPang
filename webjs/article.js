@@ -1,28 +1,22 @@
-export const blogs=[
-{
-    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYMpngmXM6IuEXfolLmifC4Tg__lpOgACS8IxGzFrEFSFjGO-jBW93gEAAwIAA3kAAzYE',
-    name:'Kelly',
-    title:'Kelly in Shanghai'
-
-},{
-    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYNRngmkgiHaXkrvyPYDmlVV1hFqiLQACYsIxGzFrEFRSdJOGuwhRUwEAAwIAA3kAAzYE',
+export const blogs=[{
+    picture:'pics/Alice.jpg',
     name:'Alice',
     title:'Alice in peiking'
 
 },{
-    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYMxngmj7ljnu6Vy6yT91gXxyzx_RmgACXsIxGzFrEFQzxBABioVYUAEAAwIAA3kAAzYE',
+    picture:'pics/Jeremy.png',
     name:'Jeremy',
     title:'Jeremy in peiking'
 },{
-    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYM5ngmkCWxa-emQH0TGvD4VEARhnjAACX8IxGzFrEFSyBfGY1HQUCAEAAwIAA3cAAzYE',
-    name:'Roy',
+    picture:'pics/Roy.jpg',
+    name:'Roy' ,
     title:'Roy in peiking'
 },{
-    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYNJngmkYIWq_SKhngmtvZ9bryc8asQACYcIxGzFrEFRiiHlncVzsfAEAAwIAA3cAAzYE',
+    picture:'pics/Yannis.jpg',
     name:'Yannis' ,
     title:'Yannis in peiking'
 },{
-    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYNBngmkOGgABNrpW2apYzGH-sk_VLC0AAmDCMRsxaxBUmTsjeWvAYEoBAAMCAAN3AAM2BA',
+    picture:'pics/tree.jpg',
     name:'tree' ,
     title:'tree in peiking'
 }
@@ -142,9 +136,40 @@ export const pages=[{
 
 ![vpn8.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXRJnfSvU2fmfzyd7WYorGgMwt_YJWgACksMxGwG96VcVJ9ipd3pEgwEAAwIAA3gAAzYE)`
 },{
+    idname:"CloudFlare",
+    pic:"homepic/quantum-physics-4550602_1280.jpg",
+    mini_statu:"MiniTool" ,
+    mini_title:"CloudFlare",
+    link:"../Homepage_inventory/cloudflare_tools.html",
+    miantext:"為新開發者推薦一些在前期可以要使用到的一些*工具*或者*資源*（免費！...",
+    eassy:`## Hi
+為新開發者推薦一些在前期可以要使用到的一些*工具*或者*資源*（免費！針對資源存放）
+
+我用一個下載圖書的網頁作爲例子把難點說一下：
+[![image.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACWsdnelzEayn5rDGUTxfC25GGLfRM2gACk70xG-P60FdHLSM7ueQrNQEAAwIAA3cAAzYE)](https://pbrebirth.org/subpages/book.html)
+
+一本書細分爲圖片，文件屬性， 電子書體，免費雲端有*MEGA*，*google drive*,*onedrive*,... 上載PDF文件之後，複製的鏈接只能直接在它原本的瀏覽器上查看，不能直接下載，需要在鏈接上做一些處理，例如在google drive 鏈接中 https://drive.google.com/file/ **<1_Hp6UFh8ZnUwFgxBe27xtyG1DFfmNfGI>**/view?usp=drive_link*  
+
+需要提取當中的keyid,也就是<...> 裏面的符號，用它替代下面的 YOUR_FILE_ID。 *https://drive.google.com/uc?export=download&id=<YOUR_FILE_ID>*  然後可以直接用這條鏈接在網頁中下載該文件，簡單説明一下，mega可以作爲放圖片的云倉庫，google drive 可以作爲放pdf或者其他文件的云倉庫。但是比較難處理
+***
+以下會提供建議方案。
+
+1.針對圖床 
+[![image.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACWslnemOO-ngv02NRkudYss2ZAAGZg0QAApy9MRvj-tBX2yCdBjasRAcBAAMCAAN3AAM2BA)](https://img.131213.xyz/)
+
+這是一個免費的圖床，可以應用到HTML,Markdown,BBCode and Links. 點擊圖片或者[*這裏*](https://img.131213.xyz/)可以直接進入窗口。（不建議大家存放重要圖片，*該網站目前有效*）
+
+2.針對檔案文件，基於安全考慮還是推薦大家使用googledrive 和 onedrive
+
+3.再使用Json 或者JavaScript建立資料庫，把所有元素結合在一起，作爲中轉站直接輸出給網頁使用。
+***
+
+當然我寫這個也是試一下Markdown用法。 
+   `
+},{
     idname:"Withdraw_Money",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXSFnfW4uQepESuIit8sU-K1Nn_zBQAACjb8xGwG98VdGYTlGp3LbMwEAAwIAA3kAAzYE",
-    mini_statu:"Others",
+    mini_statu:"Others" ,
     mini_title:"Withdraw Money",
     link:"../Homepage_inventory/Withdraw_Money.html",
     miantext:"海外及國内出金方法...",
@@ -329,6 +354,6 @@ eassy:`## 段永平在浙大的2025对话精华
 }
 ]
 
-export const idname=["micWorld","Vpn","DYP","photobed","Withdraw_Money"];
+export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money"];
 
 
