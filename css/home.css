@@ -18,7 +18,7 @@
 }
 
 .outerbox{
-    width: 300px;
+    width: 325px;
     height: 450px;
     background-color:#F5E1CE;
     border: 3px solid black;
@@ -27,13 +27,13 @@
 }
 
 .uppic{
-width: 350px;
+width: 325px;
 height: 200px;
 background-color: black;
 
 }
 .inneruppic{
-    width: 350px;  /*350px*/
+    width: 325px;  /*350px*/
     height: 200px;
        
 }
