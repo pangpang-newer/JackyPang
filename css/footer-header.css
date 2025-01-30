@@ -238,7 +238,7 @@ align-items: center;
  margin: 0;  
  padding: 0;    /* grid container */
 }
-/*
+
 @media (max-width: 800px) {
     .blogbox {
         grid-template-columns: 225px 225px;
@@ -252,7 +252,7 @@ align-items: center;
         align-items: center;
     }
 }
-*/
+
 
 .innerblog img{
     display: block;
