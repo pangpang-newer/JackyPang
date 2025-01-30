@@ -1,7 +1,7 @@
 
 .outerdesign{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 325px 325px 325px;
     justify-content: space-evenly;
     row-gap: 2rem;
     height: auto;
@@ -12,7 +12,7 @@
 
 @media (max-width: 800px) {
     .outerdesign {
-        grid-template-columns: 350px ;
+        grid-template-columns: 325px ;
     }
     
 }
