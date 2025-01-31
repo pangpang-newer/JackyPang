@@ -46,6 +46,24 @@ export const reblog=[/*{
 ];
 
 export const pages=[{
+    idname:"zlibrary",
+    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZDBnnQZ9wyDesiwwNUnkLs3qmOv3UAAC5s8xG9ib6FQu8yevGRWNUAEAAwIAA3kAAzYE",
+    mini_statu:"MiniTool" ,
+    mini_title:"book downloader via telgram bot supported by zlibrary", 
+    link:"../Homepage_inventory/zlibrary.html",
+    miantext:"Search **BotFather** and create a bot in **telegram BotFather**...",
+eassy:`### Use Tel dialog box to Download books from zlibrary
+1. Search **BotFather** and create a bot in **telegram BotFather** . Then, you need to create a **name** for your bot.  after successed, notably, there are some names could be used already. Try to create new name. Then, the bot will send you the connecting **_api key_**.  
+
+![zli_3re.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZCpnnQL2phyB8q8ZaWNRTtqSkCD-gQAC2c8xG9ib6FQrU2ygoqnFhwEAAwIAA3cAAzYE)
+
+2. login or sign up [zlibrary](https://1lib.sk/) ___(strongly advise you that install zlibrary google extension as the website may change frequently)___, then  find and entry the Z-Access attribute and choose Telegram bot, use z-library account login again, when, there will be an input box in bottom. Copy api from telgram BotFather then, past it into input box and connect, search the name you created before, input book name in bot dialog box, you will get book in term of eupb and pdf file just like chatting with friends.
+
+
+![zli_1.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZCRnnQFk5eVVlHKVgXWxJLOFyBdnCQAC088xG9ib6FTXWdQbUb0SjwEAAwIAA3gAAzYE)
+
+![zli_2re.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZChnnQLhSaQRJ1E9UcOUX7C9grSCVgAC2M8xG9ib6FQQSXrl6KBnJQEAAwIAA3kAAzYE)`
+},{
     idname:"photobed",
     pic:"homepic/fractal-2573303_1280.jpg",
     mini_statu:"MiniTool" ,
