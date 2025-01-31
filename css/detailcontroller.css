@@ -36,3 +36,19 @@ img {
     font-size: 18px;
   
 }
+
+@media (max-width: 800px) {
+    .Sec-size {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    img {
+        width: 300px;
+        height: 200px;
+    }
+    .Sec-size >p{
+        font-size: 16px;
+      
+    }
+    
+}
