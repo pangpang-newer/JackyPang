@@ -1,5 +1,5 @@
 export const blogs=[{
-    picture:'pics/Alice.jpg',
+    picture:'https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACYMpngmXM6IuEXfolLmifC4Tg__lpOgACS8IxGzFrEFSFjGO-jBW93gEAAwIAA3kAAzYE',
     name:'Alice',
     title:'Alice in peiking'
 
