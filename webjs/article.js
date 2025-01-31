@@ -372,6 +372,6 @@ eassy:`## 段永平在浙大的2025对话精华
 }
 ]
 
-export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money"];
+export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary"];
 
 
