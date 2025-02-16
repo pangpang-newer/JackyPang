@@ -1,5 +1,217 @@
 export const books = [
     {
+        numberid: '42',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACayVnsc7u6l08Ltpm_w9GAAEZpl6i8_0AAj_KMRvveJFVGLcptZ31g44BAAMCAAN4AAM2BA',
+        bookname: '黑客与画家',
+        rating: '3.0',
+        PDFid: '1bCx_LWXbHFDJ8HjkbSF9FDm_O9dzDR6f',
+        EPUBid: '1ci_ShqSqhQi3WEjBeQYYwzrn2R2-Mw4m',
+        pdffile: '2.37',
+        epubfile: '0.72'
+    },{
+        numberid: '41',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACaxVnsc7DGZvFL3mtHpfCQEauo6EY1gACN8oxG-94kVVWzxT1zRkh3wEAAwIAA3gAAzYE',
+        bookname: 'Shoe Dog',
+        rating: '3.5',
+        PDFid: '1-MGPXroczvIv5opfKhWaXlfAdEhoMDcV',
+        EPUBid: '12xjcP5qOUro_CEeR9XRfZmCJ2J0jviGo',
+        pdffile: '2.37',
+        epubfile: '0.72'
+    },{
+        numberid: '40',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACax1nsc7XV1l8sHcU5KqeBgABETVL2m4AAjvKMRvveJFVndrCLbPDi6kBAAMCAAN4AAM2BA',
+        bookname: 'Can\'t Hurt Me',
+        rating: '5.0',
+        PDFid: '1CMZcJD_agX2O2I2HifXzQTpShyMhGS3Q',
+        EPUBid: '18WR1W-_ffFOhTsLCxAb7wZ7L4gZZIBk7',
+        pdffile: '4.38',
+        epubfile: '3.6'
+    },{
+        numberid: '39',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACaxdnsc7Jp9WNM-MbLvRDY-V0PXzNYAACOMoxG-94kVVWUDw6znfbhgEAAwIAA20AAzYE',
+        bookname: 'Deep Work',
+        rating: '5.0',
+        PDFid: '13R7rA1zwiXuYeD4Q-NYGuNa-IjBI3v6m',
+        EPUBid: '1_r4wkfuh4yYduQcfbM13riB_TqDeeHuO',
+        pdffile: '1.98',
+        epubfile: '0.78'
+    },{
+        numberid: '38',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACaxtnsc7R9Smi0i_xP8Qgu1o1BoZrAgACOsoxG-94kVWyHhCkhFWeeQEAAwIAA3gAAzYE',
+        bookname: 'Do hard things',
+        rating: '5.0',
+        PDFid: '1jAleXJeS7mJd6RuNpL6thVVUlNDZWTZf',
+        EPUBid: '1-bq_0xo3DX2KHEdjf3ideB8QmZRkdH5a',
+        pdffile: '3.83',
+        epubfile: '1.4'
+    },{
+        numberid: '37',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACax9nsc7eIM_BsbMKoWZD2ae83NNmdgACPMoxG-94kVX2Y1tA_Qx-ggEAAwIAA3gAAzYE',
+        bookname: 'Elon Musk',
+        rating: '5.0',
+        PDFid: '1nZbTAzsUKib7lo_P8CRyRvo2L30qxkJ6',
+        EPUBid: '1sQH26u2Z3jB2XwO-MyC1cFKoPoW7pX-B',
+        pdffile: '0.85',
+        epubfile: '0.5'
+    },{
+        numberid: '36',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACaxlnsc7Nu7qBq5z5dmucSM_H64PaSwACOcoxG-94kVUC7UOW3upbIAEAAwIAA3gAAzYE',
+        bookname: 'How to Talk to Anyone',
+        rating: '5.0',
+        PDFid: '1RxmOcvSF15RZQWyaF3-8qHTjFshglP6A',
+        EPUBid: '1sQH26u2Z3jB2XwO-MyC1cFKoPoW7pX-B',
+        pdffile: '2.99',
+        epubfile: '0.38'
+    },{
+        numberid: '35',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACayFnsc7mhHjo3KQj9JvP5AAB-Lqbx-0AAj3KMRvveJFVUUYMwU4y0cIBAAMCAAN4AAM2BA',
+        bookname: 'The Power of Your Subconscious Mind',
+        rating: '5.0',
+        PDFid: '1lYEiTr7ZlDBOrerHuK2UEu1j0waGYB-i',
+        EPUBid: '1TiY-uVO5-QzStSQS8qlmWUhejsA-Xhn4',
+        pdffile: '0.86',
+        epubfile: '0.22'
+    },{
+        numberid: '34',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACayNnsc7q0N6vHq4M6QvG56as0xYn8AACPsoxG-94kVU2DIM4_cbYHQEAAwIAA3gAAzYE',
+        bookname: 'Twisted Games',
+        rating: '5.0',
+        PDFid: '1JAPAKwGWaRVz5CojGAdWE_IZ656g0iQl',
+        EPUBid: '1vDp30KBreiXf2RR7g8sGkqJ6bzLiOHmD',
+        pdffile: '1.36',
+        epubfile: '0.48'
+    },
+    // new content
+    {
+        numberid: '33',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACYPpng62RgVBk93GZgv7wswwieLGl1gACdMAxG2bAGVQMpq7-Yp0pAAEBAAMCAAN4AAM2BA',
+        bookname: 'The Art of Laziness',
+        rating: '5.0',
+        PDFid: '19Mgc4ro_ySaXPZZ2DwUp2M4-9V2CsWpd',
+        EPUBid: '1cik4GPk7DVzDpkq4VFQ4miHYw75R3gMj',
+        pdffile: '0.665',
+        epubfile: '0.204'
+    },{
+        numberid: '32',
+        category: 'Biography & Autobiography',
+        img:'AgACAgUAAx0Eflp52gACYPhng62N8HJsCSu7fhpHyxb949h1vwACc8AxG2bAGVRfjibsbuehlQEAAwIAA3gAAzYE',
+        bookname: 'When Breath Becomes Air',
+        rating: '5.0',
+        PDFid: '1ItQS-MXOnurt0OVi7rTZFWDsa27S1ynv',
+        EPUBid: '1SZI1xZhPKT2p9i0k6zkfJ8sOJPPAbZBo',
+        pdffile: '1.44',
+        epubfile: '4.72'
+    },{
+        numberid: '31',
+        category: 'Society, Politics & Philosophy',
+        img:'AgACAgUAAx0Eflp52gACYPZng61daqgdOlT0agZ6DvmcSub5_AACccAxG2bAGVSTEGqVpCAvDAEAAwIAA3gAAzYE',
+        bookname: 'What Are You Doing With Your Life',
+        rating: '5.0',
+        PDFid: '1Hb4n-HcegNMoUD0ljzSmnOEpe6FnUwBd',
+        EPUBid: '1CctGgYLx8gRJ3-sVMLARcszJG36kCmEM',
+        pdffile: '1.96',
+        epubfile: '3.35'
+    },{
+        numberid: '30',
+        category: 'Personal Growth & Inspiration',
+        img:'AgACAgUAAx0Eflp52gACYPRng61ZgDbBQh2jQEJv87HrJouxjgACcMAxG2bAGVR2e8WbCb-wTgEAAwIAA3gAAzYE',
+        bookname: 'The Compound Effect',
+        rating: '5.0',
+        PDFid: '1jepp4cUZPxTs9gNRjg53gcb3liKZRmJ2',
+        EPUBid: '1uNB60OSnaIuxHQirRDklEOKAUHuXdHo0',
+        pdffile: '8.08',
+        epubfile: '5.51'
+    },{
+        numberid: '29',
+        category: 'Science Fiction',
+        img:'AgACAgUAAx0Eflp52gACYOZng60_8P21-vowWwSs0XZHlXVwkQACacAxG2bAGVQaI7fe0yVlkwEAAwIAA3gAAzYE',
+        bookname: '三體',
+        rating: '5.0',
+        PDFid: '1ptLtFUe3RqlJsdaSMT2pMgNNRW5yA-PM',
+        EPUBid: '1H2tLZdKIhZcY0LD1gSOqyADK7ceBhbbW',
+        pdffile: '26.4',
+        epubfile: '1.975'
+    },{
+        numberid: '28',
+        category: 'Society, Politics & Philosophy',
+        img:'AgACAgUAAx0Eflp52gACYOhng61C-ai2FufE37rNf8KEUCKljgACasAxG2bAGVRPKMtDuaOrXQEAAwIAA3gAAzYE',
+        bookname: 'The Science of Can and Cannot',
+        rating: '0.0',
+        PDFid: '1P07Hg1QUeroxGQ65rkg59u-mibm2iAwr',
+        EPUBid: '1EbkW5zuVMRMXRWzRg8e6RxMtYPayNYxB',
+        pdffile: '2.1',
+        epubfile: '0.506'
+    },{
+        numberid: '27',
+        category: 'Programming',
+        img:'AgACAgUAAx0Eflp52gACYPBng61SA4iwnZu0yj6lIiBqsGNhzwACbsAxG2bAGVRk5vTwcOgvowEAAwIAA20AAzYE',
+        bookname: 'Effective JavaScript',
+        rating: '0.0',
+        PDFid: '1g0eM2Z2UgYsL1OCJmNnWbQkwH7B_fBjP',
+        EPUBid: '13foTj3MhaCaF_301JurhoBI3KiKH6tDE',
+        pdffile: '2.1',
+        epubfile: '0.506'
+    },{
+        numberid: '26',
+        category: 'Biography & Autobiography ',
+        img:'AgACAgUAAx0Eflp52gACYOxng61KD0eoHEDocEimBE-BaDMX6gACbMAxG2bAGVSSFTRg7WSTmgEAAwIAA3gAAzYE',
+        bookname: 'Endurance',
+        rating: '5.0',
+        PDFid: '1_GvhMDCldqiCGbc_i_TpHnds1ydSJOJa',
+        EPUBid: '16wmdBr0KfYsqxvkU6K7SG2fih6Z-fptL',
+        pdffile: '3.54',
+        epubfile: '4.62'
+    },{
+        numberid: '25',
+        category: 'Programming',
+        img:'AgACAgUAAx0Eflp52gACYORng605ygGok6mcYAwsLmlmfD-VIQACaMAxG2bAGVRFY9RcjAba2wEAAwIAA3gAAzYE',
+        bookname: '算法导论',
+        rating: '0.0',
+        PDFid: '1-9gLB3hU8H0lIuQsajVBuFbcEXPPXsX3',
+        EPUBid: '#',
+        pdffile: '141',
+        epubfile: '0.0'
+    },{
+        numberid: '24',
+        category: 'Literary Fiction',
+        img:'AgACAgUAAx0Eflp52gACYOpng61H0d6NdBKn8Z6nHy2q8ZD2HwACa8AxG2bAGVTYvwRI1yUAAf0BAAMCAAN4AAM2BA',
+        bookname: 'One Hundred Years of Solitude',
+        rating: '4.0',
+        PDFid: '1gMLABm3Vv6xfm0TVjYxoltXS3f1kA61K',
+        EPUBid: '1u1X0aWHn7HCSdSALIy8FNYQ-c8rCAsJG',
+        pdffile: '1.16',
+        epubfile: '0.491'
+    },{
+        numberid: '23',
+        category: 'Business & Economics',
+        img:'AgACAgUAAx0Eflp52gACYO5ng61PUuVVoLN_0jKXUqrLJIygrAACbcAxG2bAGVRdA9wEjZH4ygEAAwIAA3gAAzYE',
+        bookname: 'How to win friend & influence people',
+        rating: '1.0',
+        PDFid: '1H-f5Y6Jc_KsYkKXSfYXBlJO_Q8OERdkm',
+        EPUBid: '1E7ZUjbFTi51qRnX1Roikj-jMHacmIlWu',
+        pdffile: '0.883',
+        epubfile: '0.341'
+    },{
+        numberid: '22',
+        category: 'Programming',
+        img: 'AgACAgUAAx0Eflp52gACYPpng62RgVBk93GZgv7wswwieLGl1gACdMAxG2bAGVQMpq7-Yp0pAAEBAAMCAAN4AAM2BA',
+        bookname: 'Programming Quantum Computers        ',
+        rating: '0.0',
+        PDFid: '1jSNnyvscDPGixVK-y2h7G1k4v42VxTTM',
+        EPUBid: '1u1X0aWHn7HCSdSALIy8FNYQ-c8rCAsJG',
+        pdffile: '51.0',
+        epubfile: '48.6'
+    },{
         numberid: '1',
         category: 'Fiction',
         img: 'AgACAgUAAx0Eflp52gACWptnelIyUasD7lnj8_uXzhdBSsnsPAACVb0xG-P60FcwjfNpNHxDqQEAAwIAA3cAAzYE',
