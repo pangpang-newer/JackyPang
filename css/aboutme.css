@@ -1,104 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&family=Noto+Serif+HK&family=Paytone+One&family=Roboto+Slab:wght@500;700&family=Roboto:wght@300;700&display=swap');
 :root{
 
-font-family: 'Libre Baskerville', serif;
-font-family: 'Noto Sans TC', sans-serif;
---content-c: 'Noto Serif HK', serif;
-font-family: 'Paytone One', sans-serif;
---content-1: 'Roboto', sans-serif;
---content-2: 'Roboto Slab', serif;
---title-1: 'Anton', sans-serif;
-}
-:root{
---title-size:1.5rem;
---title:var(--title-1);
---mainncontent:var(--content-1);
---maincontent-size:18px;
+--font-family1: 'Libre Baskerville', serif;
+--font-family2: 'Noto Sans TC', sans-serif;
+--font-family3: 'monospace', serif;
+--font-famliy4: serif;
 
+}
+
+:root{
+--title-font:8px;
+--title-font-1:10px;
+--content-font-2:12px;
+--minititle-font-3:16px;
+--header-font-4:2rem;
+--title-font-5:24px;
 }
 body{
   margin: 0;
   padding: 0;
 }
-.Sec-size{
-    height: 100vh;
-    width: 90vw;
-    text-align: center;
+ 
+.cvcontainer > h{
     display: flex;
-    }
-  
-
-.aboutme{
-    width: 50vw;
-    font-size: 1rem;
-    text-align: center;
-    color: red;
-    display: inline-block;
-    
+    font-family:var(--font-family2);
+    color:black;
+    font-size: var(--header-font-4);
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
-.biophoto{
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-      
+.cvcontainer>h2{
+ font-family: var(--font-family1);
+ font-weight: bold;
+ font-size: 22px;
+ margin-bottom: 0.5rem;
+
+}
+.cvcontainer >li{
+ font-family: var(--font-family3);
+ font-weight: none;
+ font-size: 14px;
+ margin-bottom: 0.5rem;
+}
+.cvcontainer > p1{
+font-family:var(--font-family1);
+font-size: 18;
+margin-bottom: 0.25rem;
+}
+.cvcontainer > p{
+font-size: 18px;
+font-family: var(--font-family3);
     }
-    .blogbox{
-     grid-template-columns: 1fr;
-        display: grid;
-        align-items: center;
-    }
-    .title{
-    font-family: var(--title); 
-    font-size: var(--title-size);
-    display: block;
-    font-size: 24px;
+.personalphoto{
+    position: absolute;
+    top: 260px;
+    height: 175px;
+    width: 150px;
+    float:left;
     margin: 0;
-
-    }
-    .maincontent{
-   font-family:var(--content-2);
-   font-size: var(--maincontent-size);
-   width: 80vw;
-   margin-left: auto;
-   margin-right: auto;
-   font-size: 16px;
-  
-  
-
-    }
-    .section{
-     margin-bottom: 3rem;
-     align-items: center;
-     margin-left: 10vw;
-     margin-right: 10vw;
-
-    }
-    .imgcontainer{
-        display: flex;
-        height: auto;
-        width: 100vw;
-    }
-    .pimg{
-     height: 400px;   
-     width: 300px; 
-    margin: auto;
-   
-    }
-    .hrline{
-width: 80vw;
-border-top:0.25rem  solid #333300 ;
-    }
-    .date{
-        font-family: var(--content-1);
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    @media (max-width: 640px) {
-    p{
-         font-size: 12px !important;
-         margin-top: 0;
-         align-items: center;
-         
-    }
-    }
+    background-color: #333300;
+    z-index: 10;
+}
+.personalphoto>img{
+    object-fit: contain;
+    height: 175px;
+    width: 150px;
+}
