@@ -95,7 +95,8 @@ eassy:`## Hi
 
 當然我寫這個也是試一下Markdown用法。
 `
-},{
+},
+         /*           {
     idname:"micWorld",
     pic:"homepic/IMG_0869.JPG",
     mini_statu:"Article" ,
@@ -123,7 +124,7 @@ eassy:`## Hi
 ***  
 ![World.jpeg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXSdnfXs2Mii7pNQnHkroml179jYN8gACmb8xGwG98VdNVrR3Drp0-QEAAwIAA3kAAzYE)
 `
-},{
+},*/{
     idname:"Vpn",
     pic:"homepic/vpn.png",
     mini_statu:"MiniTool" ,
@@ -372,6 +373,6 @@ eassy:`## 段永平在浙大的2025对话精华
 }
 ]
 
-export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary"];
+export const idname=["Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary"];
 
 
