@@ -13,14 +13,13 @@
 
 .category{
     position: absolute;
-    display: flex;
     flex-direction: column;
     width: 150px;
     background-color: none;
     padding: 0;
     margin: 0;
-    left: 0;
-    top:259.4px; 
+    left: 20px;
+    top:280px; 
     z-index: 1;
 }
 
@@ -137,7 +136,9 @@
 .bookscontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     justify-content: space-evenly;
     background-color: white;
@@ -162,9 +163,12 @@
 
 .book{
     display: flex;
+    margin-bottom: 10px;
     margin-top: 10px;
     width: 275px;
     height: 125px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .leftside{
@@ -211,7 +215,7 @@
     width: 173px;
     height: 36.5px;
     font-size: 10px;
-    border: #2a2a2a 1px solid;
+    border: #2a2a2a 0.5px solid;
     
 
 }
@@ -220,27 +224,30 @@
     width: 173px;
     height: 36.5px;
     font-size: 10px;
-    border: #2a2a2a 1px solid;  
+    border: #2a2a2a 0.5px solid;  
 }
 .pdf,.epub{
     border-radius: 10px;
-    background-image: linear-gradient(to left, #f51720, #fa26a0);
+    background-color: #f5ecd0;
+    /*background-image: linear-gradient(to left, #f51720, #fa26a0);*/
     padding: 0px;
     transition: background-img 0.5s padding 0.5s;
 }
 .epub :hover{
-    background-image: linear-gradient(to left, blue, green);
+    background-image: linear-gradient(to right, #a6af80,#f5ecd0);
     padding: 0px;
-    color: white;
+    color: #2563eb;
     border-radius: 10px;
     padding-bottom: 3px;
+    font-weight: bold;
 }
 .pdf :hover{
-    background-image: linear-gradient(to left, blue, green);
+    background-image: linear-gradient(to right, #a6af80,#f5ecd0);
     padding: 0px;
-    color: white;
+    color: #2563eb;
     border-radius: 10px;
     padding-bottom: 3px;
+    font-weight: bold;
     
 }
 .link{
