@@ -1,5 +1,195 @@
 export const books = [
     {
+        numberid: '61',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACeixnzBZ7AAGccReYsXxK0jTyZNW-GccAAm7CMRs7_WBWcxHah20hPqABAAMCAAN4AAM2BA',
+        bookname: '12 rules for life',
+        rating: '3.0',
+        PDFid: '1IRiV-PptMkifkw7qXyfgJNws6O-AY0zu',
+        EPUBid: '1AY8MZIi4wn2r6pFeE2mbKwZAb8aeAmRK',
+        pdffile: '4.75',
+        epubfile: '1.28'
+    },{
+        numberid: '60',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACei5nzBaAZvVqIibPhQEsKqtgmu4nWQACb8IxGzv9YFYGAzGo026ZMAEAAwIAA3gAAzYE',
+        bookname: 'Hidden potential',
+        rating: '5.0',
+        PDFid: '107AIPseO4WRHZJ-2PPsAbdXwagVdWSyG',
+        EPUBid: '1vOQqS0J5jYALRLPMiPRk4TUGdetr3aUJ',
+        pdffile: '24.56',
+        epubfile: '18.80'
+    },{
+        numberid: '59',
+        category: 'Economics',
+        img:'AgACAgUAAx0Eflp52gACejBnzBaEeoN5bAw3lZ-xZtJz9jV4_wACcMIxGzv9YFaug6o9kgEuHwEAAwIAA3gAAzYE',
+        bookname: 'Die with zero',
+        rating: '3.0',
+        PDFid: '1MF3QKpTEBpD6Rc7zrspsooJy6CEQ1zeA',
+        EPUBid: '1N8BHl2K6eukkZGcRfHQlv0WjxAfxVS56',
+        pdffile: '3.10',
+        epubfile: '1.69'
+    },{
+        numberid: '58',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACeiZnzBZscTLMwF-KnvfM6t2BGbby6QACa8IxGzv9YFb5VehLaqnkIQEAAwIAA3gAAzYE',
+        bookname: 'Don\'t trust your gut',
+        rating: '3.0',
+        PDFid: '1dfDZxPzSR5sHacbuuueq1QUmButJ5WuH',
+        EPUBid: '1pML2AjO68hAbA0bw-vH2LH9H3eZUERkq',
+        pdffile: '13.46',
+        epubfile: '10.61'
+    },{
+        numberid: '57',
+        category: 'Education Studies',
+        img:'AgACAgUAAx0Eflp52gACeihnzBZyb5xq-2FolTZm6o6U4ueJkAACbMIxGzv9YFYs9HrA2Ly3kgEAAwIAA3gAAzYE',
+        bookname: 'Excellent sheep',
+        rating: '3.0',
+        PDFid: '1OVzf4Sef1_OyhwoiTOL7MmFGEqPcKvYI',
+        EPUBid: '1IeVyHwQ3O6RrXsJ7pI4ROn3rzjnq53_v',
+        pdffile: '1.79',
+        epubfile: '0.53'
+    },{
+        numberid: '56',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACeipnzBZ3NyB-tI5I4a8N7_8cbprdsAACbcIxGzv9YFYdKE5C2l-r0AEAAwIAA3gAAzYE',
+        bookname: '7 rules of power',
+        rating: '3.0',
+        PDFid: '1M0PAeYlI5sempxoUOvtaWEY5leXQXke-',
+        EPUBid: '1bmz5fB94umWnZ_HzTCcDTBfS_rzAi6D6',
+        pdffile: '2.16',
+        epubfile: '0.74'
+    },{
+        numberid: '55',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACehJnyzYllDjw8ifu2VX9FdWOmiGUBAAC4cAxGzv9YFZDn2PafXazqwEAAwIAA3gAAzYE',
+        bookname: 'the intelligence trap',
+        rating: '1.0',
+        PDFid: '13WEilGLstB4aJodUAL2O19XsygyAD0se',
+        EPUBid: '1ZpxK2ExexyweKhc_gpPcIqqmfbLAMqp5',
+        pdffile: '3.98',
+        epubfile: '2.26'
+    },{
+        numberid: '54',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACeiBnyzZh0Vqr6et6KAVeG6bnZYBkAAPowDEbO_1gVqRwjqlAdclqAQADAgADeAADNgQ',
+        bookname: 'Good Vibe, Good Life',
+        rating: '3.0',
+        PDFid: '1x0toWeSE3RiALAjJJ6FnN6J05qdJoylq',
+        EPUBid: '1AqamikVi3s9wDNhGK53SUOfu2zSt1YgT',
+        pdffile: '3.04',
+        epubfile: '1.52'
+    },{
+        numberid: '53',
+        category: 'Fiction',
+        img:'AgACAgUAAx0Eflp52gACeiRnzAnNWrAZNllA6-lVcH7xepXyEwACRMIxGzv9YFZyVRSAdBw0swEAAwIAA3gAAzYE',
+        bookname: '长日将尽',
+        rating: '4.0',
+        PDFid: '12Twbnd_LA-lnQmPf_sEyBh9X0JPkLFAZ',
+        EPUBid: '1g7_t8QU080lAZWOYUrqHze9S_Ke3-Pc-',
+        pdffile: '1.90',
+        epubfile: '0.35'
+    },{
+        numberid: '52',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACeh5nyzZdJ-3SF1C6B-k9k8JRTD3EBQAC58AxGzv9YFbQ_dU47caahAEAAwIAA3gAAzYE',
+        bookname: 'Don\'t believe everything you think',
+        rating: '3.0',
+        PDFid: '1h9QLP550oBSI06r1hYJajNcAGD3I5Cl2',
+        EPUBid: '1MFji2YmGX3Cu4vnIA_t92OOOsrmYcwmf',
+        pdffile: '0.75',
+        epubfile: '0.93'
+    },{
+        numberid: '51',
+        category: 'Economics',
+        img:'AgACAgUAAx0Eflp52gACeg5nyzYfT2DNJ4Ia8XD7YJBtpLO3oAAC38AxGzv9YFYM-bjYZcfknAEAAwIAA3gAAzYE',
+        bookname: 'Same as ever',
+        rating: '3.0',
+        PDFid: '14FYhy6zCoJf-xKBVC49ogb5REgCsrGVl',
+        EPUBid: '1rL6OrzAUGRd0nJOjwW7cjOmgWGO9PR78',
+        pdffile: '2.24',
+        epubfile: '4.05'
+    },{
+        numberid: '51',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACehRnyzYqum6n8fxWzjr9yk1osrF1qQAC4sAxGzv9YFZOQunRy8bYkwEAAwIAA3gAAzYE',
+        bookname: 'Theory of games and economic behavior',
+        rating: '3.0',
+        PDFid: '1EVRr7owHSLcS9W1wyTYiiFIWqcLnlnPK',
+        EPUBid: 'N/A',
+        pdffile: '4.25',
+        epubfile: 'N/A'
+    },{
+        numberid: '50',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACehxnyzY4KVBIHFflTFcj7gKiVbzZGgAC5sAxGzv9YFbEDfCzrh7r5QEAAwIAA3gAAzYE',
+        bookname: 'Deep simplicity',
+        rating: '3.0',
+        PDFid: '1L0wjzdlrXZDK0QtZZHkmUpDzr8ld-Eu2',
+        EPUBid: '1tZ59_yBMD9QClhPjDZXzH5OGyz0gNR_U',
+        pdffile: '2.76',
+        epubfile: '2.68'
+    },{
+        numberid: '49',
+        category: 'Economics',
+        img:'AgACAgUAAx0Eflp52gACehZnyzYuk_sRWPZTulqRkwABDMGyDQQAAuPAMRs7_WBWyN-WXJW24x0BAAMCAAN4AAM2BA',
+        bookname: 'Thinking in Systems',
+        rating: '5.0',
+        PDFid: '1JMY33nC4F3zSfydc-irjidFK3ocRBctm',
+        EPUBid: '18o-rZYSwB3j6mkQpwxcMGIqN_ZlcfJN3',
+        pdffile: '2.91',
+        epubfile: '2.65'
+    },{
+        numberid: '48',
+        category: 'Management',
+        img:'AgACAgUAAx0Eflp52gACehhnyzYxOhyzhdez0Ai8gA3QlttQ1wAC5MAxGzv9YFYwwjHnBS3SfQEAAwIAA3gAAzYE',
+        bookname: 'Why greatness cannot be planned',
+        rating: '5.0',
+        PDFid: '1sdUuxAzPOP1nwGpKPT4PnhtMlQ7_qBie',
+        EPUBid: '1qR1ZFQ4RZYtK8wPR_yuN1Jbx5-VUxkDM',
+        pdffile: '1.51',
+        epubfile: '0.85'
+    },{
+        numberid: '47',
+        category: 'Biography',
+        img:'AgACAgUAAx0Eflp52gACehpnyzY1_ddWyHRXe4klulUmwRsKiQAC5cAxGzv9YFYufMZcfzpglgEAAwIAA3gAAzYE',
+        bookname: '清算已毕',
+        rating: '5.0',
+        PDFid: '1EtCGRC1gz_GXzzioTRWtvjPuFd2s-Z8E',
+        EPUBid: '1X-KqHfpkDpnptJj81KVXA661lpSc1cDn',
+        pdffile: '2.13',
+        epubfile: '1.18'
+    },{
+        numberid: '45',
+        category: 'Education Studies',
+        img:'AgACAgUAAx0Eflp52gACegpnyzYWieXfxIKY2dM5kPk1us192QAC3cAxGzv9YFb7y7LdU321MAEAAwIAA3gAAzYE',
+        bookname: 'how to read a book',
+        rating: '4.5',
+        PDFid: '115nucEXnDqqe-_M1FelMley-CTmLXr4d',
+        EPUBid: '10GFlGP5V1JQoKjkumOkU3XSQHdvjYLqL',
+        pdffile: '46.8',
+        epubfile: '0.51'
+    },{
+        numberid: '44',
+        category: 'Psychology',
+        img:'AgACAgUAAx0Eflp52gACehBnyzYjpcrUpDkKBRJmpp71Dh_d6AAC4MAxGzv9YFY7Ye7Fc6a4nAEAAwIAA3gAAzYE',
+        bookname: 'Surrounded by idiots',
+        rating: '3.0',
+        PDFid: '14x_sLQRfEFoqlV5JsqnqlfGrAaSN-uHv',
+        EPUBid: '1aAEtAZLLkor_U0WJJc_5jE3tZu32D3n2',
+        pdffile: '4.46',
+        epubfile: '1.76'
+    },{
+        numberid: '43',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACegxnyzYbSJVDbZwqeL-GLbIGjkAHnAAC3sAxGzv9YFYQLgABpEdq58gBAAMCAAN4AAM2BA',
+        bookname: 'Never Split the Difference',
+        rating: '5.0',
+        PDFid: '1cpIAK46pDsGcIkOc9dez-DyPJ1by19sq',
+        EPUBid: '19KAsR1GMCycCnLa_qyyfS-IMZTyRoScw',
+        pdffile: '1.56',
+        epubfile: '0.50'
+    },{
         numberid: '42',
         category: 'Self-Help',
         img:'AgACAgUAAx0Eflp52gACayVnsc7u6l08Ltpm_w9GAAEZpl6i8_0AAj_KMRvveJFVGLcptZ31g44BAAMCAAN4AAM2BA',
