@@ -1,5 +1,75 @@
 export const books = [
-    {
+     {
+        numberid: '68',
+        category: 'Economics',
+        img:'AgACAgUAAx0Eflp52gAChh5n5YBiVwWWj3a159LstDu74C2OtgACeMQxG9hpMFclMocwomkJ8AEAAwIAA3gAAzYE',
+        bookname: 'The Sovereign Individual',
+        rating: '4.5',
+        PDFid: '1qfrunA_ZFzARc_ecJC8tGiaK94abQI4Z',
+        EPUBid: '10mjprL1SXJZRO8wjxlEl6FsOwRGxpJaF',
+        pdffile: '26.50',
+        epubfile: '2.42'
+    },{
+        numberid: '67',
+        category: 'Philosophy',
+        img:'AgACAgUAAx0Eflp52gAChiBn5YBnFQzJWLPVZ0nHTjvLZ_OjagACecQxG9hpMFc_kHWAxiosgQEAAwIAA3gAAzYE',
+        bookname: '48 Laws of Power',
+        rating: '3.0',
+        PDFid: '1IrF7j5LHrNzeWMJWcbeb8SN4oikL98KY',
+        EPUBid: '1BDfvwo2Qd-VMCWwEeqa6NTs-Xe1mPriL',
+        pdffile: '2.26',
+        epubfile: '0.61'
+    },{
+        numberid: '66',
+        category: 'Fiction',
+        img:'AgACAgUAAx0Eflp52gAChhxn5YBaLclLIkxH4wABNbrt3jlaDQYAAnfEMRvYaTBXo8gg6b3OaokBAAMCAAN4AAM2BA',
+        bookname: 'Notes from Underground',
+        rating: '4.0',
+        PDFid: '1FOGA1-82nTAuAnK-ylsKuxO83YPzWEiV',
+        EPUBid: '1Le3L-StCFyRaV15CPgTYpnGO49cJ3rqF',
+        pdffile: '0.68',
+        epubfile: '1.90'
+    },{
+        numberid: '65',
+        category: 'Society',
+        img:'AgACAgUAAx0Eflp52gAChiJn5YBr1P5gjXbYnvxEigf68KswhQACesQxG9hpMFcJmyE5gE-4EwEAAwIAA3gAAzYE',
+        bookname: 'Beyond Good And Evil',
+        rating: '5.0',
+        PDFid: '1VHxZIoqN_zEmVpF_3wK9QQt6fEHIupc1',
+        EPUBid: '1iGzeaW4UaZbBV9qw9tyvqFOzgMzuJIKd',
+        pdffile: '0.94',
+        epubfile: '0.55'
+    },{
+        numberid: '64',
+        category: 'Fiction',
+        img:'AgACAgUAAx0Eflp52gAChiRn5YBvoaGQWOd2F9cK9dJ1dfRRfQACe8QxG9hpMFfs1N780SL5eQEAAwIAA3gAAzYE',
+        bookname: 'The Myth of Sisyphus',
+        rating: '5.0',
+        PDFid: '1VHxZIoqN_zEmVpF_3wK9QQt6fEHIupc1',
+        EPUBid: '1iGzeaW4UaZbBV9qw9tyvqFOzgMzuJIKd',
+        pdffile: '0.64',
+        epubfile: '0.19'
+    },{
+        numberid: '63',
+        category: 'Fiction',
+        img:'AgACAgUAAx0Eflp52gAChiZn5YBz-Kr-e1TZtXcHIHI64rX6dgACfMQxG9hpMFeJAWR89AOeRwEAAwIAA3gAAzYE',
+        bookname: 'The Brothers Karamazov',
+        rating: '5.0',
+        PDFid: '1a3DQ9hA4m8EAoWZpcW372Yy-I3f-Xf-q',
+        EPUBid: '1yYFCGaXiQzdRclfn2FD2qOZHzlB_ITlw',
+        pdffile: '5.36',
+        epubfile: '0.90'
+    },{
+        numberid: '62',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gAChihn5YB4FW80U8kOSlyBQ5s32jAEiQACfcQxG9hpMFcaHkMd8UCjOQEAAwIAA3gAAzYE',
+        bookname: 'The 5 Types of Wealth',
+        rating: '5.0',
+        PDFid: '1V9HCVwzoNXiAkUglsA91yaZ0JYQzBLsk',
+        EPUBid: '1ZUG4iIOWk_i1KnTR879ymsuyfvvjD7_k',
+        pdffile: '11.85',
+        epubfile: '9.40'
+    },{
         numberid: '61',
         category: 'Self-Help',
         img:'AgACAgUAAx0Eflp52gACeixnzBZ7AAGccReYsXxK0jTyZNW-GccAAm7CMRs7_WBWcxHah20hPqABAAMCAAN4AAM2BA',
