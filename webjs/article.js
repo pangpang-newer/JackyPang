@@ -45,7 +45,58 @@ export const reblog=[/*{
 }
 ];
 
-export const pages=[{
+export const pages=[
+    {
+    idname:"Meme",
+    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVpn5RiadyFUAtbNwFKWkiGZD8ve7gACzMQxG9hpKFex2q35wUnPKQEAAwIAA3kAAzYE",
+    mini_statu:"MiniTool" ,
+    mini_title:"MEME买新技巧", 
+    link:"../Homepage_inventory/meme.html",
+    miantext:"DEV创建-->扫链高手抢进-->链上聪明钱...",
+eassy:`### MEME买新技巧     
+1. MEME新盘逻辑透析.
+    1. DEV创建-->扫链高手抢进-->链上聪明钱买进-->KOL明牌地址买进-->早期散户买进-->更广大的散户买进-->上所被交易所的用户买进,这是新币买进阶段层，通常第一层的meme价格最低。  
+
+    2. 成为扫链高手，争当最早最前的一环。跟和监控**知名地址们**,可使用观测网站，或推特收集地址集合。MEME新盘赚钱的核心逻辑就只有一个：要抢在绝大多数人之前发现并买入。
+    3. 扫链认知避坑-学习扫链方法。
+    4. 懒方法，开推特网页阅览信息，如方程式获知第一时间新闻，大众聪明钱监控网站，币圈微信群，拥有自己的极早期信息流，在打新盘时，三列看板只应该占你总体信息流的30%，剩下的靠分析信息。
+2. 简单精准地抓取真正聪明钱的方法  
+    1. 利用dune工具去寻找高胜率地址，争取在最早期或拉盘之前了解到信息。总结举例就是：比如，想研究的是地址A，这个地址A在M1、M2、M3、M4这些币上赚了不少钱。将M1、M2、M3、M4这些币中，在地址A买入之前的所有地址都抓出来。 比如： 在M1中抓取到了排在地址A之前买入的有地址B、C、D、E。 在M2中抓取到了排在地址A之前买入的有地址C、E、F。 在M3中抓取到了排在地址A之前买入的有地址E、H。 在M4中抓取到了排在地址A之前买入的有地址E、P。 这样一看，筛选下重复项，在地址A的每一次买入前，都有地址E存在，那这个地址E极大概率就是这位知名大哥A自己独门监控的聪明钱了。 相信我，你自己去抓，很多知名地址之前都能抓出来一些重复率甚至达到95%的地址。 以下用具体实例一步步地教给大家简单地方法。 1.选定一个有名且赚不少的大哥地址，大家可以自行选择想学习的地址。在这里我给他取名为地址A。  
+    2. 筛选出他地址总利润从高到低的排序。在这里最好是先找翻的倍数高的币种们（倍数高意味着他买的很早很快，低位早期的买入是我们要达成的目标）。  
+![Gm9XonHbYAMia3Q.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOxn5QrN2R4FRw0psiccnu6U4qR_gQACfcQxG9hpKFc5bEqHmkUMTwEAAwIAA3gAAzYE)
+
+    3. 在这里呢我们发现了在3月22日这天，ZAC这个币，他竟然吃了足足17倍之多。  
+![Gm9Xs3NbYAAk_tS.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChO5n5QrQauFOvYUSbBAVfjtP3nZDpwACfsQxG9hpKFcyJqDTTsPc4gEAAwIAA20AAzYE)
+
+    4. 接下来就去[BSC](https://bscscan.com)的区块链浏览器下载数据.
+![Gm9Xur5bYAE5PUI.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPBn5QrTf3BF5QMkeZ5GDYNOo8dItgACf8QxG9hpKFfKvCORzteTowEAAwIAA3kAAzYE)
+
+    5. 如果是SOL的话，更方便点，因为能自由筛选准确时间。就找一下地址A买入的准确时间，下载在此时间之前的记录即可。 不过每次只能下载1000条，如果地址A之前买卖的记录超过了1000条，就需要隔取时间多次下载了。（记得看清楚时间是UTC时间还是UTC+8时间，时间的切换在整个页面右上角的齿轮那里）
+![Gm9X5idaoAAk84f.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOZn5Qq7xQGdImx3ihkoKUCM4X9d3gACesQxG9hpKFfgTyB07kZnMAEAAwIAA3kAAzYE)
+
+    6. 回到BSC SCAN这里。在下载页面，输入ZAC的CA和选取时间，也就是他这个地址A交易的当天时间：3月22日。
+![Gm9X7ihasAA0Sgo.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOhn5QrAwg5HA2uAqw_wwJ6ZG37y5gACe8QxG9hpKFeQTo_BgTy07wEAAwIAA3kAAzYE)
+
+    7. 下载好后会得到一个表格文件，里面包含了3月22日ZAC这个代币的前5000条交易记录。（我这里用的是WPS）From那一列就是交易记录中的地址们了。在这里点击查找。
+![Gm9X9WZbYAMzgrM.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOpn5QrH1LY51MyMxMNySSBm8VETMQACfMQxG9hpKFf8Ik9dpbSNJQEAAwIAA3kAAzYE)
+
+    8. 在查询框中输入我们正在研究的地址A，点击查找。然后就能看到这个地址A处于哪个位置了，然后他之前的这些交易过的地址也就都列出来了。复制排在他之前的所有地址，到一个新表格中.
+![Gm9X_Y5bYAMsJXg.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPhn5QrlfjhR8M3UKiOiTMQIayu7VgACg8QxG9hpKFfwOhfnsJeiCwEAAwIAA3kAAzYE)
+
+    9. 重复上述的动作，完成对几个高倍高盈利币的提取工作。记得在新表格中做好备注，然后切记放到同一列中，如下图所示。
+![Gm9YI3zaAAANGwj.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPJn5QrXps86Pa7brkVu9a3BNoxf2AACgMQxG9hpKFcqPiVPJn9oWQEAAwIAA3kAAzYE)
+    10. 选中当列，点击筛选
+![Gm9YLyebEAAFPm3.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPRn5QrbX3tOU6Igxz2nefZEj3vKLgACgcQxG9hpKFe4nbqPZwf9fAEAAwIAA3kAAzYE)
+    11. 按照图中步骤，在这里能看到重复项。居然发现了一件事：有两个地址出现了四次。（因为此时我只用了四个代币的数据）。也就是说，这俩地址都是在这个聪明钱地址A的每一次买入之前就买入了，那么也就可以确定这俩地址极大概率是这个地址A监控的极早期扫链钱包，是这个聪明钱的跟单对象和他的独门信息流。或者呢，是这个知名聪明钱的两个小号
+![Gm9YNq_bYAIEDHK.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPZn5QrhmV9QKUOtX9VJvCzPhnCTzwACgsQxG9hpKFe0XAOytHBmfAEAAwIAA3kAAzYE)
+4. 建立自己的信息源
+这些明牌地址一旦开始出货，整个币价就会迎来大跳水，如果你确信抓到了某个一旦买入，就会带来一根超大阳线的聪明钱（比如ansem）的小地址的话，威力是很大的。
+
+FROM **@Shanks_A9z**
+
+![图片_20250327171755.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVhn5RgHDbTdfFTpN9zP67QGgfs-IQACy8QxG9hpKFfoT3nQcqU5LgEAAwIAA3cAAzYE)
+`
+},{
     idname:"zlibrary",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZDBnnQZ9wyDesiwwNUnkLs3qmOv3UAAC5s8xG9ib6FQu8yevGRWNUAEAAwIAA3kAAzYE",
     mini_statu:"MiniTool" ,
