@@ -67,3 +67,11 @@ font-family: var(--font-family3);
     height: 175px;
     width: 150px;
 }
+@media  (max-width: 800px){
+     .personalphoto{
+        display: none;
+    }  
+    .timeslot {
+        display: none;
+    }
+}
