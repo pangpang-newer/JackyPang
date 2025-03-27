@@ -244,12 +244,18 @@ align-items: center;
         grid-template-columns: 225px 225px;
         align-items: center;
     }
+    .Vicon{
+        display: none;
+    }
     
 }
 @media (max-width: 640px) {
     .blogbox {
         grid-template-columns: 225px;
         align-items: center;
+    }
+  .Vicon{
+        display: none;
     }
 }
 
@@ -330,5 +336,16 @@ cursor: pointer;
     border: blue 1px solid;
     border-radius: 3px;
 }
+.Vicon{
+display: flex;
+height: 95px;
+margin: 0 auto;
+z-index: 10;
+position: absolute;
+top:calc(22.5vh);
+left: calc(50vw - 84.46px);
+border-radius: 10%;
+}
+
 
 
