@@ -424,6 +424,6 @@ eassy:`## 段永平在浙大的2025对话精华
 }
 ]
 
-export const idname=["Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary"];
+export const idname=["Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","Meme"];
 
 
