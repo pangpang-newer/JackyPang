@@ -1,4 +1,12 @@
-import {books} from './movies.js';
+fetch('../Database/books.json').then(response => {
+  return response.json();
+}).then(data => {    
+ const books = data;  
+ bookgenerator(books);
+ Selector(books);
+ Sorting(books)
+})
+
 function bookgenerator(bookdatabase){
 let BookHTML='';
 
@@ -21,33 +29,37 @@ bookdatabase.forEach(book => {
 let Book_blocks=document.querySelector('.bookscontainer');
 Book_blocks.innerHTML=BookHTML;
 };
-bookgenerator(books);
 
+
+function Selector(subject){
 let getresult;
 document.getElementById('booksearchbutton').addEventListener('click',()=>{
   getresult=document.getElementById('SearchBookData').value.toLowerCase();
   console.log(getresult);
-    const filteredbook = books.filter(subook=>subook.bookname.toLowerCase().includes(getresult));
+    const filteredbook = subject.filter(subook=>subook.bookname.toLowerCase().includes(getresult));
     if (filteredbook.length == 0 ){
-      bookgenerator(books);
+      bookgenerator(subject);
       document.getElementsByClassName('bookscontainer')[0].innerHTML = `<p1  style="color:black; font-size:18px;width:1200px ; text-align:center" >Sorry, No such book found</p1>`;
     }
     else{
       bookgenerator(filteredbook)
     }
  })
+};
 
- 
+
+function Sorting(sortbook){
+
 const inputs = document.querySelectorAll('input');
 for ( const input of inputs ){
   input.addEventListener('click', (event) => {
     const elem = event.currentTarget;
     if (elem.checked) {
       const label = elem.parentNode.textContent.trim(); 
-      console.log(label);
-      const filteredbook = books.filter(subook => subook.category === label);
+      
+      const filteredbook = sortbook.filter(subook => subook.category === label);
       if (filteredbook.length == 0 ){
-        bookgenerator(books);
+        bookgenerator(sortbook);
       }
       else{
         bookgenerator(filteredbook)}
@@ -56,7 +68,7 @@ for ( const input of inputs ){
   });
 
 }
-
+};
 
 
 
