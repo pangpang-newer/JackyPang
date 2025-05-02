@@ -2,7 +2,7 @@ export const books = [
      {
         numberid: '84',
         category: 'Biography',
-        img:'AgACAgUAAx0Eflp52gACpEtegNoFBn5nvK795K-ZH-euZplQFiW3wACssExGwSMoVQBUgkp2X7-6wEAAwIAA3gAAzYE',
+        img:'AgACAgUAAx0Eflp52gACpENoFBn5nvK795K-ZH-euZplQFiW3wACssExGwSMoVQBUgkp2X7-6wEAAwIAA3gAAzYE',
         bookname: 'No Time to Spare',
         rating: '5.0',
         PDFid: '1VG6EN-eqA6HhnLxdkokunfQkNJbD4HZK',
