@@ -1,5 +1,165 @@
 export const books = [
      {
+        numberid: '84',
+        category: 'Biography',
+        img:'AgACAgUAAx0Eflp52gACpEtegNoFBn5nvK795K-ZH-euZplQFiW3wACssExGwSMoVQBUgkp2X7-6wEAAwIAA3gAAzYE',
+        bookname: 'No Time to Spare',
+        rating: '5.0',
+        PDFid: '1VG6EN-eqA6HhnLxdkokunfQkNJbD4HZK',
+        EPUBid: '1LU7RQsjy63C1PzLK4gZb1tPl8DWcPL7A',
+        pdffile: '5.943',
+        epubfile: '4.9'
+    },{
+        numberid: '83',
+        category: 'Business & Economics',
+        img:'AgACAgUAAx0Eflp52gACpDdoFBnjERmltd8s2OPL0JyThrhtDAACrMExGwSMoVQJPhV6_PlA7QEAAwIAA3gAAzYE',
+        bookname: 'Blue Ocean Strategy',
+        rating: '5.0',
+        PDFid: '10TywMTdG2tbT7NGcf9DvDqM-FLp6qoHw',
+        EPUBid: '10vRObTxCX4h1RNiBhUfEcr9gQIgW53VR',
+        pdffile: '5.545',
+        epubfile: '4.06'
+    },{
+        numberid: '82',
+        category: 'Economics',
+        img:'AgACAgUAAx0Eflp52gACpEFoFBn2rFaajhGSId8yJb9kZatUjAACscExGwSMoVSkNbjiiUqrbQEAAwIAA3gAAzYE',
+        bookname: '富爸爸，穷爸爸',
+        rating: '5.0',
+        PDFid: '10UbihIeQHlsuddZNNO-VUyQFsgqNCd9E',
+        EPUBid: '12-dup9cAuN_Jcho0YRd_K6mFouW7H0Tr',
+        pdffile: '6.51',
+        epubfile: '62.1'
+    },{
+        numberid: '81',
+        category: 'Fiction',
+        img:'AgACAgUAAx0Eflp52gACpEVoFBn9VK8BzFOQIASMXO3iRsnEJwACs8ExGwSMoVQfZgPcnEO2lAEAAwIAA3gAAzYE',
+        bookname: '草民',
+        rating: '5.0',
+        PDFid: '15kbWB60jb2_kOZ0EgpE0l7b7bwfhu4ya',
+        EPUBid: '19aSdCoY7DwesE0yn3KuqSIERPQnvycx8',
+        pdffile: '4.87',
+        epubfile: '0.625'
+    },{
+        numberid: '80',
+        category: 'History',
+        img:'AgACAgUAAx0Eflp52gACpDloFBnoH5AETnWYgt_Fm10Im8iBswACrcExGwSMoVTKZHEtpBoC0AEAAwIAA3gAAzYE',
+        bookname: 'The Confidence Game',
+        rating: '0.0',
+        PDFid: '1QjikP1_X8DdaPfkxIoQEkh8MaRh5sTNp',
+        EPUBid: '1L6LVnr_vUIouNpPBnwc9WaEWTx73Ogb3',
+        pdffile: '1.926',
+        epubfile: '0.883'
+    },{
+        numberid: '79',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACpE9oFBqE5SRDAAEQEsiJeOfhIrglLqcAArjBMRsEjKFU15OPI0BRpGkBAAMCAAN4AAM2BA',
+        bookname: '执行力',
+        rating: '0.0',
+        PDFid: '1pYibjjt0Zy-qwwESg725_o0N8fAjqqda',
+        EPUBid: '1MNFUAJEzshEcKKw5kKDzQv-5rhzB5Idx',
+        pdffile: '4.22',
+        epubfile: '1.9'
+    },{
+        numberid: '78',
+        category: 'Self-Help',
+        img:'AgACAgUAAx0Eflp52gACpFFoFBqHi-aGtn5F29N533sVaiPVBQACucExGwSMoVSXLleyP3Uj3gEAAwIAA3gAAzYE',
+        bookname: 'Inner Mastery, Outer Impact',
+        rating: '0.0',
+        PDFid: '15V9AebLo0QZYexOYmhMb2VoWXbi75aHi',
+        EPUBid: '11xb5I9dipEyU7TYboUPFJiBNspgsg9jw',
+        pdffile: '3.528',
+        epubfile: '1.71'
+    },{
+        numberid: '77',
+        category: 'Society',
+        img:'AgACAgUAAx0Eflp52gACpEloFBp83JCdEFR1cHiAfcwbzy9dHgACtcExGwSMoVTReSIqk3kUPQEAAwIAA3gAAzYE',
+        bookname: 'The Rise and Fall of the Neoliberal Order',
+        rating: '0.0',
+        PDFid: '17ncf-tSnY0taUpNK5vfdVww219i0VFFF',
+        EPUBid: '1Bjn0_2AHxsbrHyY1bH-CT2EA7LZqpILt',
+        pdffile: '3.445',
+        epubfile: '0.599'
+    },{
+        numberid: '76',
+        category: 'Society',
+        img:'AgACAgUAAx0Eflp52gACpF9oFBzv1GEwv2HqAk0eG-Cj8ip2MwACxsExGwSMoVSIsBEn2n70RAEAAwIAA3gAAzYE',
+        bookname: 'Antifragile',
+        rating: '5.0',
+        PDFid: '10igSA2y8-MiFAUvkTnNUwSfSmsyK8ztJ',
+        EPUBid: '1OJH7jkNgiSFMVIcHCIo8VFbPpaSxnizr',
+        pdffile: '6.6',
+        epubfile: '9.66'
+    },{
+        numberid: '75',
+        category: 'Business & Economics',
+        img:'AgACAgUAAx0Eflp52gACpFNoFBskkGtgfPln2_DfboERxBIaCQACvMExGwSMoVSe9QOhDq9iogEAAwIAA20AAzYE',
+        bookname: 'Peak',
+        rating: '4.0',
+        PDFid: '15yWGB_dnDLuyA_9rH_6Z_khSDCbbcWzt',
+        EPUBid: '1O80mmHuhNi4iDjnuDwtXQKagTnaNjLq6',
+        pdffile: '5.33',
+        epubfile: '0.37'
+    },{
+        numberid: '74',
+        category: 'Biography & Autobiography',
+        img:'AgACAgUAAx0Eflp52gACpFloFBsvqa2o_3Z-C5_MC04uqWpRsQACv8ExGwSMoVRIe8J6AQI-LwEAAwIAA3gAAzYE',
+        bookname: 'The Surrender Experiment',
+        rating: '0.0',
+        PDFid: '1nGt5twVdwooaG1FAawlUYa15atSLv9MF',
+        EPUBid: '1EfvU8Nd9TFl6tqiwHapiATdpQwfgg5fZ',
+        pdffile: '6.24',
+        epubfile: '4.96'
+    },{
+        numberid: '73',
+        category: 'Psychology',
+        img:'AgACAgUAAx0Eflp52gACpFVoFBsn0OEcgYSz3jBC2TP8oroLOQACvcExGwSMoVThu2dkAR08AAEBAAMCAAN4AAM2BA',
+        bookname: 'The Laws of Human Nature',
+        rating: '5.0',
+        PDFid: '17ncf-tSnY0taUpNK5vfdVww219i0VFFF',
+        EPUBid: '1QbrgAd1vE0UFFxuxu06uPXE-nZBh2oeI',
+        pdffile: '2.94',
+        epubfile: '1.01'
+    },{
+        numberid: '72',
+        category: 'Society',
+        img:'AgACAgUAAx0Eflp52gACpFdoFBsrSAp6BBwZ3981chxlC61HlgACvsExGwSMoVQD-eQGvC6vgwEAAwIAA3gAAzYE',
+        bookname: 'The Social Paradox',
+        rating: '0.0',
+        PDFid: '1JmW2S8vP8GimPfJ5RkJQ9xz-muMDkEGw',
+        EPUBid: '1nlXPvgCaDZJivucIizzv2KwYUofaiGGy',
+        pdffile: '5.31',
+        epubfile: '3.45'
+    },{
+        numberid: '71',
+        category: 'Business & Economics',
+        img:'AgACAgUAAx0Eflp52gACpEtoFBp-AAGRCMK6zk7oK2tiFkZgueUAArbBMRsEjKFUsxCqPHe96wUBAAMCAAN4AAM2BA',
+        bookname: 'Thinking like an Economist',
+        rating: '5.0',
+        PDFid: '1RVxk9xIllZtk40MsNrDW_BXlaxVMpbPA',
+        EPUBid: '1GjlabQgaMyyKip3mjgEguxDJWui8Rtqu',
+        pdffile: '3.314',
+        epubfile: '2.54'
+    },{
+        numberid: '70',
+        category: 'Society, Politics ',
+        img:'AgACAgUAAx0Eflp52gACpE1oFBqBIvxazRzNRsmFeQnWZGJT1gACt8ExGwSMoVT11wSRLB2C5wEAAwIAA3gAAzYE',
+        bookname: 'a Brief History of  Neoliberalism',
+        rating: '5.0',
+        PDFid: '1IMhuEoCQjb-2HAvMqh66PPzGcCpZJ5ZS',
+        EPUBid: '1s2jkkCvEo2Ar_HNEv6ql_v755gq3DnLC',
+        pdffile: '3.346',
+        epubfile: '0.841'
+    },{
+        numberid: '69',
+        category: 'Psychology',
+        img:'AgACAgUAAx0Eflp52gAChihn5YB4FW80U8kOSlyBQ5s32jAEiQACfcQxG9hpMFcaHkMd8UCjOQEAAwIAA3gAAzYE',
+        bookname: 'Thinking Fast and Slow',
+        rating: '5.0',
+        PDFid: '1mxUIHUW_yyxi8JcjDbr3MvGfPnb8spVI',
+        EPUBid: '1gXIbJpVKu7bz31ZN_TApUBxr8hxT4IUS',
+        pdffile: '3.91',
+        epubfile: '2.83'
+    },{
         numberid: '68',
         category: 'Economics',
         img:'AgACAgUAAx0Eflp52gAChh5n5YBiVwWWj3a159LstDu74C2OtgACeMQxG9hpMFclMocwomkJ8AEAAwIAA3gAAzYE',
