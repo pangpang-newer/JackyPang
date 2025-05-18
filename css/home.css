@@ -199,3 +199,30 @@ ul a {
     cursor: pointer;
 }
 
+.iconV{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wheathercontainer{
+    display: flex;
+    position: absolute;
+    height: 75px;
+    margin-left: 150px;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
