@@ -29,7 +29,7 @@ bookdatabase.forEach(book => {
 let Book_blocks=document.querySelector('.bookscontainer');
 Book_blocks.innerHTML=BookHTML;
 
-const checkstar = document.querySelectorAll('.Marks'); // select all but need to change the property one by one so need to use loop
+const checkstar = document.querySelectorAll('.Marks'); 
 const temp = document.querySelectorAll('.fa-star');
 for (let i = 0; i < checkstar.length; i++){
   if (parseInt(checkstart[i].innerHTML) === 5){
