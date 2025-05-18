@@ -70,6 +70,7 @@ for ( var filtering of filterings){
 };
 
 const locaiton = `hong kong`;
+const capitalletter = location.toLocaleUpperCase();
 const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${locaiton}/today?unitGroup=metric&include=current%2Cevents&key=DKXT84ZW7QW5LJDDYCMCRT2HX&contentType=json`;
 
 async function getWeather() {
@@ -79,8 +80,9 @@ async function getWeather() {
         const data = await response.json();
 
         // location 
+        
         const weatherlocation =  document.querySelector('.location');
-        weatherlocation.innerHTML= `Location :`+data.address;
+        weatherlocation.innerHTML= `Location :`+ capitalletter;
         //date 
         const weatherdate =  document.querySelector('.time');
         weatherdate.innerHTML= `Time :`+data.currentConditions.datetime;
