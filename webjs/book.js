@@ -16,8 +16,8 @@ bookdatabase.forEach(book => {
      <div class="leftside"><a href="#" class=""> <img src="https://img.131213.xyz/api/cfile/${book.img}" alt="pic error" class="bookimg" ></a></div>
      <div class="rightside">
        <div class="rating"><i class="fa-regular fa-star"></i> <span class="Marks">${book.rating}</span> <span class="Maxmarks">/5.0</span></div>
-       <div class="pdf"><a class="link"  href="https://drive.google.com/uc?id=${book.PDFid}"><span>Download(PDF,${book.pdffile}MB)</span></a></div>
-       <div class="epub"></i><a class="link"  href="https://drive.google.com/uc?id=${book.EPUBid}"><span>Download(EPUB,${book.epubfile}MB)</span></a></div>
+       <div class="pdf"><a class="link"  href="https://drive.google.com/uc?id=${book.PDFid}"><img src="../Database/icon/pdf.svg" alt="image">(PDF,${book.pdffile}MB)</a></div>
+       <div class="epub"></i><a class="link"  href="https://drive.google.com/uc?id=${book.EPUBid}"><img src="../Database/icon/Epub_logo.svg" alt="image">(EPUB,${book.epubfile}MB)</a></div>
 
 
      </div>           
@@ -28,6 +28,14 @@ bookdatabase.forEach(book => {
 
 let Book_blocks=document.querySelector('.bookscontainer');
 Book_blocks.innerHTML=BookHTML;
+
+const checkstar = document.querySelectorAll('.Marks'); // select all but need to change the property one by one so need to use loop
+const temp = document.querySelectorAll('.fa-star');
+for (let i = 0; i < checkstar.length; i++){
+  if (parseInt(checkstart[i].innerHTML) === 5){
+    temp[i].style.color = "red";
+  }
+}
 };
 
 
