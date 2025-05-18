@@ -69,4 +69,33 @@ for ( var filtering of filterings){
      });
 };
 
+const locaiton = `hong kong`;
+const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${locaiton}/today?unitGroup=metric&include=current%2Cevents&key=DKXT84ZW7QW5LJDDYCMCRT2HX&contentType=json`;
+
+async function getWeather() {
+    try {
+       
+        const response = await fetch(url);
+        const data = await response.json();
+
+        // location 
+        const weatherlocation =  document.querySelector('.location');
+        weatherlocation.innerHTML= `Location :`+data.address;
+        //date 
+        const weatherdate =  document.querySelector('.time');
+        weatherdate.innerHTML= `Time :`+data.currentConditions.datetime;
+       // temperature
+        const weathertemp =  document.querySelector('.temp');
+        weathertemp.innerHTML= `Temp : `+data.currentConditions.temp+`°C`;
+        // condition
+        const weathercondition =  document.querySelector('.condition');
+        weathercondition.innerHTML= `Condition :`+data.currentConditions.conditions;
+        
+        
+    } catch (error) {
+        console.error('Error fetching weather data:', error);
+    }
+}
+getWeather();
+
 
