@@ -82,16 +82,16 @@ async function getWeather() {
         // location 
         
         const weatherlocation =  document.querySelector('.location');
-        weatherlocation.innerHTML= `Location :`+ capitalletter;
+        weatherlocation.innerHTML= `Location : `+ capitalletter;
         //date 
         const weatherdate =  document.querySelector('.time');
-        weatherdate.innerHTML= `Time :`+data.currentConditions.datetime;
+        weatherdate.innerHTML= `Time : `+data.currentConditions.datetime;
        // temperature
         const weathertemp =  document.querySelector('.temp');
         weathertemp.innerHTML= `Temp : `+data.currentConditions.temp+`°C`;
         // condition
         const weathercondition =  document.querySelector('.condition');
-        weathercondition.innerHTML= `Condition :`+data.currentConditions.conditions;
+        weathercondition.innerHTML= `Condition : `+data.currentConditions.conditions;
         
         
     } catch (error) {
