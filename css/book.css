@@ -1,3 +1,10 @@
+:root{
+    --bg-color: #81a9f8;
+    --bg-color-2: #f5f6ec;
+    --bg-color-3: #d2d0c0;
+    --bg-color-4: #d0d0d0;
+    }
+
 .bookmainContainerBox{
     display: flex;
     width:100%;
@@ -228,8 +235,10 @@
 }
 .pdf,.epub{
     border-radius: 10px;
-    background-color: #f5ecd0;
-    /*background-image: linear-gradient(to left, #f51720, #fa26a0);*/
+    background-image: radial-gradient(circle at 20% 20%, var(--bg-color-2) 0% , transparent 70%),
+                      radial-gradient(circle at 80% 80%, var(--bg-color-3) 0% , transparent 60%),
+                      radial-gradient(circle at 50% 50%, var(--bg-color-4) 0% , #81a9f8 100%);
+    
     padding: 0px;
     transition: background-img 0.5s padding 0.5s;
 }
