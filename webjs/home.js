@@ -1,5 +1,5 @@
-import { pages } from "./article.js";
 
+import {pages } from "./article.js";
 
 function htmlgenerator(data){ let sections= "";
 data.forEach(page=> {
@@ -21,14 +21,31 @@ document.querySelector('.outerdesign').innerHTML=sections;
 
 }
 
+/*
+function changeContent(nextPage ,index) {
+    // Logic to change the content to the next page
+    index++;
+    htmlgenerator(page[index]);
+}
+
+const nextPageButton = document.querySelector('.next-page-button');
+nextPageButton.addEventListener('click', () => {
+    changeContent('next');
+});
+*/
+/*function( First , Second , Third , Fourth){}
+
+*/
+
+    htmlgenerator(pages);
 
 
-htmlgenerator(pages);
+
 
 
 
 const triggers = document.querySelectorAll('.innerlist');
-console.log(triggers);
+
    for( var i=0; i<triggers.length; i++){
     triggers[i].addEventListener('click', function() { confetti(
         {
@@ -56,7 +73,6 @@ for ( var filtering of filterings){
          console.log(tamp);
          const label = tamp.textContent.trim(); 
          let filtered = pages.filter(page=>page.mini_statu === label);
-         console.log(filtered);
          const notification = document.querySelector('.outerdesign'); 
          if(filtered.length===0){     
               htmlgenerator(pages)
@@ -70,7 +86,7 @@ for ( var filtering of filterings){
 };
 
 const locaiton = `hong kong`;
-const capitalletter = location.toLocaleUpperCase();
+const capitalletter = locaiton.toLocaleUpperCase();
 const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${locaiton}/today?unitGroup=metric&include=current%2Cevents&key=DKXT84ZW7QW5LJDDYCMCRT2HX&contentType=json`;
 
 async function getWeather() {
@@ -80,9 +96,8 @@ async function getWeather() {
         const data = await response.json();
 
         // location 
-        
         const weatherlocation =  document.querySelector('.location');
-        weatherlocation.innerHTML= `Location : `+ capitalletter;
+        weatherlocation.innerHTML= `Location : `+capitalletter;
         //date 
         const weatherdate =  document.querySelector('.time');
         weatherdate.innerHTML= `Time : `+data.currentConditions.datetime;
@@ -99,5 +114,3 @@ async function getWeather() {
     }
 }
 getWeather();
-
-
