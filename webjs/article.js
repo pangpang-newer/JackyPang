@@ -108,7 +108,7 @@ Recommend : **ChatGPT**、**Claude**、**Copilot** 、**Gemini**、**Perplexity*
 
 ![prompt.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4UtoaPXfQZA2wxmG0rB_vVG1n6SaxQACaMkxG6HhSFe0qBdiKigj6QEAAwIAA3cAAzYE)
 **All are personal opinion.**`
-},{
+},/*{
     idname:"Meme",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVpn5RiadyFUAtbNwFKWkiGZD8ve7gACzMQxG9hpKFex2q35wUnPKQEAAwIAA3kAAzYE",
     mini_statu:"MiniTool" ,
@@ -158,11 +158,11 @@ FROM **@Shanks_A9z**
 
 ![图片_20250327171755.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVhn5RgHDbTdfFTpN9zP67QGgfs-IQACy8QxG9hpKFfoT3nQcqU5LgEAAwIAA3cAAzYE)
 `
-},{
+}*/,{
     idname:"zlibrary",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZDBnnQZ9wyDesiwwNUnkLs3qmOv3UAAC5s8xG9ib6FQu8yevGRWNUAEAAwIAA3kAAzYE",
     mini_statu:"MiniTool" ,
-    mini_title:"book downloader via telgram bot supported by zlibrary", 
+    mini_title:"Book downloader via telegram bot supported by zlibrary", 
     link:"../Homepage_inventory/zlibrary.html",
     miantext:"Search **BotFather** and create a bot in **telegram BotFather**...",
 eassy:`### Use Tel dialog box to Download books from zlibrary
