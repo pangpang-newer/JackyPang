@@ -158,7 +158,7 @@ FROM **@Shanks_A9z**
 
 ![图片_20250327171755.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVhn5RgHDbTdfFTpN9zP67QGgfs-IQACy8QxG9hpKFfoT3nQcqU5LgEAAwIAA3cAAzYE)
 `
-}*/,{
+}*/{
     idname:"zlibrary",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZDBnnQZ9wyDesiwwNUnkLs3qmOv3UAAC5s8xG9ib6FQu8yevGRWNUAEAAwIAA3kAAzYE",
     mini_statu:"MiniTool" ,
