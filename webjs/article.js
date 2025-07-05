@@ -47,6 +47,68 @@ export const reblog=[/*{
 
 export const pages=[
     {
+    idname:"accept_imperfect_self",
+    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4U9oaPsMdOKP9SNpPUDtqwSiW_nGHAACdskxG6HhSFe6pktxHU1MNQEAAwIAA3gAAzYE",
+    mini_statu:"Article",
+    mini_title:"接纳不完美的自己，允许自己被人讨厌", 
+    link:"../Homepage_inventory/imperfect_self.html",
+    miantext:"人生真正的开始始于四十岁，在此之前的一切只不过是...",
+eassy:`### 接纳不完美的自己
+
+**人生**真正的开始始于四十岁，在此之前的一切只不过是研究世界的运行方式，有的人可能在二十几岁，有的人在三十几岁之前就开始觉醒了，但对很多人来说，四十岁是那个再也无法回避的转折点。四十岁之前的我们到底在研究些什么呢？那是一个建构人格面具的阶段，你学着如何去成为别人期待的样子。一个尽责任的*孩子*，一个专业的*职场人*，一个合格的*父母*，一个体贴的*伴侣*。你追随着社会的标准，适应着环境争取认同，努力证明自己的价值。可是在夜深人静的时候，你总会冒出一些挥之不去的念头，这真的是你想要的人生吗？你拼命成为的这个人真的是你自己吗？这些疑问不是空穴来风，他们是你内在真实的自我，在层层面具之后发出的微弱的呼声。    
+
+生命最初的几十年，并非故事的主线，而是必要的准备。人生分为两个重要的半场。前半生我们致力于适应外部的世界，建立外部的自我，也就是提到的人格面具，社会生存的必要条件。因为我们需要在社会中找到自己的位置，学习规则，建立根基。同时也提醒着我们，仅仅生活在人格面具之下，我们会感到到一种深刻的生命停滞，你会渐渐的感到内在的疲惫，似乎再也找不到当初的那份热情和好奇，生活的意义变得模糊甚至空虚，你都不知道为了什么而活，有一种说不清的虚无，因为我们太习惯戴着面具去生活了，以至于慢慢的以为那个就是你自己。  
+
+而随着年龄的增长，对生命的意义和真实的需求会愈发的深究，会开始意识到外在的成功、角色的完美已经无法填满你内心的空洞。这个过程为个体化，这是一个整合内在，走向完整的旅程。不再只活在别人眼中的角色里，也不再执着于去讨好这个世界，而是开始认真的思考，我是谁，我愿意如何活下去。这条路走起来并不总是会让你舒适的，常常伴随着动荡、怀疑，甚至一次彻底的重建。你需要直面自己的*阴影*，那些被你*压抑、被隐藏、被否认*的部分，你内心的脆弱、不安，未曾实现的那些渴望，甚至一些你觉得不应该存在的冲动。  
+
+但他们并不是邪恶的。这些阴影是尚未被意识到的一部分自我，它不是问题，而是自己的一部分。如果忽视自己阴影黑暗的一面，就会让你陷入内在的冲突，甚至不断的将问题投射到他人身上。而只有当你勇敢的看见他，接纳他，才能整合出一个更加有力量的我。在心里学上，我们会在父母面前扮演“纯净水”般的自己，从得到他们的认可，以至于今后习惯在与人初次接触时候，呈现出那个乖宝宝般的自己，另外人们也倾向向外界展现完美的自己，不容许自己出现一丝失误，使自己成为一个群体的核心主导体，但会牺牲自我人格，被拘束在打造“别人需要的形象”循环中，而当环境突变让那个不完美的自己突显出来时，则会不知所措，变的非常敏感也就是不再是自我了。个体化的真正意义，不是修掉所谓的不好，而是整合那些看似矛盾的部分，让我们成为一个更真实更完整的人。而科学也在印证这一点啊，现代神经科学发现，随着我们年龄的增长，我们的大脑会变得更加的平衡，情绪调节能力会提升，我们不再容易受外界的摆布，在做决定时亦会清晰明了许多，能静下心来去听自己内心的声音。 --- 遇到超越自己的人，不要去贬低或否认自己，相遇对你的生活几乎毫无影响，大多数人连自己都改变不了，又怎又余力去改变他人。
+
+你会看到啊，很多人在中年会经历一次人生的拆解，转换职业，重建关系，重新安排自己的时间生活，甚至彻底的重新写自己的人生剧本。这些改变都不是失败，而是他们对灵魂真实的寻求，你开始不再迎合，选择做一个更贴近自己的人，完全的接纳自己，就是最自由的体态。  
+
+观点参考书籍：
+>>《人的潜能与个体化》— 卡尔·荣格
+“个体化”论提出人40岁左右会倾向关注自我，追求内心的完整。
+---
+>>《面具与真实自我》— 埃里克·艾埃里克森
+“建立人格面具”，“适应环境争取认同”等观点符合作者描述身份认同阶段的体现。
+---
+>>《被讨厌的勇气》— 岸见一郎
+“所以的烦恼都来自于人际关系，不干涉他人的课题，也不让别人干涉自己的课题”。
+---
+
+![接纳自己.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4UloaPXItwf1pdkBYMcFX3-dGijxRQACZ8kxG6HhSFdStSNzXWX3QwEAAwIAA3cAAzYE)s
+`},{
+    idname:"prompt",
+    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4U1oaPsFo2JBxmr0vINgOxJu9DSRYQACdckxG6HhSFdnLD-o1T_NCQEAAwIAA3cAAzYE",
+    mini_statu:"MiniTool" ,
+    mini_title:"Write your prompt in systematic way", 
+    link:"../Homepage_inventory/prompt.html",
+    miantext:"a small mistake or deviation is not big deal in final result,but...",
+eassy:`How to write a systematic and effective prompt?
+---
+a small mistake or deviation is not big deal in final result,but when your desired answer is up to thousands of samll factors.every samll deviation will contribute to superposition of errors, and the final result will be far from your expectation.[atomic habits] So, we need to write a systematic prompt to get the answer we want.
+
+To get a high degree of accurate result, we must properly describe your needs in good structure. And there are five hierarchies that should be accurately described
+
+First, we should think about the _**Role**_. Most technical problems have its field as well as experts. We give the chatgpt a specific course, then the machine will know what kind of question they are dealing with.
+
+Second, write a _**context**_ to explain why you want the response and what you are planning to do with the answer. Since most of questions not only have absolutely yes and no as the answer. The process is supposed to provide you with explanations and the steps of how to get results. We could assume answer could be described in different ways such as complication, simple, chidren language or professional answer. So, we need to explain the response and the purpose. Then, chatgpt will give you the suitable answers.
+
+Furthermore, it is better to provide the basic _**constraints**_ of the type of answer you want and _**inputs**_ for generating your answer. For instance, using chatgpt to generate a picture like bird, you may provide a set character of bird instead of just creature name. Color, age, hibitat, gender and etc... in aspect of picture quality, may set the picture size, resolution, background description..., So chatgpt has enough parameters to generate the result.
+
+Moreover, you may set the _**style**_ for your answer, if you are generating a context result, it is better to set the tone applied to answer.
+
+Last but not the least, the _**format**_ is also important for answer, for the context answer, you may want point format, or academic foramt, or complete sentences. It will affect how chatgpt demonstrates the answer. It will reduce to do extra work about format when you actually use it.
+
+To further refine the result. You may conduct iteration process. The first version of the answer may not meet your expectations. And you could redemy five fundamental element’s role, context, constraints and inputs, style and format. Since you can immediately generate the result after you write your prompt. Each parameter corresponds to classification task. So, you can adjust fundamental elements, and the change of input will reflect on changes of result. The result will get closer and closer to your expecting picture. 
+
+Recommend : **ChatGPT**、**Claude**、**Copilot** 、**Gemini**、**Perplexity**、**Deepseek**. (They are good at different functionalities. eg:perplexity has powerful search function) 
+
+***
+
+![prompt.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4UtoaPXfQZA2wxmG0rB_vVG1n6SaxQACaMkxG6HhSFe0qBdiKigj6QEAAwIAA3cAAzYE)
+**All are personal opinion.**`
+},{
     idname:"Meme",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVpn5RiadyFUAtbNwFKWkiGZD8ve7gACzMQxG9hpKFex2q35wUnPKQEAAwIAA3kAAzYE",
     mini_statu:"MiniTool" ,
