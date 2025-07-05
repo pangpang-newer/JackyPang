@@ -44,7 +44,7 @@ export const reblog=[/*{
     picture:'thread_pic/wilson.jpg'
 }
 ];
-
+export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","prompt","accept_imperfect_self"];
 export const pages=[
     {
     idname:"accept_imperfect_self",
@@ -486,6 +486,5 @@ eassy:`## 段永平在浙大的2025对话精华
 }
 ]
 
-export const idname=["Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","Meme"];
 
 
