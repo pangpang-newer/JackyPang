@@ -15,8 +15,8 @@
     text-align: center;
     display: flex;
     max-width: 100%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -33,21 +33,21 @@ img {
     object-fit: fill;
 }
 .Sec-size >p{
-    font-size: 18px;
+    font-size: 12px;
   
 }
 
 @media (max-width: 800px) {
     .Sec-size {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     img {
         width: 300px;
         height: 350px;
     }
     .Sec-size >p{
-        font-size: 16px;
+        font-size: 12px;
       
     }
     
