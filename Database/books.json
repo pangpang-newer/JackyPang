@@ -1,4 +1,53 @@
 [
+  {"numberid":"125","category":"History","img":"BQACAgUAAx0Eflp52gAC_cpol-jBSvtEgLq-LBHP6gYhYHK2KwACVBcAAhJPwFR2oWfZpq5bfDYE","bookname":"Nuclear War","rating":"0.0","PDFid":"1gJUiicBkKIPv4c9bi4pwkCu6hQ5iJnfy","EPUBid":"1uJzFgesi7X6VvE7eFHh_inCnFqjQmjBX","pdffile":"34.0","epubfile":"35.8", "available":"yes"},
+    
+    {"numberid":"124","category":"Biography & Autobiography","img":"BQACAgUAAx0Eflp52gAC_clol-iV-v3CS5G0lNK02LzIGFBS-QACUxcAAhJPwFRczOCqguEciDYE","bookname":"Milton Friedman The Last Conservative","rating":"0.0","PDFid":"1MxYmHPNXVhgvfTrobDhoHeE_TJllCHx0","EPUBid":"1mCvJDel_rxpLDPfDK9VacUAxvpgbbD0s","pdffile":"17.4","epubfile":"12.9", "available":"yes"},
+
+    {"numberid":"123","category":"Poetry","img":"BQACAgUAAx0Eflp52gAC_bVol-XSSRPdddJUekukex_VJCIIDAACPBcAAhJPwFSgkMVDmyTT0DYE","bookname":"The Autobiography of Malcolm X","rating":"5.0","PDFid":"1DAz25dEbJcKCko-OFVRFYDMdoAwWRVJJ","EPUBid":"1S9PkHkTBneT9jM3bZzWoERym3ikRy701","pdffile":"2.7","epubfile":"0.78", "available":"yes"},
+
+    {"numberid":"122","category":"Biography & Autobiography","img":"BQACAgUAAx0Eflp52gAC_bZol-XSj2tJ_MDgFzbEY5gZwDx1mgACPRcAAhJPwFR690j9wcA0kDYE","bookname":"The Prophet The Life of Leon Trotsky","rating":"2.0","PDFid":"1__KV6sMSkb6k7bXTaN3ZdReZ2c6QXNl1","EPUBid":"1n4suygYS6RRaiQIPiR0VyXIhYOOcmA3G","pdffile":"30.7","epubfile":"16.8", "available":"yes"},
+
+    {"numberid":"121","category":"Biography & Autobiography","img":"BQACAgUAAx0Eflp52gAC_chol-hiKXbCWCMuiegnwsFAkLm6KQACURcAAhJPwFTBM_MK31OcvjYE","bookname":"The Rebel's Clinic","rating":"0.0","PDFid":"1VG6EN-eqA6HhnLxdkokunfQkNJbD4HZK","EPUBid":"1T0YPcJQiygcYuUrepSGMCfifMAX-cjRP","pdffile":"0.0","epubfile":"10.1", "available":"yes"},
+
+    {"numberid":"120","category":"Business & Economics","img":"BQACAgUAAx0Eflp52gAC_cdol-gvjEswatGCSm9-m_xG0mxeLQACThcAAhJPwFR7kXdl7Q6hrTYE","bookname":"Crashed How a Decade of Financial Crises Changed the World","rating":"0.0","PDFid":"1VG6EN-eqA6HhnLxdkokunfQkNJbD4HZK","EPUBid":"1748fbJ2I7hEL-OOuMPVV4giqPvSdXQ8M","pdffile":"0.0","epubfile":"8.7", "available":"yes"},
+
+    {"numberid":"119","category":"Self-Help& Relationships","img":"BQACAgUAAx0Eflp52gAC_cZol-gBk8TLo6ozjBRf1pEPUjXgFgACTRcAAhJPwFS7WidbCIxoijYE","bookname":"敢于冲突活出必要的攻击性","rating":"0.0","PDFid":"1b-rCYX0db-QlxJ8wuNEHBIFRb9I8atDB","EPUBid":"1aYIPr1nEXa263L_PDSnpxkz-rYaBuvrs","pdffile":"6.43","epubfile":"0.23", "available":"yes"},
+
+    {"numberid":"118","category":"Writing","img":"BQACAgUAAx0Eflp52gAC_bFol-XLAc_DMfwBQF9h7jMKYAs-wAACOBcAAhJPwFQhk915IvBBdjYE","bookname":"How to Tell a Story","rating":"4.0","PDFid":"1eskePhWy5y9DPOrnYksgqgCukYImz20I","EPUBid":"1jq0RCrGkm0y56f9TdnQkm676ebzdrtF3","pdffile":"8.55","epubfile":"6.33", "available":"yes"},
+
+    {"numberid":"117","category":"Business & Economics","img":"BQACAgUAAx0Eflp52gAC_bJol-XNX7Q8lfbnhAHC0EMamDBc0gACORcAAhJPwFR1Aenxyye8CjYE","bookname":"段永平投资问答录（商业逻辑篇）","rating":"4.5","PDFid":"1I5ScsmUZmhL5LjKdoRjAvfqhGNTbN111","EPUBid":"1gFZceLUCFRevJKSQTTye7UlpPy6iq4N-","pdffile":"5.48","epubfile":"0.52", "available":"yes"},
+
+    {"numberid":"116","category":"Crime& Thrillers","img":"BQACAgUAAx0Eflp52gAC_bNol-XNrbNLvlfJar2LnvU7hNWdyAACOhcAAhJPwFRhkk2aViQOIzYE","bookname":"两京十五日","rating":"5.0","PDFid":"1KvCDa-Ux-EZogOaXwTPba-Pm9TrYNUBU","EPUBid":"1_xbHTJ3J0Pl6PIS6NdjDiTdzDrXZtStx","pdffile":"4.44","epubfile":"8.85", "available":"yes"},
+
+    {"numberid":"115","category":"Poetry","img":"BQACAgUAAx0Eflp52gAC_bRol-XQGQO_gY85sXptSkV_F65NdQACOxcAAhJPwFQQwaI_5vdsdjYE","bookname":"The Confessions of Jean Jacques Rousseau","rating":"1.0","PDFid":"1o84coXxyTty5005Scf4wpQEKMJeBBYyB","EPUBid":"1awxptK5fGYQx1ZMTtquauJQDViDLrnY7","pdffile":"3.95","epubfile":"1.24", "available":"yes"},
+
+    {"numberid":"114","category":"Society& Politics","img":"BQACAgUAAx0Eflp52gAC_cVol-evaaSdiulA96qrfzdJGYvdTgACTBcAAhJPwFTiytE0xLx9RzYE","bookname":"Regarding the Pain of Others","rating":"0.0","PDFid":"1fNTkhg_l0y-QiMhkYeMW5Urjc_1EPO6V","EPUBid":"1chs_VviViu2_HtbMcnnHpHwlxxlrvvUF","pdffile":"0.73","epubfile":"0.20", "available":"yes"},
+
+    {"numberid":"113","category":"Society& Politics","img":"BQACAgUAAx0Eflp52gAC_cRol-eiXC-u2p4nPaARVp1gv9zvAgACSxcAAhJPwFSyYxiYPmFpkjYE","bookname":"The Precipice Existential Risk and the Future of Humanity","rating":"3.0","PDFid":"1JA_z4RLQ0gdsr2OSNedcVr1PVdym8IYb","EPUBid":"114VNWmLEN-Nr69aXy5RDzFkyzDBMHvBa","pdffile":"6.24","epubfile":"3.51", "available":"yes"},
+
+    {"numberid":"112","category":"Self-Help& Relationships","img":"AgACAgUAAx0Eflp52gACusFoKhzS1hLXtqqKPGtxZQi-5KqRcgACJ8QxG5g4UVXVabHHH9DfgQEAAwIAA3gAAzYE","bookname":"How to Talk to Anyone About Anything","rating":"4.0","PDFid":"1lF7GPmBvSfQ89KRMBhjx3PL4toz3QqHD","EPUBid":"1lEoHWaOqodLQwfw5MplWyZjp7E_u4EZI","pdffile":"6.42","epubfile":"1.49", "available":"yes"},
+
+    {"numberid":"111","category":"Business & Economics","img":"BQACAgUAAx0Eflp52gAC_cJol-eR7ReJ_uM8uuVUVemBiaGjUwACSRcAAhJPwFRe-r8GgPKKHjYE","bookname":"This Time Is Different","rating":"2.5","PDFid":"19XK1WGTaQaLRSbiQV4bTc_HotmwUe9Hm","EPUBid":"1A7YLnRbMUYqwPKH0z1bktwRWP4ttx6vL","pdffile":"11.4","epubfile":"3.35", "available":"yes"},
+
+    {"numberid":"110","category":"Self-Help& Relationships","img":"BQACAgUAAx0Eflp52gAC_cFol-eN0_0l7zQTVHLzlneqhvF6-AACSBcAAhJPwFR2o-j1kNBWyjYE","bookname":"The Let Them Theory","rating":"5.0","PDFid":"105UMl3bo8G31O_2EClhALzV1bQxFHj4t","EPUBid":"1LU7RQsjy63C1PzLK4gZb1tPl8DWcPL7A","pdffile":"8.12","epubfile":"6.29", "available":"yes"},
+
+    {"numberid":"109","category":"Poetry","img":"BQACAgUAAx0Eflp52gAC_cBol-eHzvOuP3r5xjyyD99Rt3ef4QACRxcAAhJPwFS1ETpjea1gSzYE","bookname":"Clarity  Connection (Yung Pueblo)","rating":"5.0","PDFid":"1ZIWk6UhYPUeiY7amIT0g4Xe5l7V6JsPg","EPUBid":"1qemrei1VvIIJJF1JefxWsV5hOPm9WJqy","pdffile":"0.80","epubfile":"0.07", "available":"yes"},
+
+    {"numberid":"108","category":"Astronomy","img":"BQACAgUAAx0Eflp52gAC_b9ol-d8HBS2Ij7DKMBbeqr54_mk8AACRhcAAhJPwFQpbw9P8K7e-jYE","bookname":"Astrophysics for People in a Hurry","rating":"1.0","PDFid":"19MM2F986kU4SxQ6wF4GvhjH5jblcg7nF","EPUBid":"1u4qKtD3fL-v5dRKO9dHYTP-ErXYviPuB","pdffile":"1.90","epubfile":"1.5", "available":"yes"},
+
+    {"numberid":"107","category":"Business & Economics","img":"BQACAgUAAx0Eflp52gAC_b5ol-d0oqHIJzyjO4RLtziN98i8MgACRRcAAhJPwFQNVw7VNkReIzYE","bookname":"Economics in One Lesson","rating":"5.0","PDFid":"1flxsTDoHMYlQrCl2TsNVQL3Lw3vNMrrl","EPUBid":"1c1-aPwhWeaOq0agqnHCG4Pu7A0o8C6ei","pdffile":"1.20","epubfile":"1.8", "available":"yes"},
+
+    {"numberid":"106","category":"Self-Help& Relationships","img":"BQACAgUAAx0Eflp52gAC_b1ol-dxUJSOaP4cxCn3aOuAm3UxFwACRBcAAhJPwFSe8fLp-a3CnzYE","bookname":"How to Stop Worrying and Start Living","rating":"3.0","PDFid":"1tnjtHc86Nc_WI9L3rHXjhT3XesymZcw-","EPUBid":"1P0WlSQ6MLs7gskYtV1_cQ0dHrCQPcY_w","pdffile":"0.91","epubfile":"0.28", "available":"yes"},
+
+    {"numberid":"105","category":"Business & Economics","img":"BQACAgUAAx0Eflp52gAC_bxol-doBYcuY74OqBce4J2NqFuOTAACQxcAAhJPwFRVjJ4refswXTYE","bookname":"Liars Poker","rating":"5.0","PDFid":"1tnjtHc86Nc_WI9L3rHXjhT3XesymZcw-","EPUBid":"1P0WlSQ6MLs7gskYtV1_cQ0dHrCQPcY_w","pdffile":"1.00","epubfile":"0.30", "available":"yes"},
+
+    {"numberid":"104","category":"Business & Economics","img":"BQACAgUAAx0Eflp52gAC_btol-dWPGvtuQLouanhqHL_JrPdugACQhcAAhJPwFQkEtYYzvqxKDYE","bookname":"The Lean Startup","rating":"0","PDFid":"1SXtkk1Lvyuxjz8waBiwkR7TuDv0jznX2","EPUBid":"1qDO7ahHofRHqfJvGS7RL3pTpmrafpc0a","pdffile":"2.50","epubfile":"7.20", "available":"yes"},
+
+    {"numberid":"103","category":"Self-Help& Relationships","img":"BQACAgUAAx0Eflp52gAC_bpol-dIOVLVh2kd-QMAAfWXhPZJnSoAAkEXAAIST8BUtVZ2h_xRaX42BA","bookname":"The Magic of Thinking Big","rating":"5.0","PDFid":"1trSg-B6gPnEYCQWWciTtddz7CiUAuZIK","EPUBid":"1ayRtnfowqrhp5khhWAMsKgnyAz68FLaM","pdffile":"1.40","epubfile":"0.38", "available":"yes"},
+
+    {"numberid":"102","category":"Self-Help & Relationships","img":"1RShBTQsmU8-RNpYnPeVPinj22Rohq7a_","bookname":"The Slight Edge Turning Simple Disciplines into Massive Success and Happiness","rating":"4.5","PDFid":"1SCkUxGEITGScZAIH9Fm9Il272VwWxutV","EPUBid":"1RShBTQsmU8-RNpYnPeVPinj22Rohq7a_","pdffile":"1.60","epubfile":"0.47", "available":"yes"},
+
+    {"numberid":"101","category":"Society","img":"BQACAgUAAx0Eflp52gAC_bhol-bbE4SEEnFjurOcKPX8SM32zgACPxcAAhJPwFSnKj8pwrvl2DYE","bookname":"不平等的童年","rating":"4.0","PDFid":"18y2yx8XnWnoI8WdDCDrm-E7Zo0C8Q-UF","EPUBid":"1blhoxGkep-unnPU8gPPadkHUDrmSl5VX","pdffile":"4.23","epubfile":"0.74", "available":"yes"},
   {"numberid":"100","category":"Biography","img":"AgACAgUAAx0Eflp52gACusFoKhzS1hLXtqqKPGtxZQi-5KqRcgACJ8QxG5g4UVXVabHHH9DfgQEAAwIAA3gAAzYE","bookname":"Models","rating":"5.0","PDFid":"1VG6EN-eqA6HhnLxdkokunfQkNJbD4HZK","EPUBid":"1LU7RQsjy63C1PzLK4gZb1tPl8DWcPL7A","pdffile":"5.943","epubfile":"4.9", "available":"none"}, 
     
     {"numberid":"99","category":"Biography","img":"AgACAgUAAx0Eflp52gACuqNoKhnKHPTOK1fdaY1I8vAu-zI2kgACDsQxG5g4UVXw2gtBqqm-mAEAAwIAA20AAzYE","bookname":"Out of The Gobi","rating":"5.0","PDFid":"1VG6EN-eqA6HhnLxdkokunfQkNJbD4HZK","EPUBid":"1oQ05Ebg5wSG0dpnU-xdmhTEJjVEvJL72","pdffile":"5.943","epubfile":"3.01"},
@@ -36,3 +85,4 @@
 "bookname":"贫穷的质感","rating":"5.0","PDFid":"16qtrWeRwhClMHDVQE7xOkbeq6Rh900VQ","EPUBid":"14BDTcCHjhzIw4G10DVIZGk9AyXfAaQ90","pdffile":"4.29","epubfile":"1"}, {"numberid":"18","category":"Fiction",
 "img":"AgACAgUAAx0Eflp52gACWrNnelJ0OL0u3sQUq8u25pCoqiPe7AACYr0xG-P60FdTtXlbDNcAAYsBAAMCAAN4AAM2BA","bookname":"晚熟的人","rating":"5.0","PDFid":"1T2ednrlINbb5tj9VW1uSBPX0PRaHvrSC","EPUBid":"1J2ck-R_II0bB2_oaRP19fh91tZIXeuv1","pdffile":"4.29","epubfile":"1"}, {"numberid":"19","category":"Biography",
 "img":"AgACAgUAAx0Eflp52gACWrVnelJ2Dpxw-SJP-ipKkHYe6XGVFgACY70xG-P60Fcu1z1XvHYT9QEAAwIAA3gAAzYE","bookname":"我的几何人生","rating":"5.0","PDFid":"../books/Chinese/PDF/我的几何人生.pdf","EPUBid":"1bHOfDgdDzMnyCKaJ5EOdyYNICbg64Yrh","pdffile":"4.29","epubfile":"1"},{"numberid":"20","category":"Fiction","img":"AgACAgUAAx0Eflp52gACWrlnelJ95lloMOJ0t7EVyJwiC1BDvAACZr0xG-P60Fdb2_mTXxeYEQEAAwIAA3gAAzYE","bookname":"烏合之眾","rating":"5.0","PDFid":"1uTXmoMA9_zDR7Y-Lga90UvC9KEgQCDXZ","EPUBid":"1RMJH-u0wThK-bGyBw2LWjXbCBnvGgzEp","pdffile":"4.29","epubfile":"1"},{"numberid":"21","category":"Fiction","img":"AgACAgUAAx0Eflp52gACWrtnelKAmaSrYgu5SH_aEjZ5VcEtBAACZ70xG-P60FcvFd09AmYOGgEAAwIAA3gAAzYE","bookname":"制造宠物","rating":"5.0","PDFid":"1_Hp6UFh8ZnUwFgxBe27xtyG1DFfmNfGI","EPUBid":"1bzi7zEEgJEzdWFiLroiSaJ1LQSsIdZyp","pdffile":"4.29","epubfile":"1"}]
+
