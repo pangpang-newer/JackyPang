@@ -13,7 +13,7 @@ let BookHTML='';
 bookdatabase.forEach(book => {
      BookHTML += `
      <div class="book"> 
-     <div class="leftside"><a href="#" class=""> <img src="https://img.131213.xyz/api/cfile/${book.img}" alt="pic error" class="bookimg" ></a></div>
+     <div class="leftside"><a href="#" class=""> <img src="https://img.131213.xyz/tfile/${book.img}" alt="pic error" class="bookimg" ></a></div>
      <div class="rightside">
        <div class="rating"><i class="fa-regular fa-star"></i> <span class="Marks">${book.rating}</span> <span class="Maxmarks">/5.0</span></div>
        <div class="pdf"><a class="link"  href="https://drive.google.com/uc?id=${book.PDFid}"><img src="../Database/icon/pdf.svg" alt="image">(PDF,${book.pdffile}MB)</a></div>
@@ -85,3 +85,4 @@ window.addEventListener('scroll',()=>{
        line = window.scrollY/* height of scrolled*//(document.body.scrollHeight/* whole height of that can be scrolled*/-window.innerHeight/*window content height*/ )*100;
    document.querySelector('.progressline').style.width=line + "%";
 });
+
