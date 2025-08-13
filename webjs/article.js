@@ -48,7 +48,7 @@ export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Mo
 export const pages=[
     {
     idname:"accept_imperfect_self",
-    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4U9oaPsMdOKP9SNpPUDtqwSiW_nGHAACdskxG6HhSFe6pktxHU1MNQEAAwIAA3gAAzYE",
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_wZonSBpueE3xhCOOfYcRyoVW9q-9wACmxUAAkuk6VTHIuT0ScM8-TYE",
     mini_statu:"Article",
     mini_title:"接纳不完美的自己，允许自己被人讨厌", 
     link:"../Homepage_inventory/imperfect_self.html",
@@ -76,10 +76,10 @@ eassy:`### 接纳不完美的自己
 “所以的烦恼都来自于人际关系，不干涉他人的课题，也不让别人干涉自己的课题”。
 ---
 
-![接纳自己.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4UloaPXItwf1pdkBYMcFX3-dGijxRQACZ8kxG6HhSFdStSNzXWX3QwEAAwIAA3cAAzYE)s
+![接纳自己.jpg](https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_wponSGeyQO82KYmhx8L2CwgZmNSXQACnxUAAkuk6VTrYoZ4fCZCGTYE)
 `},{
     idname:"prompt",
-    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4U1oaPsFo2JBxmr0vINgOxJu9DSRYQACdckxG6HhSFdnLD-o1T_NCQEAAwIAA3cAAzYE",
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_whonSEWEmznNnYqx1ci1r9K6VZHeAACnRUAAkuk6VS1JtDMipUPUDYE",
     mini_statu:"MiniTool" ,
     mini_title:"Write your prompt in systematic way", 
     link:"../Homepage_inventory/prompt.html",
@@ -106,7 +106,7 @@ Recommend : **ChatGPT**、**Claude**、**Copilot** 、**Gemini**、**Perplexity*
 
 ***
 
-![prompt.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAC4UtoaPXfQZA2wxmG0rB_vVG1n6SaxQACaMkxG6HhSFe0qBdiKigj6QEAAwIAA3cAAzYE)
+![prompt.jpg](https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_wdonSCKugJz5qmKU6q9h6bSj0tnbwACnBUAAkuk6VQJcWgg2lJ5azYE)
 **All are personal opinion.**`
 },/*{
     idname:"Meme",
@@ -160,7 +160,7 @@ FROM **@Shanks_A9z**
 `
 }*/{
     idname:"zlibrary",
-    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACZDBnnQZ9wyDesiwwNUnkLs3qmOv3UAAC5s8xG9ib6FQu8yevGRWNUAEAAwIAA3kAAzYE",
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_wlonSF9nO31AuYfP1_IzzssIX29MQACnhUAAkuk6VTBwldU4_JlPTYE",
     mini_statu:"MiniTool" ,
     mini_title:"Book downloader via telegram bot supported by zlibrary", 
     link:"../Homepage_inventory/zlibrary.html",
@@ -485,6 +485,7 @@ eassy:`## 段永平在浙大的2025对话精华
 `
 }
 ]
+
 
 
 
