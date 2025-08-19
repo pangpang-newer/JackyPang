@@ -1,4 +1,33 @@
 [
+    {"numberid":"140","category":"Business","img":"BQACAgUAAx0Eflp52gABAQcJaKPWRE_wkuPgpUPiCU0u18ocLw0AAhcXAALnoiFV_nGSdDsYNl02BA","bookname":"The Sing Sing Files","rating":"5.0","PDFid":"#","EPUBid":"1vaz7v1D5XzHl3IfJEoi5zC_ONpD1Lz-c","pdffile":"0","epubfile":"12.1", "available":"yes"},
+
+    {"numberid":"139","category":"Artificial intelligence","img":"BQACAgUAAx0Eflp52gABAQbDaKPEgC85CNZkIs1LO9UvL6BABJEAAtsWAALnoiFVJPAcsF4GORM2BA","bookname":"Building a God","rating":"5.0","PDFid":"1F2rbxAQFHxUH3u3PTwdZvOZjOZUcq9eh","EPUBid":"#","pdffile":"9.3","epubfile":"0", "available":"yes"},
+
+    {"numberid":"138","category":"Artificial intelligence","img":"BQACAgUAAx0Eflp52gABAQbEaKPEg72e_WDaw8EW1TKm2IVvmfMAAtwWAALnoiFV5oUAAR84oYQGNgQ","bookname":"Genesis","rating":"5.0","PDFid":"1pxCvXmbTaOWvK77NofR8kelffDUlZBjs","EPUBid":"16a2bd9R0E5eRz9JZYiPFCKWZ1yAAH1aB","pdffile":"2.3","epubfile":"1.4", "available":"yes"},
+
+    {"numberid":"137","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbFaKPEhWrPWiFLTlZ8jTiajf-veNAAAt0WAALnoiFVC24HI57FNXE2BA","bookname":"G-Man","rating":"5.0","PDFid":"1Mmfk1NgyVU-gTSgZ1BCOnFK1291k7j9c","EPUBid":"1SbhlNVKzg0MVDR0UTjqMxoziCFYMhuAk","pdffile":"13.6","epubfile":"6.7", "available":"yes"},
+
+    {"numberid":"136","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbHaKPEidxeDKhZCHKWqsDoTTxTvwIAAt8WAALnoiFVOruDhr1LUlA2BA","bookname":"How to Say Babylon","rating":"5.0","PDFid":"1W5EsDAacIZv-UZXoa8HQ_Zqfpk8_KFfs","EPUBid":"1SNuz1SFl9B3mk9MRaj70A4Hr0oO_af_v","pdffile":"5.8","epubfile":"4.2", "available":"yes"},
+
+    {"numberid":"135","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbGaKPEiBv05pQD_P_XoPynjcFTL6gAAt4WAALnoiFV-NZiYTSiCvc2BA","bookname":"Mark Twain","rating":"5.0","PDFid":"#","EPUBid":"1thV8rp1b5xfCEQKo7FgTd7Vp1EvKMgaH","pdffile":"0","epubfile":"49.5", "available":"yes"},
+
+    {"numberid":"134","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbLaKPElFY2ITIN2DEn0J30FMbzSSwAAuMWAALnoiFV4q8EyRdJCqU2BA","bookname":"Matriarch","rating":"5.0","PDFid":"1SsMobPYYfr7riHoOItXSsHU72uocvriM","EPUBid":"1hR9XyOSttRkr1hvS82_6Rco_8UtSK8ci","pdffile":"9.3","epubfile":"7.1", "available":"yes"},
+
+    {"numberid":"133","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbIaKPEjHdphXEZqSX-A6K_ukxft2kAAuAWAALnoiFVVin-Z3iPer82BA","bookname":"Patriot A Memoir","rating":"5.0","PDFid":"1cCzol94nomV_zzqQSsKB5Ka-0v_yW8kT","EPUBid":"1PcgN996vjEmie3BJclYFQJ4ZKKWHhCD6","pdffile":"13.3","epubfile":"12.4", "available":"yes"},
+
+    {"numberid":"132","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gAC_cpol-jBSvtEgLq-LBHP6gYhYHK2KwACVBcAAhJPwFR2oWfZpq5bfDYE","bookname":"Red Scare","rating":"5.0","PDFid":"#","EPUBid":"1uJzFgesi7X6VvE7eFHh_inCnFqjQmjBX","pdffile":"0.0","epubfile":"0.0", "available":"yes"},
+
+    {"numberid":"131","category":"Artificial intelligence","img":"BQACAgUAAx0Eflp52gABAQbKaKPEkSuuIm_jqUWqhK9fzgmDfvMAAuIWAALnoiFVbxvIj_Ob1202BA","bookname":"The AI Con","rating":"5.0","PDFid":"14hbeOi1RCcF5MN3p2XQwj6raDWXgRY1q","EPUBid":"1Yzjl59PMn180yuzxMzcaEIgYcgpUfcMq","pdffile":"2.5","epubfile":"33.9", "available":"yes"},
+
+    {"numberid":"130","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbJaKPEjTqXkQuQ6xhypcV7NQE4I8YAAuEWAALnoiFVxxUM6jxaYd82BA","bookname":"The Circuit","rating":"5.0","PDFid":"1z3vdQMgayZ2NdSn0l8s6oaCzORxZWIAh","EPUBid":"1KHd03l5VmuvN76IkxLbxjdaKz6gsGStm","pdffile":"1.2","epubfile":"0.22", "available":"yes"},
+
+    {"numberid":"129","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbOaKPEmeXapqY6230wyXBiTXHSizcAAuYWAALnoiFVly7VR0nhslQ2BA","bookname":"The Devil at His Elbow","rating":"5.0","PDFid":"1JyCdybnlt6dmtLu8IYphQfW5ojVBH0jW","EPUBid":"11tl2EbIzHj5ZCUncpwp_ruCULywltpPA","pdffile":"6.9","epubfile":"4.2", "available":"yes"},
+
+    {"numberid":"128","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbNaKPEmfFfkOvDv48U7P6cKo2T7d4AAuUWAALnoiFVnX_kPKZ1lgM2BA","bookname":"The Optimist","rating":"5.0","PDFid":"1-dZ3eV5Q3RlT6bUQ1IBD77ZTbdWp--bu","EPUBid":"1zek3RyQ1XbYo-5e87zPDR02CZSeB6Ehw","pdffile":"2.2","epubfile":"1.8", "available":"yes"},
+
+    {"numberid":"127","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbQaKPEmr9gJcWLl4skNFB5cwyHjLwAAugWAALnoiFVIW2gCVm1Dms2BA","bookname":"The Rigor of Angels","rating":"5.0","PDFid":"12aAc0eZU5HvXE43ka7yMhpFbvVfZMocU","EPUBid":"1bZd4LIfjOJGajOtAahS5sgTsGoFWFkUO","pdffile":"3.2","epubfile":"0.588", "available":"yes"},
+
+    {"numberid":"126","category":"Biography & memoir","img":"BQACAgUAAx0Eflp52gABAQbPaKPEmnbUFU_GyvXe7gg-rY_qWBwAAucWAALnoiFVD8_W-vxLARA2BA","bookname":"The Thinking Machine","rating":"5.0","PDFid":"1XTJytRvrfclX9MZttWw0WTwNtdSxWzx8","EPUBid":"1tG5KUKBEzcVDVlVi4DSSFA-KWuu0LOtE","pdffile":"2.2","epubfile":"1.4", "available":"yes"},
     {"numberid":"125","category":"History","img":"BQACAgUAAx0Eflp52gAC_cpol-jBSvtEgLq-LBHP6gYhYHK2KwACVBcAAhJPwFR2oWfZpq5bfDYE","bookname":"Nuclear War","rating":"0.0","PDFid":"1gJUiicBkKIPv4c9bi4pwkCu6hQ5iJnfy","EPUBid":"1uJzFgesi7X6VvE7eFHh_inCnFqjQmjBX","pdffile":"34.0","epubfile":"35.8", "available":"yes"},
     
     {"numberid":"124","category":"Biography & Autobiography","img":"BQACAgUAAx0Eflp52gAC_clol-iV-v3CS5G0lNK02LzIGFBS-QACUxcAAhJPwFRczOCqguEciDYE","bookname":"Milton Friedman The Last Conservative","rating":"0.0","PDFid":"1MxYmHPNXVhgvfTrobDhoHeE_TJllCHx0","EPUBid":"1mCvJDel_rxpLDPfDK9VacUAxvpgbbD0s","pdffile":"17.4","epubfile":"12.9", "available":"yes"},
@@ -261,3 +290,4 @@
     {"numberid":"20","category":"Fiction","img":"BQACAgUAAx0Eflp52gAC_wRonR3NeLU--6DTy4_oZZx4-AXudQACmRUAAkuk6VT1izii_Yv88DYE","bookname":"烏合之眾","rating":"5.0","PDFid":"1uTXmoMA9_zDR7Y-Lga90UvC9KEgQCDXZ","EPUBid":"1RMJH-u0wThK-bGyBw2LWjXbCBnvGgzEp","pdffile":"4.29","epubfile":"1"},
     
     {"numberid":"21","category":"Fiction","img":"BQACAgUAAx0Eflp52gAC_wVonR3ShZtlI13U8Tf-7XzkMD3lGQACmhUAAkuk6VSneu3sZ8lrdDYE","bookname":"制造宠物","rating":"5.0","PDFid":"1_Hp6UFh8ZnUwFgxBe27xtyG1DFfmNfGI","EPUBid":"1bzi7zEEgJEzdWFiLroiSaJ1LQSsIdZyp","pdffile":"4.29","epubfile":"1"}]
+
