@@ -22,12 +22,7 @@ export const blogs=[{
 }
 ];
 
-export const reblog=[/*{
-
-    title:'迷之暑假安排',
-    content:'4月中的時候，有個鄰居說馬上退休要搬去公屋住，想給現住的房主找租戶，他并不是業主，而我至今對他找租戶這件事很是困惑，因爲他不是地產商也不是業主，可能對房子有後續安排吧。 消息經由“家人”傳到我，心裏便想，自己一心念念的獨立生活可能要實現了，在經歷八年左右噩夢般的生活之後終於迎來了些許曙光，而家父考慮家庭關係不和的原因便經濟上支持我搬出去自己生活。在長時間的兼職工作穩定下來之後，亦有一定底氣自己獨立。但是未能想到搬出去第一天就收到上司的辭退消息，我原本的計劃好的安排也因失去經濟來源而變的複雜起來，原定兼職做到6月份，5月份月攢4000，而6月份不用考慮家庭入息限制因素，可至少攢10000。 之後便去上海實習，會有較多的金錢在上海的生活，可以放開玩。 但在失去最初的兼職之後，後果是沒有任何經濟收入，在日常生活非常節約的情況下，一個月吃飯需要1500開支，電話費網費及水電費一起700左右，所以在每個月負2500的情況下挨兩個月，去到上海，實習完回來會沒有任何存款支撐生活。而在這段時間裏，在被辭退第一時間，我在網上一直找兼職，看到AIA在招文員，去到面試被晃去做保險銷售，當然我沒有接受該工作。而之後實習方面首選啓勝，香港物業管理公司的龍頭之一 ，對未來找工作很有幫助， 約了4月底面試吧，而與此同時又在網上看到cyts 物流企業招文員，便投了簡歷，收到該公司約面試，我就順便約在了啓勝面試的同一日，心想兩個面試縂有一個中吧，但是結果很出人意料，面試啓勝的時候因爲心情不好，我臉上一直沒笑容，當晚收到消息，面試的HR 說我太内斂不適合該工作，而cyts 則一直沒回信，面試完第三天也意識到自己被淘汰了。而上海實習是必須去的，之後聽取負責人意見投JLL，是一個世界500強的物業管理，有工程相關的職業，我心想啓勝都過不到怎麽過JLL呢？ 難不成經歷風雨真的有彩虹？ 失去他會有更好的在等我？而這次的結果更出乎意料，原本一直在等JLL的面試安排，在兩天之後郵件中突然看到實習被接受了，我第一時間想到，面試都沒有，不會又是過去打醬油凑人數的吧，不過想到可以在上海呆兩個月心裏也釋懷了，實習搞定了。 而在被啓勝拒絕之後我有萌生退出上海實習計劃的想法，因爲覺得JLL肯定不會錄用我，不如擺爛。而我也有理由留在香港 其一，我可以利用近3個月的時間找一份好的兼職，可以有經濟收入，而在香港實習亦有近八千一個月的收入，其二，我的年齡實在不適合跟大學生混在一起，畢竟我是高齡大學生，而且學校背景很不好，在大家瞭解之後會很尷尬。 而收到JLL offer 後還是決定去JLL 畢竟大公司可以在簡歷上鍍金， 在去之前的這段時間裏，我需要攢錢為回來做好準備。 我該怎麽辦？突然想到一條絕路，就是去酒店做炒散，不得不為生活低頭，但需要找到路徑，也就是引路人，剛開始在臉書和小紅書找，沒有找到直接快速的方式，我很清楚的瞭解我需要儘快找到工作，思前想後不如找老同學搭路，之前玩的時候聽説在做酒店，通過微信聯係，他推了兩位蛇頭給我，一一聯係之後，都說近排是淡期沒有更。 於是又開始了無盡的等待！多謝各位看完我的嘮叨。另外各有朋友有沒有好的路子？ ',
-    picture:'thread_pic/IMG_4084.jpg'
-},*/{
+export const reblog=[{
     title:'東莞之旅',
     content:'&nbsp &nbsp&nbsp&nbsp <strong > 此次</strong >文化探索旅程十分之精彩，令本人深切感受到大灣區城市東莞與深圳的發展是十分迅速。在稻香飲食文化博物館的壓縮式參觀，游覽了幾個重要的部門，如企業導游有介紹博物館，令人感到十分驚奇，博物館用實體物件及模擬環境讓觀者感受到身臨其境的體驗，並可從一件件餐具當中去發現飲食文化從古代到現代的演變過程，從物件循循漸進的改善中感受到人類在慢慢重視飲食文化，如從古時以簡陋木制器具到後來的以金屬材料鍛造的器具中， 不僅可以認識到其生活方面的變化過程，更可深刻感受到人類文明的進化過程，而其中餐具的塑造中，從其單一外觀，方面使用為目的進而轉變為便于使用的同時，打磨其外形使之外觀變的精美，可視為其從野蠻到典雅的轉變。是次參觀實乃大開眼界。再有，現如今科技發展迅速，尤其是相關初創企業如雨後春筍般湧現，身爲新時代青年亦對創業充滿好奇，但確實十分迷茫，在香港很少機會可讓“白紙人”真正參與一個企業或品牌由初創階段發展到成熟階段的成長歷程中，而這種經驗是不可缺乏的因素對青年創業者。在參觀XbotPark機器人部落之後，對於創業的概念清晰很多，由單純認識“創業”兩字，到大概瞭解創業的流程，此次在XbotPark參觀對於本人收益最大，亦是不可複製的一段經歷。尤其是瞭解到00後的青年已有如此豐富經歷及成就，對自己的衝擊很大。而從衆多產品中，多數產品確實有其價值所在，亦有一些是為了創造而創造或者爲了新鮮感？',
     picture:'thread_pic/dongguan.jpg'
@@ -242,57 +237,7 @@ Recommend : **ChatGPT**、**Claude**、**Copilot** 、**Gemini**、**Perplexity*
 
 ![prompt.jpg](https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_wdonSCKugJz5qmKU6q9h6bSj0tnbwACnBUAAkuk6VQJcWgg2lJ5azYE)
 **All are personal opinion.**`
-},/*{
-    idname:"Meme",
-    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVpn5RiadyFUAtbNwFKWkiGZD8ve7gACzMQxG9hpKFex2q35wUnPKQEAAwIAA3kAAzYE",
-    mini_statu:"MiniTool" ,
-    mini_title:"MEME买新技巧", 
-    link:"../Homepage_inventory/meme.html",
-    miantext:"DEV创建-->扫链高手抢进-->链上聪明钱...",
-eassy:`### MEME买新技巧     
-1. MEME新盘逻辑透析.
-    1. DEV创建-->扫链高手抢进-->链上聪明钱买进-->KOL明牌地址买进-->早期散户买进-->更广大的散户买进-->上所被交易所的用户买进,这是新币买进阶段层，通常第一层的meme价格最低。  
-
-    2. 成为扫链高手，争当最早最前的一环。跟和监控**知名地址们**,可使用观测网站，或推特收集地址集合。MEME新盘赚钱的核心逻辑就只有一个：要抢在绝大多数人之前发现并买入。
-    3. 扫链认知避坑-学习扫链方法。
-    4. 懒方法，开推特网页阅览信息，如方程式获知第一时间新闻，大众聪明钱监控网站，币圈微信群，拥有自己的极早期信息流，在打新盘时，三列看板只应该占你总体信息流的30%，剩下的靠分析信息。
-2. 简单精准地抓取真正聪明钱的方法  
-    1. 利用dune工具去寻找高胜率地址，争取在最早期或拉盘之前了解到信息。总结举例就是：比如，想研究的是地址A，这个地址A在M1、M2、M3、M4这些币上赚了不少钱。将M1、M2、M3、M4这些币中，在地址A买入之前的所有地址都抓出来。 比如： 在M1中抓取到了排在地址A之前买入的有地址B、C、D、E。 在M2中抓取到了排在地址A之前买入的有地址C、E、F。 在M3中抓取到了排在地址A之前买入的有地址E、H。 在M4中抓取到了排在地址A之前买入的有地址E、P。 这样一看，筛选下重复项，在地址A的每一次买入前，都有地址E存在，那这个地址E极大概率就是这位知名大哥A自己独门监控的聪明钱了。 相信我，你自己去抓，很多知名地址之前都能抓出来一些重复率甚至达到95%的地址。 以下用具体实例一步步地教给大家简单地方法。 1.选定一个有名且赚不少的大哥地址，大家可以自行选择想学习的地址。在这里我给他取名为地址A。  
-    2. 筛选出他地址总利润从高到低的排序。在这里最好是先找翻的倍数高的币种们（倍数高意味着他买的很早很快，低位早期的买入是我们要达成的目标）。  
-![Gm9XonHbYAMia3Q.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOxn5QrN2R4FRw0psiccnu6U4qR_gQACfcQxG9hpKFc5bEqHmkUMTwEAAwIAA3gAAzYE)
-
-    3. 在这里呢我们发现了在3月22日这天，ZAC这个币，他竟然吃了足足17倍之多。  
-![Gm9Xs3NbYAAk_tS.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChO5n5QrQauFOvYUSbBAVfjtP3nZDpwACfsQxG9hpKFcyJqDTTsPc4gEAAwIAA20AAzYE)
-
-    4. 接下来就去[BSC](https://bscscan.com)的区块链浏览器下载数据.
-![Gm9Xur5bYAE5PUI.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPBn5QrTf3BF5QMkeZ5GDYNOo8dItgACf8QxG9hpKFfKvCORzteTowEAAwIAA3kAAzYE)
-
-    5. 如果是SOL的话，更方便点，因为能自由筛选准确时间。就找一下地址A买入的准确时间，下载在此时间之前的记录即可。 不过每次只能下载1000条，如果地址A之前买卖的记录超过了1000条，就需要隔取时间多次下载了。（记得看清楚时间是UTC时间还是UTC+8时间，时间的切换在整个页面右上角的齿轮那里）
-![Gm9X5idaoAAk84f.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOZn5Qq7xQGdImx3ihkoKUCM4X9d3gACesQxG9hpKFfgTyB07kZnMAEAAwIAA3kAAzYE)
-
-    6. 回到BSC SCAN这里。在下载页面，输入ZAC的CA和选取时间，也就是他这个地址A交易的当天时间：3月22日。
-![Gm9X7ihasAA0Sgo.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOhn5QrAwg5HA2uAqw_wwJ6ZG37y5gACe8QxG9hpKFeQTo_BgTy07wEAAwIAA3kAAzYE)
-
-    7. 下载好后会得到一个表格文件，里面包含了3月22日ZAC这个代币的前5000条交易记录。（我这里用的是WPS）From那一列就是交易记录中的地址们了。在这里点击查找。
-![Gm9X9WZbYAMzgrM.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChOpn5QrH1LY51MyMxMNySSBm8VETMQACfMQxG9hpKFf8Ik9dpbSNJQEAAwIAA3kAAzYE)
-
-    8. 在查询框中输入我们正在研究的地址A，点击查找。然后就能看到这个地址A处于哪个位置了，然后他之前的这些交易过的地址也就都列出来了。复制排在他之前的所有地址，到一个新表格中.
-![Gm9X_Y5bYAMsJXg.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPhn5QrlfjhR8M3UKiOiTMQIayu7VgACg8QxG9hpKFfwOhfnsJeiCwEAAwIAA3kAAzYE)
-
-    9. 重复上述的动作，完成对几个高倍高盈利币的提取工作。记得在新表格中做好备注，然后切记放到同一列中，如下图所示。
-![Gm9YI3zaAAANGwj.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPJn5QrXps86Pa7brkVu9a3BNoxf2AACgMQxG9hpKFcqPiVPJn9oWQEAAwIAA3kAAzYE)
-    10. 选中当列，点击筛选
-![Gm9YLyebEAAFPm3.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPRn5QrbX3tOU6Igxz2nefZEj3vKLgACgcQxG9hpKFe4nbqPZwf9fAEAAwIAA3kAAzYE)
-    11. 按照图中步骤，在这里能看到重复项。居然发现了一件事：有两个地址出现了四次。（因为此时我只用了四个代币的数据）。也就是说，这俩地址都是在这个聪明钱地址A的每一次买入之前就买入了，那么也就可以确定这俩地址极大概率是这个地址A监控的极早期扫链钱包，是这个聪明钱的跟单对象和他的独门信息流。或者呢，是这个知名聪明钱的两个小号
-![Gm9YNq_bYAIEDHK.png](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChPZn5QrhmV9QKUOtX9VJvCzPhnCTzwACgsQxG9hpKFe0XAOytHBmfAEAAwIAA3kAAzYE)
-4. 建立自己的信息源
-这些明牌地址一旦开始出货，整个币价就会迎来大跳水，如果你确信抓到了某个一旦买入，就会带来一根超大阳线的聪明钱（比如ansem）的小地址的话，威力是很大的。
-
-FROM **@Shanks_A9z**
-
-![图片_20250327171755.jpg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gAChVhn5RgHDbTdfFTpN9zP67QGgfs-IQACy8QxG9hpKFfoT3nQcqU5LgEAAwIAA3cAAzYE)
-`
-}*/{
+},{
     idname:"zlibrary",
     pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gAC_wlonSF9nO31AuYfP1_IzzssIX29MQACnhUAAkuk6VTBwldU4_JlPTYE",
     mini_statu:"MiniTool" ,
@@ -342,36 +287,7 @@ eassy:`## Hi
 
 當然我寫這個也是試一下Markdown用法。
 `
-},
-         /*           {
-    idname:"micWorld",
-    pic:"homepic/IMG_0869.JPG",
-    mini_statu:"Article" ,
-    mini_title:"宏觀上的世界",
-    link:"../Homepage_inventory/world _in_macro_way.html",
-    miantext:"近期有一句话比较流行：“世界是一个巨大的草台班子。”很多人都觉得一些, ...",
-    eassy:`##世界是一个巨大的草台班子  
-对于个体而言，我们就像身处这个系统之中的一只手电筒，我们照射到的小小域，
-就是我们对于这个世界的认知我们每个人认知世界的工具就是自己的1公斤不到的大脑（可以被装到小
-子里，放到火箭发射给三体人那种），处理信息的总量就是有限的。 
-*** 
-而接收信息的方式也只有视、听、嗅、闻、触这些感官。人类不是那种有群体性智慧的生物，个体之
-要传递知识，也只能靠这些基础感官。这种系统的局限，注定了我们从本质上无法理解世界的复杂性  
-***
-这就是为什么故事是最有效的帮助人们理解世界的方式，因为它把你的感官调动起来，聚焦在一个
-度，一个可控的区域。有的时候我们看到世界的一面，就是一个简单的点子解决问题。有的时候则是
-精密的系统来解决问题。这句话“世界是一个巨大的草台班子”其实指出了一个情况，就是当人为设计一个精密的系统时，许多
-候他面对真实世界的复杂性时是束手无策的  
-***
-所以我的观点是:  
-第一，接纳这种局限性，接纳世界的复杂性。
-第二，不要认为简化是理解世界的唯一方式。你可以去简化，可以去贴上不同标签，但是要知道它不
-唯一的一种描述事物的方式。
-第三，拥抱多样性，哪怕和自己的观点相反、认知相反、经验相反，这才能够拓展自己的认知边界。
-***  
-![World.jpeg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXSdnfXs2Mii7pNQnHkroml179jYN8gACmb8xGwG98VdNVrR3Drp0-QEAAwIAA3kAAzYE)
-`
-},*/{
+},{
     idname:"Vpn",
     pic:"homepic/vpn.png",
     mini_statu:"MiniTool" ,
@@ -432,43 +348,7 @@ eassy:`## Hi
 
 當然我寫這個也是試一下Markdown用法。 
    `
-},/*{
-    idname:"Withdraw_Money",
-    pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXSFnfW4uQepESuIit8sU-K1Nn_zBQAACjb8xGwG98VdGYTlGp3LbMwEAAwIAA3kAAzYE",
-    mini_statu:"Others" ,
-    mini_title:"Withdraw Money",
-    link:"../Homepage_inventory/Withdraw_Money.html",
-    miantext:"海外及國内出金方法...",
-eassy:`##海外及國内出金方法   
-
-1. *Coinbase* 的合规国家都可以瞬间出入金，尤其是 USDC 默认等于 USD ，可以说是最好的方案，只要不是美国税务居民就不用太操心税的问题。
-
-2. *HashKey* 仅仅做了**KYC**[^1]*【（Know Your Customer）*，中文為「認識你的客戶」】还不够，需要完成专业投资者的认证才能方便的出入金，可以直接走 HKD 和 USD ，而 HKD 和 USD 都可以在香港的银行兑换成“离岸”人民币。
-
-3. *Kraken* 可以用中国护照注册，也是三个交易所中用中国护照注册最方便的交易所，支持多种法币，但 USD 的使用不如 Coinbase 方便， HKD 的使用不如 HSK 方便，最方便的应该就是 EUR （欧元），可以最低手续费 1 EUR 的成本三小时内转入到支持 EUR 的账户。
-
-***
-***
-
-后边还有多种方案，甚至包括 #Binance  和 #OKX  等都有合规的方案，但面对的就不是大众中国用户，也就不多说了。
-
-而实际上这三种方案完全都不需要券商的配合，那么为什么会需要券商呢，因为你的 KYC 身份和资金证明，其实这三种方案本身都是合规的，合规的KYC + 合规的对应银行是完全不用担心的。
-
-很多小伙伴说 Wise 有多少风险，华美有多少风险，那是因为你没有做到足够的 AML （反洗钱），也就是说你没有办法解释你资金的来源，Wise 和 华美 是可以通过加密货币出入金的，虽然他们并不鼓励，但仍然是没有问题的，前提是你的 KYC + AML 要做的足够完全。
-
-如果是正规的海外长期身份，Coinbase 和 Hashkey 完全不需要担心，正常情况下六位数美元的转账没有什么问题，HSK 通过专业投资者认证后可以合规持仓700,000万美元的资产，Coinbase 没有这方面的要求，所以真正需要走券商的几乎都是 Kraken + 中国KYC 的用户。
-
-因为只有券商才能出具 Statement （结单）来证明你资金的合规性 （AML），当然小额资金无所谓，即便是进入到中国也不会有管制，主要讲的是一次性超过六位数或者更高的资金量进入银行，如果没有合理的AML，银行是会拒收的。所以很多小伙伴一直都没有明白券商的重要性，在任何一个国家非持牌的OTC都是不合规的，资金的安全一定会受到影响，无非就是有的渠道能够处理的干净，有的渠道处理不干净。
-
-合规的海外交易所 + 券商 就是 中国护照非海外身份最合规的出入金方案，完全没有之一。
-
-**From Phyrex**
-***
-***
-***
-![withdraw.jpeg](https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXSFnfW4uQepESuIit8sU-K1Nn_zBQAACjb8xGwG98VdGYTlGp3LbMwEAAwIAA3kAAzYE)
-`
-}*/,{
+},{
     idname:"DYP",
     pic:"https://img.131213.xyz/api/cfile/AgACAgUAAx0Eflp52gACXSNnfXa8mELndnXY5VfCru69xFcDUgACkr8xGwG98Vdzpj4kkh_0ZgEAAwIAA3kAAzYE",
     mini_statu:"Article" ,
@@ -619,6 +499,7 @@ eassy:`## 段永平在浙大的2025对话精华
 `
 }
 ]
+
 
 
 
