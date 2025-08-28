@@ -45,8 +45,7 @@ export const reblog=[/*{
 }
 ];
 export const idname=["micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","prompt","accept_imperfect_self","McKinsey"];
-export const pages=[
-    {
+export const pages=[{
     idname:"McKinsey",
     pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABAQfzaKP0rs_oXELg79y_Y9pFpbihxaMAAn8XAALnoiFVvtZ9EUg723U2BA",
     mini_statu:"Article",
@@ -179,7 +178,6 @@ eassy:`## 新时代的麦肯锡：信息工作者在结构文明时代真正的�
 
 这种变化不是单点的工具升级，而是底层运行逻辑的换代——**从“信息描述世界”变成“信息驱动世界”，从“靠人去解读并执行”变成“信息本身就是协议、就是操作”**。它的麻烦恰恰说明，这不是一次小修小补，而是一次结构级的迁移。**等到这条路径被跑通，成本会继续下降，门槛会越来越低，最终它会像互联网一样成为所有系统的默认形态**。
 
-### Credited By [Susan STEM](https://entropycontroltheory.com/)
 
 ![麦肯锡配图.jpg](https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABAQf0aKP0tS_PBM61Idx9J77m1osvrxkAAoAXAALnoiFVM6dvYwXx6wo2BA)
 `},{
@@ -621,6 +619,7 @@ eassy:`## 段永平在浙大的2025对话精华
 `
 }
 ]
+
 
 
 
