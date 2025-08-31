@@ -1,18 +1,33 @@
+let bookscontainer;
+
 fetch('../Database/books.json').then(response => {
-  return response.json();
+ return response.json();
 }).then(data => {    
- const books = data;  
- bookgenerator(books);
- Selector(books);
- Sorting(books)
-})
+  bookscontainer = data;
+ /* bookscontainer.filter(book => book.category === 'Poetry').map(book =>book.category= 'Fiction' ); */
+  // filter the books with category in poetry and change the category poetry to fiction   map replace  data .
 
-function bookgenerator(bookdatabase){
+/* for( let name of data ){  // data represent the whole json file, and name represent each book in the json file
+    let option = document.createElement('option');
+    option.value = name.bookname.toLowerCase();
+    option.textContent = name.bookname.toLowerCase();
+    let namelist = [];
+    namelist.push(option.value);
+  }*/
+  
+bookgenerator(bookscontainer);
+Selector(bookscontainer);
+Sorting(bookscontainer);
+
+});
+
+
+function bookgenerator(bookscontainer){
 let BookHTML='';
-
-bookdatabase.forEach(book => {
+//https://img.131213.xyz/api/cfile/${book.img};
+bookscontainer.forEach(book => {  // .slice(0,10)  to limit the number of books displayed
      BookHTML += `
-     <div class="book"> 
+     <div class="book">  
      <div class="leftside"><a href="#" class=""> <img src="https://img.131213.xyz/tfile/${book.img}" alt="pic error" class="bookimg" ></a></div>
      <div class="rightside">
        <div class="rating"><i class="fa-regular fa-star"></i> <span class="Marks">${book.rating}</span> <span class="Maxmarks">/5.0</span></div>
@@ -25,19 +40,23 @@ bookdatabase.forEach(book => {
 </div>`;
     
 });
-
 let Book_blocks=document.querySelector('.bookscontainer');
 Book_blocks.innerHTML=BookHTML;
-};
+}
 
-const checkstar = document.querySelectorAll('.Marks'); 
+
+
+
+const checkstart = document.querySelectorAll('.Marks'); // select all but need to change the property one by one so need to use loop
 const temp = document.querySelectorAll('.fa-star');
-for (let i = 0; i < checkstar.length; i++){
+for (let i = 0; i < checkstart.length; i++){
   if (parseInt(checkstart[i].innerHTML) === 5){
     temp[i].style.color = "red";
   }
-}
 };
+
+
+
 
 
 function Selector(subject){
@@ -81,10 +100,9 @@ for ( const input of inputs ){
 
 
 
+
 window.addEventListener('scroll',()=>{
    let line = document.querySelector('.progressline').style.width;
        line = window.scrollY/* height of scrolled*//(document.body.scrollHeight/* whole height of that can be scrolled*/-window.innerHeight/*window content height*/ )*100;
    document.querySelector('.progressline').style.width=line + "%";
 });
-
-
