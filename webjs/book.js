@@ -28,6 +28,7 @@ bookdatabase.forEach(book => {
 
 let Book_blocks=document.querySelector('.bookscontainer');
 Book_blocks.innerHTML=BookHTML;
+};
 
 const checkstar = document.querySelectorAll('.Marks'); 
 const temp = document.querySelectorAll('.fa-star');
@@ -85,4 +86,5 @@ window.addEventListener('scroll',()=>{
        line = window.scrollY/* height of scrolled*//(document.body.scrollHeight/* whole height of that can be scrolled*/-window.innerHeight/*window content height*/ )*100;
    document.querySelector('.progressline').style.width=line + "%";
 });
+
 
