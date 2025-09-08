@@ -271,4 +271,34 @@
     font-family: monospace;
     font-size: 12px; 
 }
+.paymentbox{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    height: 22.5vh;
+
+}
+.donation{
+    display: inline-block;
+    width: 150px;
+    height: 2.5vh;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.paymentbox
+.donation:hover{
+    color: green;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.payment{
+object-fit: fill;
+width: 150px;
+height: 20vh;
+}
+
 
