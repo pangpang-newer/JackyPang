@@ -68,10 +68,18 @@ font-family: var(--font-family3);
     width: 150px;
 }
 @media  (max-width: 800px){
-     .personalphoto{
+     .personalphoto，
+    .timeslot{
         display: none;
     }  
-    .timeslot {
-        display: none;
-    }
+   .cvcontainer > h{
+ font-size:18px;    
+   }
 }
+.skillset > ul > li{
+    font-family: var(--font-family3);
+    font-weight: none;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
