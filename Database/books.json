@@ -1,4 +1,196 @@
-[
+[       {
+    "numberid": 160,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRmaMva9l7sZM8pLsDfNlgd7FaB5woAAjAfAAJq4mBWAmpm9EYWMGA2BA",
+    "bookname": "101 Essays That Will Change The Way You Think",
+    "rating": 5,
+    "PDFid": "1Fr-McOyvBE-prRwWDwziXbpmQ-xWzqRJ",
+    "EPUBid": "1f6Ivyd4b3cIjORNmanZS_Tn68WmuVaIM",
+    "pdffile": 1.7,
+    "epubfile": 0.363,
+    "available": "yes"
+  },
+  {
+    "numberid": 161,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRlaMva9NX71ET9-LJtswhQYBWNam0AAi8fAAJq4mBWlv2t5EWJofY2BA",
+    "bookname": "Your Hidden Genius",
+    "rating": 5,
+    "PDFid": "1zzx1W_rx3wiGkYjJR-zi0AKHwFZxm2Zu",
+    "EPUBid": "1mEWTNAtkwEWot3ZrIv4JGjYABehIbKaY",
+    "pdffile": 6,
+    "epubfile": 4.1,
+    "available": "yes"
+  },
+  {
+    "numberid": 162,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRkaMva8xYsxH5_-57A6hBxMqAQbmYAAi4fAAJq4mBWJtd9msTdKtc2BA",
+    "bookname": "Why Nothing Works",
+    "rating": 5,
+    "PDFid": "18eXHY1Ou8LZxLTAkfb2oouxeJP9TtwsM",
+    "EPUBid": "1r0rILGON2DwhkfZB5X-rI4SDRweEFbDR",
+    "pdffile": 4.8,
+    "epubfile": 2.8,
+    "available": "yes"
+  },
+  {
+    "numberid": 163,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRjaMva8dWZ_MNSRZxnwGqZ3XwxxMQAAi0fAAJq4mBW45r3nsTcqns2BA",
+    "bookname": "Unforgiving Places",
+    "rating": 5,
+    "PDFid": "156qPXohpplzMBLjlpzZggWuL5Pz2-We_",
+    "EPUBid": "1wi7pwV-rLkawKU7KMvkeUUV2YRu3I4lU",
+    "pdffile": 1,
+    "epubfile": 1.5,
+    "available": "yes"
+  },
+  {
+    "numberid": 164,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRiaMva7zufy8s51y5HCHeasU8wZoMAAiwfAAJq4mBWNiZ9FT546Lc2BA",
+    "bookname": "The World of the Cold War 1945-1991",
+    "rating": 5,
+    "PDFid": "#",
+    "EPUBid": "1hUZbPYuG9yosStI_ddWJbcdvc6f0nlQR",
+    "pdffile": 0,
+    "epubfile": 16.5,
+    "available": "yes"
+  },
+  {
+    "numberid": 165,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRhaMva7huglZRzdHxj-vSPYoOa5_AAAisfAAJq4mBWtp3e8wpiYRU2BA",
+    "bookname": "The Haves and Have-Yachts",
+    "rating": 5,
+    "PDFid": "1tekmOUBZz6kzfTf2a4anVVORKTdng-a1",
+    "EPUBid": "1w0Tuf-HS6YlOHnfw9Qr2OMiGjKGFu84_",
+    "pdffile": 4.1,
+    "epubfile": 3.3,
+    "available": "yes"
+  },
+  {
+    "numberid": 166,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRgaMva7Zjx6pjBFHn2ZHKA1YNhh2AAAiofAAJq4mBW3XNLwQ0cWoI2BA",
+    "bookname": "The Guarantee",
+    "rating": 5,
+    "PDFid": "1zhqzUL76SMM3Aq3KlKrm7lK9S-finRvy",
+    "EPUBid": "13GrmduNVtAhQvu43rzTpNfz-15ibl14S",
+    "pdffile": 4.4,
+    "epubfile": 2,
+    "available": "yes"
+  },
+  {
+    "numberid": 167,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRfaMva64ECNXte2D_qMQPXo9IHJXQAAikfAAJq4mBW4TcodfjkFRc2BA",
+    "bookname": "The Biggest Prison on Earth",
+    "rating": 5,
+    "PDFid": "1ewQb8RipNEWJZ-b9RyWgf0kGUTUY1xmC",
+    "EPUBid": "1M5Ofn6GaTLfPEl1oJpdfv1DBHGrhpIRU",
+    "pdffile": 3.2,
+    "epubfile": 1.8,
+    "available": "yes"
+  },
+  {
+    "numberid": 168,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARReaMva6e87HIS95oJnmSLPA2X4mo4AAigfAAJq4mBWDK5cAAH4JVfiNgQ",
+    "bookname": "Scarcity Brain",
+    "rating": 5,
+    "PDFid": "19AcqO-1_agkyUMow-wHp5WmN4wBCGoq1",
+    "EPUBid": "1SKzxGFiI3ONAqb4xw075PTCFRtGoVW5z",
+    "pdffile": 6,
+    "epubfile": 3.7,
+    "available": "yes"
+  },
+  {
+    "numberid": 169,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRdaMva6GFKBMIziFJ2tzU3nC_o4_8AAicfAAJq4mBWRzI8-9ph-hQ2BA",
+    "bookname": "Sand, Snow, and Stardust",
+    "rating": 5,
+    "PDFid": "1yvvqendrh-eY0gl8Un1WTZ457cV0A1ym",
+    "EPUBid": "1H9_6ZARfgyk2CkxOwnQ2M_O4rfk3YFY6",
+    "pdffile": 7.3,
+    "epubfile": 4.8,
+    "available": "yes"
+  },
+  {
+    "numberid": 170,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRcaMva5m7M2G8TqdT96wv70v2us10AAiYfAAJq4mBWPabnb4HYZAI2BA",
+    "bookname": "Ordinary Magic",
+    "rating": 5,
+    "PDFid": "#",
+    "EPUBid": "1z0ZypDKNvcHuDFlsEN-3cUkBLWOm3G2K",
+    "pdffile": 0,
+    "epubfile": 10.7,
+    "available": "yes"
+  },
+  {
+    "numberid": 171,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRbaMva5P19Qgyh1gzApOCPDupEkykAAiUfAAJq4mBWjuWp5GNdyDc2BA",
+    "bookname": "Moral Ambition",
+    "rating": 5,
+    "PDFid": "1_6GboRjs2dmWbvOBqWvo0gb3cRM7Vmnu",
+    "EPUBid": "1m0Ixthl2JiOjm0PdPWu1RSFR2cCnmveU",
+    "pdffile": 4.6,
+    "epubfile": 2.4,
+    "available": "yes"
+  },
+  {
+    "numberid": 172,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRaaMva5DlWGyXEM4IKghidFWiDepEAAiQfAAJq4mBWCLyjKxQnM542BA",
+    "bookname": "In Covid's Wake",
+    "rating": 5,
+    "PDFid": "1TuiYHmBHOIbovInycA1XwPNDSTJlF5pB",
+    "EPUBid": "1IY97g0t9iquWtZe4EoC0L-SAupTtVlWd",
+    "pdffile": 3.3,
+    "epubfile": 0.557,
+    "available": "yes"
+  },
+  {
+    "numberid": 173,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRYaMva4Ys1qvp4zqcvBgJTJKAf7VYAAiIfAAJq4mBW39xFxWQT2jc2BA",
+    "bookname": "I Never Thought of It That Way",
+    "rating": 5,
+    "PDFid": "18wWXLGltveLrsOdJGM6Q3hRfmg9ydBLl",
+    "EPUBid": "1UpyBaifnNPMoy30YUQeL0HAubJhHROUY",
+    "pdffile": 6.6,
+    "epubfile": 5,
+    "available": "yes"
+  },
+  {
+    "numberid": 174,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRZaMva4tEBzCtnw6SkDyDliq7dYX8AAiMfAAJq4mBWnd4-3kfun0M2BA",
+    "bookname": "Abundance",
+    "rating": 5,
+    "PDFid": "1Qeps2VSW9bmQSv-_hbbHoXl-9w8mdU24",
+    "EPUBid": "1WxKAVlNt9dxeOEJANh73qI89mFTsmxRC",
+    "pdffile": 4.3,
+    "epubfile": 2.5,
+    "available": "yes"
+  },
+  {
+    "numberid": 175,
+    "category": "Personal development",
+    "img": "BQACAgUAAx0Eflp52gABARRnaMvgNKOnMPzbfo4etRorfgMdeZMAAkEfAAJq4mBWcwaiiWaqLxg2BA",
+    "bookname": "How Will You Measure Your Life",
+    "rating": 5,
+    "PDFid": "1UTfx_FAjqKsjt4SGeBEfdOv0V3vpiw-N",
+    "EPUBid": "1Uek-3f261xiI_FMlKqYza1oFMAx9CbhX",
+    "pdffile": 0.926,
+    "epubfile": 1.5,
+    "available": "yes"
+  },
+
      {
     "numberid": 160,
     "category": "Business",
@@ -531,5 +723,6 @@
     {"numberid":"20","category":"Fiction","img":"BQACAgUAAx0Eflp52gAC_wRonR3NeLU--6DTy4_oZZx4-AXudQACmRUAAkuk6VT1izii_Yv88DYE","bookname":"烏合之眾","rating":"5.0","PDFid":"1uTXmoMA9_zDR7Y-Lga90UvC9KEgQCDXZ","EPUBid":"1RMJH-u0wThK-bGyBw2LWjXbCBnvGgzEp","pdffile":"4.29","epubfile":"1"},
     
     {"numberid":"21","category":"Fiction","img":"BQACAgUAAx0Eflp52gAC_wVonR3ShZtlI13U8Tf-7XzkMD3lGQACmhUAAkuk6VSneu3sZ8lrdDYE","bookname":"制造宠物","rating":"5.0","PDFid":"1_Hp6UFh8ZnUwFgxBe27xtyG1DFfmNfGI","EPUBid":"1bzi7zEEgJEzdWFiLroiSaJ1LQSsIdZyp","pdffile":"4.29","epubfile":"1"}]
+
 
 
