@@ -40,7 +40,24 @@ export const reblog=[{
 }
 ];
 export const idname=["cz","micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","prompt","accept_imperfect_self","McKinsey"];
-export const pages=[{
+export const pages=[ pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
+    mini_statu:"Article",
+    mini_title:"ChatGPT Prompt for Managers teams", 
+    link:"../Homepage_inventory/Managers.html",
+    miantext:"Team managers are responsible for keeping projects on track...",}
+,{
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
+    mini_statu:"Article",
+    mini_title:"ChatGPT Prompt for Engineer teams", 
+    link:"../Homepage_inventory/Engineer.html",
+    miantext:"Engineers focus on building, fixing, and optimizing systems...",}
+,{
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
+    mini_statu:"Article",
+    mini_title:"ChatGPT Prompt for IT teams", 
+    link:"../Homepage_inventory/IT.html",
+    miantext:"IT teams are responsible for keeping systems secure, efficient...",}
+,{
     idname:"cz",
     pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
     mini_statu:"Article",
@@ -682,6 +699,7 @@ eassy:`## 段永平在浙大的2025对话精华
 `
 }
 ]
+
 
 
 
