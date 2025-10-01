@@ -40,7 +40,7 @@ export const reblog=[{
 }
 ];
 export const idname=["cz","micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","prompt","accept_imperfect_self","McKinsey"];
-export const pages=[ 
+export const pages=[{
     pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARUiaN11QJQ3DXZzNW3KMh7OV00GX4kAAk0aAAInvPBWN91rbfHPaZ42BA",
     mini_statu:"Article",
     mini_title:"ChatGPT Prompt for Managers teams", 
@@ -700,6 +700,7 @@ eassy:`## 段永平在浙大的2025对话精华
 `
 }
 ]
+
 
 
 
