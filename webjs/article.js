@@ -40,23 +40,24 @@ export const reblog=[{
 }
 ];
 export const idname=["cz","micWorld","Vpn","CloudFlare","DYP","photobed","Withdraw_Money","zlibrary","prompt","accept_imperfect_self","McKinsey"];
-export const pages=[ pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
+export const pages=[ 
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARUiaN11QJQ3DXZzNW3KMh7OV00GX4kAAk0aAAInvPBWN91rbfHPaZ42BA",
     mini_statu:"Article",
     mini_title:"ChatGPT Prompt for Managers teams", 
     link:"../Homepage_inventory/Managers.html",
-    miantext:"Team managers are responsible for keeping projects on track...",}
+    miantext:"Team managers are responsible for keeping projects on track..."}
 ,{
-    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARUgaN1ymZ8oYf_s75Nb1sMGMMdPywcAAksaAAInvPBWIqWGn8REFrA2BA",
     mini_statu:"Article",
     mini_title:"ChatGPT Prompt for Engineer teams", 
     link:"../Homepage_inventory/Engineer.html",
-    miantext:"Engineers focus on building, fixing, and optimizing systems...",}
+    miantext:"Engineers focus on building, fixing, and optimizing systems..."}
 ,{
-    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
+    pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARUhaN11PlcAASJed_Kx3mObg5M44I-oAAJMGgACJ7zwVppoNa6XG7u9NgQ",
     mini_statu:"Article",
     mini_title:"ChatGPT Prompt for IT teams", 
     link:"../Homepage_inventory/IT.html",
-    miantext:"IT teams are responsible for keeping systems secure, efficient...",}
+    miantext:"IT teams are responsible for keeping systems secure, efficient..."}
 ,{
     idname:"cz",
     pic:"https://img.131213.xyz/tfile/BQACAgUAAx0Eflp52gABARPaaLwhxekno3IJyZQhGGj0hyEq5fQAAmscAAJYIeBVCLvuXYJFD_w2BA",
@@ -699,6 +700,7 @@ eassy:`## 段永平在浙大的2025对话精华
 `
 }
 ]
+
 
 
 
